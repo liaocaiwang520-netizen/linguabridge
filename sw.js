@@ -1,4 +1,4 @@
-const CACHE_NAME = "lionlingo-offline-v10";
+const CACHE_NAME = "lionlingo-offline-v11";
 const APP_ASSETS = [
   "/",
   "/index.html",

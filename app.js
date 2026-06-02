@@ -662,6 +662,25 @@ function meaningFor(word) {
   return word.meaningKo || info.ko || word.meaning || word.term;
 }
 
+function isPublicTopikWord(word) {
+  return word.deckTitle === "TOPIK I Public Vocabulary A Level" || word.deckType === "TOPIK I public list";
+}
+
+function hasReliableMeaning(word) {
+  const meaning = meaningFor(word);
+  return Boolean(meaning && meaning !== word.term && !String(meaning).startsWith("Korean hint:") && !String(meaning).startsWith("POS:"));
+}
+
+function displayMeaningFor(word) {
+  const meaning = meaningFor(word);
+  if (!isPublicTopikWord(word)) return meaning;
+  return meaning
+    .replaceAll("Korean hint:", "韩语提示：")
+    .replaceAll("POS:", "词性：")
+    .replaceAll("Hanja:", "汉字：")
+    .replaceAll(" · ", " · ");
+}
+
 function posFor(word) {
   const info = termInfo[word.term] || {};
   if (learningDirection.startsWith("zh")) return word.partOfSpeech || info.posEn || info.posKo || "";
@@ -753,8 +772,12 @@ function renderWords() {
     ? words
         .slice(0, 6)
         .map((word) => {
-          const synonyms = normalizeList(word.synonyms).join(", ") || "-";
-          const antonyms = normalizeList(word.antonyms).join(", ") || "-";
+          const synonyms = normalizeList(word.synonyms);
+          const antonyms = normalizeList(word.antonyms);
+          const relationRows = [
+            synonyms.length ? `<span>${t("synonyms")}: ${synonyms.join(", ")}</span>` : "",
+            antonyms.length ? `<span>${t("antonyms")}: ${antonyms.join(", ")}</span>` : ""
+          ].join("");
           return `
             <article class="word-card">
               <div class="word-title">
@@ -762,12 +785,9 @@ function renderWords() {
                 <button class="secondary-button compact" type="button" data-study-word="${escapeHtml(word.term)}">${t("startLearning")}</button>
               </div>
               <div class="word-meta">${posFor(word) || "-"} · ${word.pronunciation || "-"}</div>
-              <p class="word-meaning">${meaningFor(word)}</p>
-              <p class="word-example">${word.example || "-"}</p>
-              <div class="word-relations">
-                <span>${t("synonyms")}: ${synonyms}</span>
-                <span>${t("antonyms")}: ${antonyms}</span>
-              </div>
+              <p class="word-meaning">${displayMeaningFor(word)}</p>
+              ${word.example ? `<p class="word-example">${word.example}</p>` : ""}
+              ${relationRows ? `<div class="word-relations">${relationRows}</div>` : ""}
             </article>
           `;
         })
@@ -883,9 +903,12 @@ function renderStudyCard() {
   }
 
   const word = queue[studyIndex % queue.length];
-  const synonyms = normalizeList(word.synonyms).join(", ") || "-";
-  const antonyms = normalizeList(word.antonyms).join(", ") || "-";
+  const synonymList = normalizeList(word.synonyms);
+  const antonymList = normalizeList(word.antonyms);
+  const synonyms = synonymList.join(", ");
+  const antonyms = antonymList.join(", ");
   const options = makeMeaningOptions(word, queue);
+  const canQuizMeaning = hasReliableMeaning(word);
   focusCard.classList.toggle("audio-only", audioOnlyMode);
   focusCard.innerHTML = `
     <div class="focus-layout">
@@ -897,7 +920,7 @@ function renderStudyCard() {
         <p class="focus-pronunciation">${word.pronunciation || "-"}</p>
         <div class="word-definition" id="wordDefinition">
           <strong>${t("definition")}</strong>
-          <span>${meaningFor(word)}</span>
+          <span>${displayMeaningFor(word)}</span>
         </div>
         <div class="audio-actions">
           <button class="audio-button" type="button" data-speak-word>${t("speak")}</button>
@@ -905,19 +928,25 @@ function renderStudyCard() {
         </div>
       </div>
       <div class="study-reveal">
-        <p class="quiz-instruction">${t("chooseMeaning")}</p>
-        <div class="choice-grid" data-correct="${escapeHtml(meaningFor(word))}">
-          ${options
-            .map(
-              (option) => `
-              <button class="choice-button" type="button" data-choice="${escapeHtml(option)}">
-                ${option}
-              </button>
-            `
-            )
-            .join("")}
-        </div>
-        <p class="choice-feedback" id="choiceFeedback">${t("chooseFirst")}</p>
+        ${
+          canQuizMeaning
+            ? `<p class="quiz-instruction">${t("chooseMeaning")}</p>
+              <div class="choice-grid" data-correct="${escapeHtml(meaningFor(word))}">
+                ${options
+                  .map(
+                    (option) => `
+                    <button class="choice-button" type="button" data-choice="${escapeHtml(option)}">
+                      ${option}
+                    </button>
+                  `
+                  )
+                  .join("")}
+              </div>
+              <p class="choice-feedback" id="choiceFeedback">${t("chooseFirst")}</p>`
+            : `<p class="quiz-instruction">这个公开词表没有中文释义，先听发音、看韩语提示，再标记熟悉程度。</p>
+              <div class="focus-info public-vocab-note">${displayMeaningFor(word)}</div>
+              <p class="choice-feedback" id="choiceFeedback"></p>`
+        }
         <div class="memory-actions">
           <button class="memory-button remembered" type="button" data-memory="remembered">${t("remembered")}</button>
           <button class="memory-button fuzzy" type="button" data-memory="fuzzy">${t("fuzzy")}</button>
@@ -925,8 +954,8 @@ function renderStudyCard() {
         </div>
         <div class="info-tabs" role="tablist" aria-label="Word notes">
           <button class="info-tab active" type="button" data-info-tab="example">${t("example")}</button>
-          <button class="info-tab" type="button" data-info-tab="synonyms">${t("synonyms")}</button>
-          <button class="info-tab" type="button" data-info-tab="antonyms">${t("antonyms")}</button>
+          ${synonymList.length ? `<button class="info-tab" type="button" data-info-tab="synonyms">${t("synonyms")}</button>` : ""}
+          ${antonymList.length ? `<button class="info-tab" type="button" data-info-tab="antonyms">${t("antonyms")}</button>` : ""}
         </div>
         <div class="focus-info" id="focusInfo">
           ${renderInfoTab(word, synonyms, antonyms)}
@@ -945,11 +974,12 @@ function renderStudyCard() {
 }
 
 function makeMeaningOptions(word, queue) {
+  if (!hasReliableMeaning(word)) return [];
   const meanings = getAllWords()
     .concat(queue)
     .filter((item) => item.language === getTargetLanguage())
     .map((item) => meaningFor(item))
-    .filter((meaning) => meaning && meaning !== meaningFor(word));
+    .filter((meaning) => meaning && meaning !== meaningFor(word) && !String(meaning).startsWith("Korean hint:") && !String(meaning).startsWith("POS:"));
   const uniqueMeanings = [...new Set(meanings)];
   const distractors = shuffle(uniqueMeanings).slice(0, 3);
   while (distractors.length < 3) {
@@ -989,6 +1019,7 @@ function renderInfoTab(word, synonyms, antonyms) {
     synonyms,
     antonyms
   };
+  if (!content[activeInfoTab]) return content.example;
   return activeInfoTab === "example" ? content.example : `<p>${content[activeInfoTab]}</p>`;
 }
 
