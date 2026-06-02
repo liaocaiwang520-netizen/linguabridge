@@ -731,14 +731,14 @@ async function cacheOfflineStudy() {
     const registration = await navigator.serviceWorker.register("/sw.js");
     await navigator.serviceWorker.ready;
     if (registration.waiting) registration.waiting.postMessage({ type: "SKIP_WAITING" });
-    const cache = await caches.open("lionlingo-offline-v17");
+    const cache = await caches.open("lionlingo-offline-v18");
     await cache.addAll([
       "/",
       "/index.html",
       "/styles.css",
-      "/vocabulary-data.js?v=study-progress-count",
-      "/vocabulary-topik-i.js?v=study-progress-count",
-      "/app.js?v=study-progress-count",
+      "/vocabulary-data.js?v=learning-flow-v2",
+      "/vocabulary-topik-i.js?v=learning-flow-v2",
+      "/app.js?v=learning-flow-v2",
       "/manifest.webmanifest",
       "/vocabulary-template.csv",
       "/assets/lionlingo-hero-scene.png",
@@ -811,13 +811,18 @@ function meaningFor(word) {
   return word.meaningKo || info.ko || word.meaning || word.term;
 }
 
+function quizMeaningFor(word) {
+  if (word.language === "ko") return word.meaningEn || word.meaning || termInfo[word.term]?.en || "";
+  return word.meaning || word.meaningEn || termInfo[word.term]?.en || "";
+}
+
 function isPublicTopikWord(word) {
   return word.deckTitle === "TOPIK I Public Vocabulary A Level" || word.deckType === "TOPIK I public list";
 }
 
 function hasReliableMeaning(word) {
-  const meaning = meaningFor(word);
-  return Boolean(meaning && meaning !== word.term && !String(meaning).startsWith("Korean hint:") && !String(meaning).startsWith("POS:"));
+  const meaning = quizMeaningFor(word);
+  return Boolean(meaning && meaning !== word.term && !/^n\/?a$/i.test(String(meaning)) && !String(meaning).startsWith("Korean hint:") && !String(meaning).startsWith("POS:"));
 }
 
 function displayMeaningFor(word) {
@@ -1005,8 +1010,8 @@ function renderResources() {
 }
 
 function updateCounts() {
-  todayCount.textContent = `${todaySessionDone}/${todaySessionTotal || dailyGoal}`;
-  reviewCount.textContent = reviewWords.length;
+  if (todayCount) todayCount.textContent = `${todaySessionDone}/${todaySessionTotal || dailyGoal}`;
+  if (reviewCount) reviewCount.textContent = reviewWords.length;
   document.querySelector("#studySummary").textContent = `${todaySessionDone}/${todaySessionTotal || dailyGoal} learned today · ${Math.max((todaySessionTotal || dailyGoal) - todaySessionDone, 0)} left`;
   updateProgressBar();
 }
@@ -1118,7 +1123,7 @@ function renderStudyCard() {
         ${
           canQuizMeaning
             ? `<p class="quiz-instruction">${t("chooseMeaning")}</p>
-              <div class="choice-grid" data-correct="${escapeHtml(meaningFor(word))}">
+              <div class="choice-grid" data-correct="${escapeHtml(quizMeaningFor(word))}">
                 ${options
                   .map(
                     (option) => `
@@ -1162,17 +1167,20 @@ function renderStudyCard() {
 
 function makeMeaningOptions(word, queue) {
   if (!hasReliableMeaning(word)) return [];
+  const correct = quizMeaningFor(word);
   const meanings = getAllWords()
     .concat(queue)
     .filter((item) => item.language === getTargetLanguage())
-    .map((item) => meaningFor(item))
-    .filter((meaning) => meaning && meaning !== meaningFor(word) && !String(meaning).startsWith("Korean hint:") && !String(meaning).startsWith("POS:"));
+    .map((item) => quizMeaningFor(item))
+    .filter((meaning) => meaning && meaning !== correct && !/^n\/?a$/i.test(String(meaning)) && !/[가-힣]/.test(String(meaning)) && !String(meaning).startsWith("Korean hint:") && !String(meaning).startsWith("POS:"));
   const uniqueMeanings = [...new Set(meanings)];
   const distractors = shuffle(uniqueMeanings).slice(0, 3);
+  const fallbackDistractors = ["person", "place", "time", "thing", "action", "feeling", "food", "school", "family", "work"];
   while (distractors.length < 3) {
-    distractors.push(getUiLang() === "zh" ? ["地点", "概念", "资料"][distractors.length] : getTargetLanguage() === "ko" ? ["place", "idea", "material"][distractors.length] : ["장소", "개념", "자료"][distractors.length]);
+    const next = fallbackDistractors.find((item) => item !== correct && !distractors.includes(item));
+    distractors.push(next || `meaning ${distractors.length + 1}`);
   }
-  return shuffle([meaningFor(word), ...distractors]);
+  return shuffle([correct, ...distractors]);
 }
 
 function shuffle(items) {
@@ -1400,43 +1408,64 @@ function handleMemory(action) {
   const word = queue[studyIndex % queue.length];
   if (!word) return;
   const key = wordKey(word);
-  const current = wordProgress[key] || { rememberHits: 0, intervalIndex: 0, nextDue: todayDate(), mastered: false };
+  const current = wordProgress[key] || { rememberHits: 0, intervalIndex: 0, nextDue: todayDate(), mastered: false, sessionHits: 0 };
+  const nextHits = action === "remembered" ? (current.sessionHits || 0) + 1 : 0;
+  const passedNow = nextHits >= 3;
 
   if (action === "unknown") {
-    wordProgress[key] = { ...current, rememberHits: 0, nextDue: todayDate(), mastered: false };
-    queue.push(word);
+    wordProgress[key] = { ...current, sessionHits: 0, rememberHits: 0, nextDue: todayDate(), mastered: false };
   }
 
   if (action === "fuzzy") {
-    wordProgress[key] = { ...current, rememberHits: 0, nextDue: addDays(1), mastered: false };
+    wordProgress[key] = { ...current, sessionHits: 0, rememberHits: 0, nextDue: addDays(1), mastered: false };
   }
 
   if (action === "remembered") {
     const rememberHits = (current.rememberHits || 0) + 1;
     const intervalIndex = Math.min(current.intervalIndex || 0, reviewIntervals.length - 1);
-    const mastered = intervalIndex === reviewIntervals.length - 1 && rememberHits >= 3;
+    const mastered = passedNow && intervalIndex === reviewIntervals.length - 1 && rememberHits >= 3;
     wordProgress[key] = {
       rememberHits,
+      sessionHits: passedNow ? 0 : nextHits,
       intervalIndex: mastered ? intervalIndex : Math.min(intervalIndex + 1, reviewIntervals.length - 1),
       nextDue: mastered ? "" : addDays(reviewIntervals[intervalIndex]),
       mastered
     };
   }
 
-  if (studyMode === "review") {
-    reviewSessionDone = Math.min(reviewSessionDone + 1, reviewSessionTotal || queue.length || 1);
+  if (passedNow) {
+    if (studyMode === "review") {
+      reviewSessionDone = Math.min(reviewSessionDone + 1, reviewSessionTotal || queue.length || 1);
+    } else {
+      todaySessionDone = Math.min(todaySessionDone + 1, todaySessionTotal || dailyGoal);
+    }
+    removeCurrentAndAdvance();
   } else {
-    todaySessionDone = Math.min(todaySessionDone + 1, todaySessionTotal || dailyGoal);
+    moveCurrentToBack();
   }
-  removeCurrentAndAdvance();
   saveState();
-  const labels = { remembered: "✓ Remembered", fuzzy: "~ Review tomorrow", unknown: "↺ Try again" };
+  const labels = {
+    remembered: passedNow ? "✓ Learned" : `✓ Remembered ${nextHits}/3`,
+    fuzzy: "↺ Fuzzy: see it again",
+    unknown: "↺ Try again"
+  };
   showToast(labels[action] || "");
 }
 
 function removeCurrentAndAdvance() {
   const source = studyMode === "review" ? reviewWords : todayWords;
   source.splice(studyIndex, 1);
+  if (studyIndex >= source.length) studyIndex = 0;
+  updateCounts();
+  renderStudyCard();
+  newQuizPrompt();
+  scrollStudyCardIntoView();
+}
+
+function moveCurrentToBack() {
+  const source = studyMode === "review" ? reviewWords : todayWords;
+  const [word] = source.splice(studyIndex, 1);
+  if (word) source.push(word);
   if (studyIndex >= source.length) studyIndex = 0;
   updateCounts();
   renderStudyCard();
@@ -1484,8 +1513,8 @@ function newQuizPrompt() {
 function checkAnswer() {
   if (!quizWord) return;
   const answer = quizAnswer.value.trim().toLowerCase();
-  const expected = currentPracticeMode === "term-to-meaning" ? meaningFor(quizWord) : quizWord.term;
-  const accepted = currentPracticeMode === "term-to-meaning" ? meaningFor(quizWord).toLowerCase().includes(answer) && answer.length > 0 : answer === quizWord.term.toLowerCase();
+  const expected = currentPracticeMode === "term-to-meaning" ? quizMeaningFor(quizWord) : quizWord.term;
+  const accepted = currentPracticeMode === "term-to-meaning" ? quizMeaningFor(quizWord).toLowerCase().includes(answer) && answer.length > 0 : answer === quizWord.term.toLowerCase();
   quizFeedback.textContent = accepted ? t("correct") : `${t("wrong")} ${expected}`;
   quizFeedback.className = `feedback ${accepted ? "ok" : "needs-work"}`;
 }
