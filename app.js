@@ -512,6 +512,10 @@ let activeInfoTab = "example";
 let audioOnlyMode = false;
 let practiceIndex = 0;
 let availableVoices = [];
+let todaySessionTotal = 0;
+let todaySessionDone = 0;
+let reviewSessionTotal = 0;
+let reviewSessionDone = 0;
 
 const topikRelations = {
   "가게": { synonyms: ["상점", "매장"], antonyms: [] },
@@ -656,6 +660,10 @@ activeDeckId = getTargetDecks()[0]?.id || decks[0]?.id || activeDeckId;
 let todayWords = state.todayWords.length ? hydrateWords(state.todayWords).filter((word) => word.language === getTargetLanguage() && decks.some((deck) => deck.title === word.deckTitle)) : makeDailyWords();
 if (!todayWords.length) todayWords = makeDailyWords();
 let reviewWords = hydrateWords(state.reviewWords).filter((word) => word.language === getTargetLanguage() && decks.some((deck) => deck.title === word.deckTitle) && !isMastered(word) && isDue(word));
+todaySessionTotal = state.todaySessionTotal || todayWords.length || dailyGoal;
+todaySessionDone = Math.min(state.todaySessionDone || 0, todaySessionTotal);
+reviewSessionTotal = state.reviewSessionTotal || reviewWords.length;
+reviewSessionDone = Math.min(state.reviewSessionDone || 0, reviewSessionTotal);
 
 const deckList = document.querySelector("#deckList");
 const wordGrid = document.querySelector("#wordGrid");
@@ -680,7 +688,7 @@ dailyGoalSelect.value = String(dailyGoal);
 learningDirectionSelect.value = learningDirection;
 
 function loadState() {
-  const fallback = { dailyGoal: 20, importedDecks: [], todayWords: [], reviewWords: [], lastCompletedDate: "", learningDirection: "ko", wordProgress: {} };
+  const fallback = { dailyGoal: 20, importedDecks: [], todayWords: [], reviewWords: [], lastCompletedDate: "", learningDirection: "ko", wordProgress: {}, todaySessionTotal: 0, todaySessionDone: 0, reviewSessionTotal: 0, reviewSessionDone: 0 };
   try {
     return { ...fallback, ...JSON.parse(localStorage.getItem(storageKey) || "{}") };
   } catch {
@@ -699,6 +707,10 @@ function saveState() {
       importedDecks,
       todayWords,
       reviewWords,
+      todaySessionTotal,
+      todaySessionDone,
+      reviewSessionTotal,
+      reviewSessionDone,
       lastCompletedDate: state.lastCompletedDate
     })
   );
@@ -719,14 +731,14 @@ async function cacheOfflineStudy() {
     const registration = await navigator.serviceWorker.register("/sw.js");
     await navigator.serviceWorker.ready;
     if (registration.waiting) registration.waiting.postMessage({ type: "SKIP_WAITING" });
-    const cache = await caches.open("lionlingo-offline-v16");
+    const cache = await caches.open("lionlingo-offline-v17");
     await cache.addAll([
       "/",
       "/index.html",
       "/styles.css",
-      "/vocabulary-data.js?v=topik-relations-visible",
-      "/vocabulary-topik-i.js?v=topik-relations-visible",
-      "/app.js?v=topik-relations-visible",
+      "/vocabulary-data.js?v=study-progress-count",
+      "/vocabulary-topik-i.js?v=study-progress-count",
+      "/app.js?v=study-progress-count",
       "/manifest.webmanifest",
       "/vocabulary-template.csv",
       "/assets/lionlingo-hero-scene.png",
@@ -993,21 +1005,23 @@ function renderResources() {
 }
 
 function updateCounts() {
-  todayCount.textContent = todayWords.length;
+  todayCount.textContent = `${todaySessionDone}/${todaySessionTotal || dailyGoal}`;
   reviewCount.textContent = reviewWords.length;
-  document.querySelector("#studySummary").textContent = t("summary", todayWords.length, reviewWords.length, dailyGoal);
+  document.querySelector("#studySummary").textContent = `${todaySessionDone}/${todaySessionTotal || dailyGoal} learned today · ${Math.max((todaySessionTotal || dailyGoal) - todaySessionDone, 0)} left`;
   updateProgressBar();
 }
 
 function updateProgressBar() {
   const queue = getStudyQueue();
-  const total = queue.length;
-  const done = total > 0 ? studyIndex : total;
+  const total = studyMode === "review" ? reviewSessionTotal || queue.length : todaySessionTotal || dailyGoal;
+  const done = studyMode === "review" ? reviewSessionDone : todaySessionDone;
   const pct = total > 0 ? Math.round((done / total) * 100) : 0;
   const fill = document.querySelector("#progressFill");
   const label = document.querySelector("#progressLabel");
+  const left = document.querySelector("#progressLeft");
   if (fill) fill.style.width = pct + "%";
-  if (label) label.textContent = done + "/" + total;
+  if (label) label.textContent = `${done}/${total}`;
+  if (left) left.textContent = `${Math.max(total - done, 0)} left`;
 }
 
 function addTodayWord(term) {
@@ -1026,6 +1040,8 @@ function studySingleWord(term) {
   const word = deck.words.find((item) => item.term === term);
   if (!word) return;
   todayWords = [enrichWord(word, deck)];
+  todaySessionTotal = 1;
+  todaySessionDone = 0;
   studyMode = "today";
   studyIndex = 0;
   activeInfoTab = "example";
@@ -1041,6 +1057,8 @@ function generateTodayWords() {
   if (!deck) return;
   activeDeckId = deck.id;
   todayWords = deck.words.map((word) => enrichWord(word, deck)).filter((word) => !isMastered(word) && isDue(word)).slice(0, dailyGoal);
+  todaySessionTotal = todayWords.length;
+  todaySessionDone = 0;
   studyMode = "today";
   studyIndex = 0;
   updateCounts();
@@ -1073,15 +1091,20 @@ function renderStudyCard() {
   const antonyms = antonymList.join(", ") || "작성 예정";
   const options = makeMeaningOptions(word, queue);
   const canQuizMeaning = hasReliableMeaning(word);
+  const sessionTotal = studyMode === "review" ? reviewSessionTotal || queue.length : todaySessionTotal || dailyGoal;
+  const sessionDone = studyMode === "review" ? reviewSessionDone : todaySessionDone;
+  const displayIndex = Math.min(sessionDone + 1, sessionTotal || queue.length || 1);
+  const remaining = Math.max((sessionTotal || queue.length) - sessionDone, 0);
   focusCard.classList.toggle("audio-only", audioOnlyMode);
   focusCard.innerHTML = `
     <div class="focus-layout">
       <div class="word-stage">
-        <p class="eyebrow">${studyMode === "review" ? t("reviewDue") : t("todayCards")} · ${studyIndex + 1}/${queue.length}</p>
+        <p class="eyebrow">${studyMode === "review" ? t("reviewDue") : "Words"} · ${displayIndex}/${sessionTotal}</p>
         <button class="term-button" type="button" data-show-definition>
           <span>${word.term}</span>
         </button>
         <p class="focus-pronunciation">${word.pronunciation || "-"}</p>
+        <p class="focus-progress-note">${remaining} left today</p>
         <div class="word-definition" id="wordDefinition">
           <strong>${t("definition")}</strong>
           <span>${displayMeaningFor(word)}</span>
@@ -1400,6 +1423,11 @@ function handleMemory(action) {
     };
   }
 
+  if (studyMode === "review") {
+    reviewSessionDone = Math.min(reviewSessionDone + 1, reviewSessionTotal || queue.length || 1);
+  } else {
+    todaySessionDone = Math.min(todaySessionDone + 1, todaySessionTotal || dailyGoal);
+  }
   removeCurrentAndAdvance();
   saveState();
   const labels = { remembered: "✓ Remembered", fuzzy: "~ Review tomorrow", unknown: "↺ Try again" };
@@ -1982,6 +2010,10 @@ function applyLearningDirection(nextDirection) {
   if (firstDeck) activeDeckId = firstDeck.id;
   todayWords = makeDailyWords();
   reviewWords = getAllWords().filter((word) => word.language === getTargetLanguage() && isDue(word) && !isMastered(word)).slice(0, dailyGoal);
+  todaySessionTotal = todayWords.length || dailyGoal;
+  todaySessionDone = 0;
+  reviewSessionTotal = reviewWords.length;
+  reviewSessionDone = 0;
   applyUiText();
   renderDecks();
   renderWords();
@@ -1995,6 +2027,8 @@ function enterLearning() {
   document.body.classList.add("learning");
   if (!todayWords.length) {
     todayWords = makeDailyWords();
+    todaySessionTotal = todayWords.length || dailyGoal;
+    todaySessionDone = 0;
   }
   studyMode = "today";
   studyIndex = 0;
@@ -2266,12 +2300,21 @@ document.querySelector("#paperList").addEventListener("click", (event) => {
 wordSearch.addEventListener("input", renderWords);
 dailyGoalSelect.addEventListener("change", () => {
   dailyGoal = Number(dailyGoalSelect.value);
+  todayWords = makeDailyWords();
+  todaySessionTotal = todayWords.length || dailyGoal;
+  todaySessionDone = 0;
+  studyIndex = 0;
   updateCounts();
+  renderStudyCard();
   saveState();
 });
 document.querySelector("#studyTodayBtn").addEventListener("click", generateTodayWords);
 document.querySelector("#heroStartBtn").addEventListener("click", () => {
-  if (!todayWords.length) todayWords = makeDailyWords();
+  if (!todayWords.length) {
+    todayWords = makeDailyWords();
+    todaySessionTotal = todayWords.length || dailyGoal;
+    todaySessionDone = 0;
+  }
   location.hash = "learn";
   enterLearning();
 });
@@ -2285,6 +2328,8 @@ document.querySelector("#startStudyBtn").addEventListener("click", () => {
 document.querySelector("#startReviewBtn").addEventListener("click", () => {
   studyMode = "review";
   studyIndex = 0;
+  reviewSessionTotal = reviewWords.length;
+  reviewSessionDone = 0;
   activeInfoTab = "example";
   renderStudyCard();
   newQuizPrompt();

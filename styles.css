@@ -475,6 +475,21 @@ body.dark .tab.active {
   text-align: right;
 }
 
+.progress-left {
+  min-width: 68px;
+  font-size: 12px;
+  font-weight: 800;
+  color: rgba(198, 215, 213, 0.7);
+  text-align: right;
+}
+
+.focus-progress-note {
+  margin: 4px 0 12px;
+  font-size: 13px;
+  font-weight: 800;
+  color: rgba(17, 127, 127, 0.72);
+}
+
 /* Shortcut hints */
 .shortcut-hints {
   display: flex;
