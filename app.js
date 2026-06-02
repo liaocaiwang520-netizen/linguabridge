@@ -180,6 +180,9 @@ let decks = [
   }
 ];
 
+const externalDecks = Array.isArray(window.LINGUABRIDGE_EXTRA_DECKS) ? window.LINGUABRIDGE_EXTRA_DECKS : [];
+decks = [...decks, ...externalDecks.filter((deck) => !decks.some((existing) => existing.id === deck.id))];
+
 const audioResources = [
   { title: "TOPIK I Daily Dialogue", level: "A1-A2", length: "8 min", note: "Campus, shopping, and directions.", tasks: ["Catch the topic", "Write key words", "Shadow the audio"] },
   { title: "TOPIK II Expository Listening", level: "B1-B2", length: "13 min", note: "Culture, society, and technology.", tasks: ["Mark connectors", "Summarize the view", "Retell for 60 seconds"] },
@@ -582,6 +585,7 @@ async function cacheOfflineStudy() {
       "/",
       "/index.html",
       "/styles.css",
+      "/vocabulary-data.js",
       "/app.js",
       "/manifest.webmanifest",
       "/vocabulary-template.csv",

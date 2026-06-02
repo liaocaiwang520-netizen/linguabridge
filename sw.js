@@ -1,8 +1,9 @@
-const CACHE_NAME = "lionlingo-offline-v8";
+const CACHE_NAME = "lionlingo-offline-v9";
 const APP_ASSETS = [
   "/",
   "/index.html",
   "/styles.css",
+  "/vocabulary-data.js",
   "/app.js",
   "/manifest.webmanifest",
   "/vocabulary-template.csv",
