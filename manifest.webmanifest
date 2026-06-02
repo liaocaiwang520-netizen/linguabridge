@@ -1,0 +1,9 @@
+{
+  "name": "LionLingo",
+  "short_name": "LionLingo",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff8e8",
+  "theme_color": "#ffd54f",
+  "description": "Cute lion language learning quests for children."
+}

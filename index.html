@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LionLingo</title>
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <a class="brand" href="#top" aria-label="LionLingo home">
+        <span class="brand-mark" aria-hidden="true">🦁</span>
+        <span>LionLingo</span>
+      </a>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="#dictionary" data-i18n="navDictionary">Dictionary</a>
+        <a href="#learn" data-i18n="navStudy">Study</a>
+        <a href="#article" data-i18n="navArticle">AI Story</a>
+        <a href="#listening" data-i18n="navListening">Listening</a>
+        <a href="#papers" data-i18n="navPapers">Papers</a>
+        <a href="#podcast">Podcast</a>
+        <a href="#stats" data-i18n="navStats">Stats</a>
+        <a href="#mywords" data-i18n="navMyWords">My Words</a>
+      </nav>
+      <div class="header-tools">
+        <span class="streak-badge" id="streakBadge" title="Consecutive study days" style="display:none">⭐ <strong id="streakCount">0</strong></span>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero home-section">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="heroEyebrow">Cute lion language club</p>
+          <h1 data-i18n="heroTitle">Learn English and Korean with a little lion buddy.</h1>
+          <p class="hero-text" data-i18n="heroBody">
+            Play word games, listen, speak, and collect stars every day.
+          </p>
+          <label class="direction-picker">
+            <span data-i18n="directionLabel">Study direction</span>
+            <select id="learningDirection">
+              <option value="ko">English UI · Korean words</option>
+              <option value="en">한국어 화면 · 영어 단어</option>
+              <option value="zh-en">中文 → English</option>
+              <option value="zh-ko">中文 → Korean</option>
+            </select>
+          </label>
+          <div class="hero-actions">
+            <a class="primary-button" href="#learn" id="heroStartBtn" data-i18n="startLearning">Start study</a>
+            <a class="secondary-button" href="#article" data-i18n="generateStory">Generate story</a>
+          </div>
+        </div>
+        <figure class="hero-media" aria-label="LionLingo lion mascot learning scene">
+          <img class="hero-scene" src="assets/lionlingo-hero-scene.png" alt="Cute LionLingo lion mascot in a language learning scene" />
+        </figure>
+      </section>
+
+      <section class="study-shell home-section" aria-label="Study overview">
+        <div class="metric">
+          <span class="metric-value" id="todayCount">0</span>
+          <span class="metric-label" data-i18n="todayCards">Today</span>
+        </div>
+        <div class="metric">
+          <span class="metric-value" id="reviewCount">0</span>
+          <span class="metric-label" data-i18n="dueReview">Due review</span>
+        </div>
+        <div class="metric">
+          <span class="metric-value">4</span>
+          <span class="metric-label" data-i18n="papersDue">Papers</span>
+        </div>
+        <div class="metric">
+          <span class="metric-value">5-10</span>
+          <span class="metric-label" data-i18n="levelRange">Level</span>
+        </div>
+      </section>
+
+      <section class="workspace home-section" id="dictionary">
+        <aside class="dictionary-panel" aria-label="Dictionary">
+          <div class="section-heading">
+            <p class="eyebrow">Dictionary</p>
+            <h2 data-i18n="chooseDeck">Choose deck</h2>
+          </div>
+          <div class="import-panel">
+            <label class="file-import">
+              <span data-i18n="importCsv">Import CSV deck</span>
+              <input id="csvImport" type="file" accept=".csv,text/csv" />
+            </label>
+            <button class="secondary-button compact" id="downloadTemplateBtn" type="button" data-i18n="downloadTemplate">Download template</button>
+            <button class="secondary-button compact" id="cacheOfflineBtn" type="button" data-i18n="cacheOffline">Cache offline</button>
+            <p class="offline-status" id="offlineStatus">Checking offline status...</p>
+            <p id="importStatus">Import your full deck later.</p>
+          </div>
+          <div class="language-tabs" role="tablist" aria-label="Language filter">
+            <button class="tab active" type="button" data-language="all" data-i18n="all">All</button>
+            <button class="tab" type="button" data-language="ko">Korean</button>
+            <button class="tab" type="button" data-language="en">English</button>
+          </div>
+          <div class="deck-list" id="deckList"></div>
+        </aside>
+
+        <section class="dictionary-content">
+          <div class="search-row">
+            <label class="search-box" for="wordSearch">
+              <span data-i18n="search">Search</span>
+              <input id="wordSearch" type="search" placeholder="Search words, meaning, or examples" autocomplete="off" />
+            </label>
+            <label>
+              <span data-i18n="dailyNew">Daily new</span>
+              <select id="dailyGoal">
+                <option value="20">20</option>
+                <option value="40">40</option>
+                <option value="60">60</option>
+              </select>
+            </label>
+            <button class="primary-button compact" id="studyTodayBtn" type="button" data-i18n="buildToday">Build today</button>
+          </div>
+
+          <div class="active-deck">
+            <div>
+              <p class="eyebrow" id="activeDeckType">TOPIK Basic</p>
+              <h2 id="activeDeckTitle">TOPIK Basic Core</h2>
+            </div>
+            <p id="activeDeckDescription">Core nouns, verbs, and expressions for early TOPIK study.</p>
+          </div>
+
+          <div class="word-grid" id="wordGrid" aria-live="polite"></div>
+        </section>
+      </section>
+
+      <section class="study-room" id="learn">
+        <div class="study-topbar">
+          <div class="section-heading">
+            <p class="eyebrow">Lion Quest</p>
+            <h2 data-i18n="immersiveStudy">Immersive study</h2>
+            <p id="studySummary">Build today's list, then start.</p>
+          </div>
+          <div class="study-actions">
+            <a class="secondary-button compact" href="#dictionary" id="backHomeBtn" data-i18n="backDictionary">Back</a>
+            <button class="secondary-button compact" id="startReviewBtn" type="button" data-i18n="reviewDue">Review due</button>
+            <button class="primary-button compact" id="startStudyBtn" type="button" data-i18n="startLearning">Start study</button>
+            <button class="secondary-button compact" id="completeStudyBtn" type="button" data-i18n="finishToday">Finish</button>
+          </div>
+        </div>
+
+        <div class="study-board">
+          <div class="study-progress" id="studyProgressBar">
+            <div class="progress-track">
+              <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+            </div>
+            <span class="progress-label" id="progressLabel">0/0</span>
+          </div>
+          <article class="focus-card" id="focusCard"></article>
+          <p class="shortcut-hints" id="shortcutHints">
+            <span>← → Navigate</span>
+            <span>1 Remembered</span>
+            <span>2 Fuzzy</span>
+            <span>3 Don't know</span>
+            <span>Space Show meaning</span>
+          </p>
+        </div>
+
+        <div class="practice-panel">
+          <div class="section-heading">
+            <p class="eyebrow">Practice</p>
+            <h2 data-i18n="writtenPractice">Written practice</h2>
+          </div>
+          <div class="practice-controls">
+            <div class="mode-pill" id="practiceModeLabel">Random prompt</div>
+            <button class="secondary-button compact" id="newPromptBtn" type="button" data-i18n="newPrompt">New prompt</button>
+          </div>
+          <div class="quiz-box">
+            <p id="quizPrompt"></p>
+            <input id="quizAnswer" type="text" placeholder="Type your answer" autocomplete="off" />
+            <div class="resource-actions">
+              <button class="primary-button compact" id="checkAnswerBtn" type="button" data-i18n="check">Check</button>
+              <button class="secondary-button compact" id="speakPromptBtn" type="button" data-i18n="speak">Speak</button>
+            </div>
+            <p class="feedback" id="quizFeedback"></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="article-lab home-section" id="article">
+        <div class="section-heading">
+          <p class="eyebrow">AI Writing</p>
+          <h2 data-i18n="storyTitle">Vocabulary story</h2>
+          <p data-i18n="storyText">Generate a short practice story from selected or reviewed words.</p>
+        </div>
+        <div class="article-controls">
+          <label>
+            <span data-i18n="storyLanguage">Story language</span>
+            <select id="articleLanguage">
+              <option value="ko">한국어 (Korean)</option>
+              <option value="en">English</option>
+            </select>
+          </label>
+          <label>
+            <span data-i18n="scenario">Scenario</span>
+            <select id="articleScenario">
+              <option value="campus">Campus</option>
+              <option value="business">Business</option>
+              <option value="travel">Travel</option>
+              <option value="exam">Exam prep</option>
+              <option value="daily">Daily life</option>
+              <option value="tech">Technology</option>
+              <option value="culture">Culture</option>
+            </select>
+          </label>
+          <button class="primary-button compact" id="generateArticleBtn" type="button" data-i18n="generateStory">Generate story</button>
+          <button class="secondary-button compact" id="speakArticleBtn" type="button" data-i18n="readAloud">Read aloud</button>
+          <button class="secondary-button compact" id="pauseArticleBtn" type="button" data-i18n="pauseReading">Pause</button>
+        </div>
+        <label class="word-input-area">
+          <span data-i18n="enterWordsForStory">Or type words to build a story</span>
+          <textarea id="customStoryWords" rows="2" placeholder="e.g. 학교, 친구, 공부하다, 시간..."></textarea>
+        </label>
+        <article class="generated-article" id="generatedArticle"></article>
+      </section>
+
+      <section class="resource-grid home-section">
+        <div class="resource-panel" id="listening">
+          <div class="section-heading">
+            <p class="eyebrow">Listening</p>
+            <h2 data-i18n="listeningTraining">Listening</h2>
+          </div>
+          <div class="audio-list" id="audioList"></div>
+        </div>
+
+        <div class="resource-panel" id="papers">
+          <div class="section-heading">
+            <p class="eyebrow">Past Papers</p>
+            <h2 data-i18n="pastPapers">Past papers</h2>
+          </div>
+          <div class="paper-list" id="paperList"></div>
+        </div>
+      </section>
+
+      <section class="podcast-panel home-section" id="podcast">
+        <div class="section-heading">
+          <p class="eyebrow">Podcast</p>
+          <h2>Podcast</h2>
+          <p data-i18n="podcastText">Connect RSS feeds and turn episodes into daily listening tasks.</p>
+        </div>
+        <form class="podcast-form" id="podcastForm">
+          <label>
+            <span>RSS Feed URL</span>
+            <input id="podcastUrl" type="url" placeholder="https://example.com/feed.xml" />
+          </label>
+          <button class="secondary-button compact" type="submit" data-i18n="preview">Preview</button>
+        </form>
+        <div class="podcast-preview" id="podcastPreview">
+          <strong>Recommended:</strong> TTMIK lessons, BBC 6 Minute English, IELTS speaking tips, PTE academic podcasts.
+        </div>
+      </section>
+
+      <section class="mywords-panel home-section" id="mywords">
+        <div class="section-heading">
+          <p class="eyebrow">My Words</p>
+          <h2 data-i18n="myWordsTitle">Learned words</h2>
+          <p data-i18n="myWordsText">Track every word you've studied and your review status.</p>
+        </div>
+        <div class="mywords-controls">
+          <label>
+            <span data-i18n="filterDeck">Filter by deck</span>
+            <select id="mywordsDeckFilter">
+              <option value="all" data-i18n="all">All</option>
+            </select>
+          </label>
+          <label>
+            <span data-i18n="filterStatus">Filter by status</span>
+            <select id="mywordsStatusFilter">
+              <option value="all">All status</option>
+              <option value="mastered">Mastered</option>
+              <option value="remembered">Remembered</option>
+              <option value="fuzzy">Fuzzy</option>
+              <option value="unknown">Don't know</option>
+              <option value="new">Not studied</option>
+            </select>
+          </label>
+        </div>
+        <div class="mywords-grid" id="mywordsGrid"></div>
+      </section>
+
+      <section class="detail-drawer home-section" id="detailDrawer" aria-live="polite">
+        <div class="section-heading">
+          <p class="eyebrow" id="detailType">Detail</p>
+          <h2 id="detailTitle">Study detail</h2>
+          <p id="detailBody">Open a listening task, paper, or study item to see details.</p>
+        </div>
+        <div id="detailContent"></div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
