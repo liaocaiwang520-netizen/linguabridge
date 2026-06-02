@@ -513,6 +513,140 @@ let audioOnlyMode = false;
 let practiceIndex = 0;
 let availableVoices = [];
 
+const topikRelations = {
+  "가게": { synonyms: ["상점", "매장"], antonyms: [] },
+  "가격": { synonyms: ["값", "금액"], antonyms: [] },
+  "가깝다": { synonyms: ["근접하다", "멀지 않다"], antonyms: ["멀다"] },
+  "가끔": { synonyms: ["때때로", "종종"], antonyms: ["항상", "늘"] },
+  "가다": { synonyms: ["이동하다", "향하다"], antonyms: ["오다"] },
+  "가르치다": { synonyms: ["교육하다", "알려 주다"], antonyms: ["배우다"] },
+  "가볍다": { synonyms: ["무겁지 않다"], antonyms: ["무겁다"] },
+  "가수": { synonyms: ["노래하는 사람"], antonyms: [] },
+  "가족": { synonyms: ["식구", "가정"], antonyms: ["남"] },
+  "가지다": { synonyms: ["소유하다", "갖다"], antonyms: ["잃다"] },
+  "간단하다": { synonyms: ["쉽다", "단순하다"], antonyms: ["복잡하다", "어렵다"] },
+  "감사하다": { synonyms: ["고마워하다"], antonyms: [] },
+  "갑자기": { synonyms: ["문득", "느닷없이"], antonyms: ["천천히"] },
+  "같다": { synonyms: ["동일하다", "비슷하다"], antonyms: ["다르다"] },
+  "같이": { synonyms: ["함께", "더불어"], antonyms: ["혼자"] },
+  "거의": { synonyms: ["대부분", "대체로"], antonyms: ["전혀"] },
+  "걱정": { synonyms: ["근심", "염려"], antonyms: ["안심"] },
+  "건강하다": { synonyms: ["튼튼하다"], antonyms: ["아프다", "약하다"] },
+  "걷다": { synonyms: ["걸어가다"], antonyms: ["뛰다"] },
+  "검은색": { synonyms: ["검정색"], antonyms: ["흰색"] },
+  "계획": { synonyms: ["예정", "일정"], antonyms: [] },
+  "공부": { synonyms: ["학습"], antonyms: ["놀이"] },
+  "공부하다": { synonyms: ["배우다", "학습하다"], antonyms: ["놀다"] },
+  "괜찮다": { synonyms: ["문제없다", "좋다"], antonyms: ["나쁘다"] },
+  "교실": { synonyms: ["강의실"], antonyms: [] },
+  "구경": { synonyms: ["관람", "둘러보기"], antonyms: [] },
+  "기다리다": { synonyms: ["대기하다"], antonyms: [] },
+  "기분": { synonyms: ["마음", "감정"], antonyms: [] },
+  "길다": { synonyms: ["오래다"], antonyms: ["짧다"] },
+  "깨끗하다": { synonyms: ["청결하다"], antonyms: ["더럽다"] },
+  "끝나다": { synonyms: ["마치다", "종료되다"], antonyms: ["시작하다"] },
+  "나쁘다": { synonyms: ["좋지 않다"], antonyms: ["좋다"] },
+  "낮다": { synonyms: ["높지 않다"], antonyms: ["높다"] },
+  "넓다": { synonyms: ["크다"], antonyms: ["좁다"] },
+  "놀다": { synonyms: ["쉬다", "즐기다"], antonyms: ["공부하다", "일하다"] },
+  "높다": { synonyms: ["크다"], antonyms: ["낮다"] },
+  "느리다": { synonyms: ["더디다"], antonyms: ["빠르다"] },
+  "늦다": { synonyms: ["지각하다"], antonyms: ["이르다", "빠르다"] },
+  "다르다": { synonyms: ["차이나다"], antonyms: ["같다"] },
+  "다시": { synonyms: ["또", "한 번 더"], antonyms: [] },
+  "닫다": { synonyms: ["폐쇄하다"], antonyms: ["열다"] },
+  "덥다": { synonyms: ["뜨겁다"], antonyms: ["춥다"] },
+  "도착": { synonyms: ["도달"], antonyms: ["출발"] },
+  "돕다": { synonyms: ["도와주다"], antonyms: ["방해하다"] },
+  "되다": { synonyms: ["이루어지다"], antonyms: [] },
+  "듣다": { synonyms: ["청취하다"], antonyms: ["말하다"] },
+  "따뜻하다": { synonyms: ["온화하다"], antonyms: ["춥다"] },
+  "뜨겁다": { synonyms: ["덥다"], antonyms: ["차갑다"] },
+  "마지막": { synonyms: ["끝", "최종"], antonyms: ["처음"] },
+  "만나다": { synonyms: ["마주치다"], antonyms: ["헤어지다"] },
+  "많다": { synonyms: ["풍부하다"], antonyms: ["적다"] },
+  "맛있다": { synonyms: ["맛이 좋다"], antonyms: ["맛없다"] },
+  "멀다": { synonyms: ["떨어져 있다"], antonyms: ["가깝다"] },
+  "모르다": { synonyms: ["알지 못하다"], antonyms: ["알다"] },
+  "무겁다": { synonyms: ["묵직하다"], antonyms: ["가볍다"] },
+  "바꾸다": { synonyms: ["교체하다", "변경하다"], antonyms: ["유지하다"] },
+  "바쁘다": { synonyms: ["분주하다"], antonyms: ["한가하다"] },
+  "받다": { synonyms: ["얻다", "수령하다"], antonyms: ["주다"] },
+  "배우다": { synonyms: ["익히다", "공부하다"], antonyms: ["가르치다"] },
+  "보내다": { synonyms: ["부치다", "전송하다"], antonyms: ["받다"] },
+  "보다": { synonyms: ["구경하다", "살펴보다"], antonyms: [] },
+  "복잡하다": { synonyms: ["어수선하다"], antonyms: ["간단하다"] },
+  "비싸다": { synonyms: ["가격이 높다"], antonyms: ["싸다"] },
+  "빠르다": { synonyms: ["신속하다"], antonyms: ["느리다"] },
+  "빨리": { synonyms: ["어서", "급히"], antonyms: ["천천히"] },
+  "사다": { synonyms: ["구입하다"], antonyms: ["팔다"] },
+  "사람": { synonyms: ["인간"], antonyms: [] },
+  "사랑": { synonyms: ["애정", "정"], antonyms: ["미움"] },
+  "살다": { synonyms: ["생활하다"], antonyms: ["죽다"] },
+  "생각": { synonyms: ["의견", "사고"], antonyms: [] },
+  "서다": { synonyms: ["일어서다"], antonyms: ["앉다"] },
+  "선물": { synonyms: ["증정품"], antonyms: [] },
+  "쉽다": { synonyms: ["간단하다"], antonyms: ["어렵다"] },
+  "슬프다": { synonyms: ["서글프다"], antonyms: ["기쁘다", "즐겁다"] },
+  "시작": { synonyms: ["출발", "개시"], antonyms: ["끝", "마지막"] },
+  "싫다": { synonyms: ["좋지 않다"], antonyms: ["좋다"] },
+  "쓰다": { synonyms: ["작성하다", "사용하다"], antonyms: ["읽다"] },
+  "아름답다": { synonyms: ["예쁘다"], antonyms: ["못생기다"] },
+  "아프다": { synonyms: ["몸이 좋지 않다"], antonyms: ["건강하다"] },
+  "앉다": { synonyms: ["자리에 있다"], antonyms: ["서다"] },
+  "알다": { synonyms: ["이해하다"], antonyms: ["모르다"] },
+  "앞": { synonyms: ["전면"], antonyms: ["뒤"] },
+  "어렵다": { synonyms: ["힘들다"], antonyms: ["쉽다"] },
+  "열다": { synonyms: ["개방하다"], antonyms: ["닫다"] },
+  "예쁘다": { synonyms: ["아름답다"], antonyms: ["못생기다"] },
+  "오다": { synonyms: ["도착하다"], antonyms: ["가다"] },
+  "오래": { synonyms: ["길게"], antonyms: ["잠깐"] },
+  "오른쪽": { synonyms: ["우측"], antonyms: ["왼쪽"] },
+  "울다": { synonyms: ["눈물을 흘리다"], antonyms: ["웃다"] },
+  "웃다": { synonyms: ["미소 짓다"], antonyms: ["울다"] },
+  "위": { synonyms: ["위쪽"], antonyms: ["아래"] },
+  "위험": { synonyms: ["위기"], antonyms: ["안전"] },
+  "이름": { synonyms: ["성명"], antonyms: [] },
+  "일찍": { synonyms: ["빨리"], antonyms: ["늦게"] },
+  "읽다": { synonyms: ["독서하다"], antonyms: ["쓰다"] },
+  "잃다": { synonyms: ["분실하다"], antonyms: ["찾다"] },
+  "잊다": { synonyms: ["기억하지 못하다"], antonyms: ["기억하다"] },
+  "자다": { synonyms: ["잠을 자다"], antonyms: ["깨다"] },
+  "작다": { synonyms: ["조그맣다"], antonyms: ["크다"] },
+  "잘하다": { synonyms: ["능숙하다"], antonyms: ["못하다"] },
+  "재미있다": { synonyms: ["흥미롭다"], antonyms: ["재미없다"] },
+  "적다": { synonyms: ["많지 않다"], antonyms: ["많다"] },
+  "조용하다": { synonyms: ["고요하다"], antonyms: ["시끄럽다"] },
+  "좋다": { synonyms: ["괜찮다", "훌륭하다"], antonyms: ["나쁘다", "싫다"] },
+  "주다": { synonyms: ["건네다"], antonyms: ["받다"] },
+  "죽다": { synonyms: ["사망하다"], antonyms: ["살다"] },
+  "즐겁다": { synonyms: ["기쁘다", "행복하다"], antonyms: ["슬프다"] },
+  "지금": { synonyms: ["현재"], antonyms: ["나중"] },
+  "찾다": { synonyms: ["발견하다", "검색하다"], antonyms: ["잃다"] },
+  "처음": { synonyms: ["시작"], antonyms: ["마지막"] },
+  "천천히": { synonyms: ["느리게"], antonyms: ["빨리"] },
+  "춥다": { synonyms: ["차갑다"], antonyms: ["덥다", "따뜻하다"] },
+  "크다": { synonyms: ["커다랗다"], antonyms: ["작다"] },
+  "켜다": { synonyms: ["작동시키다"], antonyms: ["끄다"] },
+  "팔다": { synonyms: ["판매하다"], antonyms: ["사다"] },
+  "편하다": { synonyms: ["안락하다", "쉽다"], antonyms: ["불편하다"] },
+  "필요하다": { synonyms: ["요구되다"], antonyms: ["불필요하다"] },
+  "하다": { synonyms: ["실행하다"], antonyms: [] },
+  "학교": { synonyms: ["교실", "캠퍼스"], antonyms: ["집"] },
+  "친구": { synonyms: ["벗", "동료"], antonyms: ["낯선 사람"] },
+  "시간": { synonyms: ["때", "기간"], antonyms: ["순간"] },
+  "책": { synonyms: ["도서", "교재"], antonyms: [] },
+  "가족": { synonyms: ["식구", "친척"], antonyms: ["타인"] },
+  "음식": { synonyms: ["요리", "식사"], antonyms: [] },
+  "날씨": { synonyms: ["기후", "일기"], antonyms: [] },
+  "여행": { synonyms: ["관광", "나들이"], antonyms: ["귀가"] },
+  "항상": { synonyms: ["늘", "언제나"], antonyms: ["가끔"] },
+  "행복": { synonyms: ["기쁨"], antonyms: ["불행"] },
+  "행복하다": { synonyms: ["즐겁다"], antonyms: ["슬프다", "불행하다"] },
+  "혼자": { synonyms: ["홀로"], antonyms: ["함께"] },
+  "힘들다": { synonyms: ["어렵다", "고되다"], antonyms: ["쉽다"] }
+};
+
 const state = loadState();
 decks = mergeImportedDecks(decks, state.importedDecks);
 let dailyGoal = state.dailyGoal || 20;
@@ -585,14 +719,14 @@ async function cacheOfflineStudy() {
     const registration = await navigator.serviceWorker.register("/sw.js");
     await navigator.serviceWorker.ready;
     if (registration.waiting) registration.waiting.postMessage({ type: "SKIP_WAITING" });
-    const cache = await caches.open("lionlingo-offline-v14");
+    const cache = await caches.open("lionlingo-offline-v15");
     await cache.addAll([
       "/",
       "/index.html",
       "/styles.css",
-      "/vocabulary-data.js?v=topik-pdf-1665b",
-      "/vocabulary-topik-i.js?v=topik-pdf-1665b",
-      "/app.js?v=topik-pdf-1665b",
+      "/vocabulary-data.js?v=topik-relations-random",
+      "/vocabulary-topik-i.js?v=topik-relations-random",
+      "/app.js?v=topik-relations-random",
       "/manifest.webmanifest",
       "/vocabulary-template.csv",
       "/assets/lionlingo-hero-scene.png",
@@ -719,11 +853,14 @@ function makeDailyWords() {
 }
 
 function enrichWord(word, deck) {
+  const relation = topikRelations[word.term] || {};
   return {
     synonyms: [],
     antonyms: [],
     partOfSpeech: "",
     ...word,
+    synonyms: uniqueList([...normalizeList(word.synonyms), ...(relation.synonyms || [])]),
+    antonyms: uniqueList([...normalizeList(word.antonyms), ...(relation.antonyms || [])]),
     deckTitle: deck.title,
     deckType: deck.type,
     language: deck.language
@@ -740,6 +877,23 @@ function normalizeList(value) {
     .split(/[;；|、]/)
     .map((item) => item.trim())
     .filter(Boolean);
+}
+
+function uniqueList(items) {
+  return [...new Set(items.map((item) => String(item || "").trim()).filter(Boolean))];
+}
+
+function synonymsFor(word) {
+  return uniqueList([...normalizeList(word.synonyms), ...(topikRelations[word.term]?.synonyms || [])]);
+}
+
+function antonymsFor(word) {
+  return uniqueList([...normalizeList(word.antonyms), ...(topikRelations[word.term]?.antonyms || [])]);
+}
+
+function previewWords(words, keyword) {
+  if (keyword) return words.slice(0, 6);
+  return shuffle(words).slice(0, 6);
 }
 
 function renderDecks() {
@@ -767,16 +921,15 @@ function renderWords() {
   activeDeckDescription.textContent = deckText.description;
 
   const words = deck.words.filter((word) => {
-    const haystack = `${word.term} ${word.pronunciation} ${meaningFor(word)} ${word.example} ${normalizeList(word.synonyms).join(" ")} ${normalizeList(word.antonyms).join(" ")}`.toLowerCase();
+    const haystack = `${word.term} ${word.pronunciation} ${meaningFor(word)} ${word.example} ${synonymsFor(word).join(" ")} ${antonymsFor(word).join(" ")}`.toLowerCase();
     return haystack.includes(keyword);
   });
 
   wordGrid.innerHTML = words.length
-    ? words
-        .slice(0, 6)
+    ? previewWords(words, keyword)
         .map((word) => {
-          const synonyms = normalizeList(word.synonyms);
-          const antonyms = normalizeList(word.antonyms);
+          const synonyms = synonymsFor(word);
+          const antonyms = antonymsFor(word);
           const relationRows = [
             synonyms.length ? `<span>${t("synonyms")}: ${synonyms.join(", ")}</span>` : "",
             antonyms.length ? `<span>${t("antonyms")}: ${antonyms.join(", ")}</span>` : ""
@@ -906,8 +1059,8 @@ function renderStudyCard() {
   }
 
   const word = queue[studyIndex % queue.length];
-  const synonymList = normalizeList(word.synonyms);
-  const antonymList = normalizeList(word.antonyms);
+  const synonymList = synonymsFor(word);
+  const antonymList = antonymsFor(word);
   const synonyms = synonymList.join(", ");
   const antonyms = antonymList.join(", ");
   const options = makeMeaningOptions(word, queue);
@@ -1196,8 +1349,8 @@ function switchInfoTab(tabName) {
   document.querySelectorAll(".info-tab").forEach((tab) => tab.classList.toggle("active", tab.dataset.infoTab === tabName));
   document.querySelector("#focusInfo").innerHTML = renderInfoTab(
     word,
-    normalizeList(word.synonyms).join(", ") || "-",
-    normalizeList(word.antonyms).join(", ") || "-"
+    synonymsFor(word).join(", "),
+    antonymsFor(word).join(", ")
   );
 }
 
