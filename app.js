@@ -180,7 +180,9 @@ let decks = [
   }
 ];
 
-const externalDecks = Array.isArray(window.LINGUABRIDGE_EXTRA_DECKS) ? window.LINGUABRIDGE_EXTRA_DECKS : [];
+const extraDecks = Array.isArray(window.LINGUABRIDGE_EXTRA_DECKS) ? window.LINGUABRIDGE_EXTRA_DECKS : [];
+const topikIDecks = Array.isArray(window.LINGUABRIDGE_TOPIK_I_DECKS) ? window.LINGUABRIDGE_TOPIK_I_DECKS : [];
+const externalDecks = [...extraDecks, ...topikIDecks];
 decks = [...decks, ...externalDecks.filter((deck) => !decks.some((existing) => existing.id === deck.id))];
 
 const audioResources = [
@@ -586,6 +588,7 @@ async function cacheOfflineStudy() {
       "/index.html",
       "/styles.css",
       "/vocabulary-data.js",
+      "/vocabulary-topik-i.js",
       "/app.js",
       "/manifest.webmanifest",
       "/vocabulary-template.csv",
