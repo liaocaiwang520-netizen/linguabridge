@@ -847,14 +847,14 @@ async function cacheOfflineStudy() {
     const registration = await navigator.serviceWorker.register("/sw.js");
     await navigator.serviceWorker.ready;
     if (registration.waiting) registration.waiting.postMessage({ type: "SKIP_WAITING" });
-    const cache = await caches.open("lionlingo-offline-v19");
+    const cache = await caches.open("lionlingo-offline-v20");
     await cache.addAll([
       "/",
       "/index.html",
       "/styles.css",
-      "/vocabulary-data.js?v=learning-flow-v3",
-      "/vocabulary-topik-i.js?v=learning-flow-v3",
-      "/app.js?v=learning-flow-v3",
+      "/vocabulary-data.js?v=learning-flow-v4",
+      "/vocabulary-topik-i.js?v=learning-flow-v4",
+      "/app.js?v=learning-flow-v4",
       "/manifest.webmanifest",
       "/vocabulary-template.csv",
       "/assets/lionlingo-hero-scene.png",
@@ -1197,6 +1197,21 @@ function getStudyQueue() {
 function renderStudyCard() {
   const queue = getStudyQueue();
   if (!queue.length) {
+    const sessionTotal = studyMode === "review" ? reviewSessionTotal : todaySessionTotal;
+    const sessionDone = studyMode === "review" ? reviewSessionDone : todaySessionDone;
+    const completedSession = sessionTotal > 0 && sessionDone >= sessionTotal;
+    focusCard.classList.remove("audio-only");
+    if (completedSession) {
+      focusCard.innerHTML = `
+        <div class="completion-card">
+          <img src="assets/lionlingo-mascot-hero.png" alt="LionLingo lion mascot" />
+          <p class="eyebrow">${studyMode === "review" ? "Review complete" : "Today's mission complete"}</p>
+          <h2>Great job!</h2>
+          <p>You learned ${sessionDone}/${sessionTotal} words today. Keep this rhythm.</p>
+        </div>
+      `;
+      return;
+    }
     focusCard.innerHTML = `
       <p class="eyebrow">No Words</p>
       <h2>${t("noQueue")}</h2>
