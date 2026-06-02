@@ -182,7 +182,8 @@ let decks = [
 
 const extraDecks = Array.isArray(window.LINGUABRIDGE_EXTRA_DECKS) ? window.LINGUABRIDGE_EXTRA_DECKS : [];
 const topikIDecks = Array.isArray(window.LINGUABRIDGE_TOPIK_I_DECKS) ? window.LINGUABRIDGE_TOPIK_I_DECKS : [];
-const externalDecks = [...extraDecks, ...topikIDecks];
+const externalDecks = [...topikIDecks, ...extraDecks.filter((deck) => deck.language !== "ko")];
+decks = decks.filter((deck) => deck.language !== "ko");
 decks = [...decks, ...externalDecks.filter((deck) => !decks.some((existing) => existing.id === deck.id))];
 
 const audioResources = [
