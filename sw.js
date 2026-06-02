@@ -1,11 +1,11 @@
-const CACHE_NAME = "lionlingo-offline-v13";
+const CACHE_NAME = "lionlingo-offline-v14";
 const APP_ASSETS = [
   "/",
   "/index.html",
   "/styles.css",
-  "/vocabulary-data.js?v=topik-pdf-1665",
-  "/vocabulary-topik-i.js?v=topik-pdf-1665",
-  "/app.js?v=topik-pdf-1665",
+  "/vocabulary-data.js?v=topik-pdf-1665b",
+  "/vocabulary-topik-i.js?v=topik-pdf-1665b",
+  "/app.js?v=topik-pdf-1665b",
   "/manifest.webmanifest",
   "/vocabulary-template.csv",
   "/assets/lionlingo-hero-scene.png",

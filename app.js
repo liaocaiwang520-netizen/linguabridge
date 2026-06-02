@@ -182,9 +182,9 @@ let decks = [
 
 const extraDecks = Array.isArray(window.LINGUABRIDGE_EXTRA_DECKS) ? window.LINGUABRIDGE_EXTRA_DECKS : [];
 const topikIDecks = Array.isArray(window.LINGUABRIDGE_TOPIK_I_DECKS) ? window.LINGUABRIDGE_TOPIK_I_DECKS : [];
+const englishDecks = decks.filter((deck) => deck.language !== "ko");
 const externalDecks = [...topikIDecks, ...extraDecks.filter((deck) => deck.language !== "ko")];
-decks = decks.filter((deck) => deck.language !== "ko");
-decks = [...decks, ...externalDecks.filter((deck) => !decks.some((existing) => existing.id === deck.id))];
+decks = [...topikIDecks, ...englishDecks, ...externalDecks.filter((deck) => !topikIDecks.some((existing) => existing.id === deck.id) && !englishDecks.some((existing) => existing.id === deck.id))];
 
 const audioResources = [
   { title: "TOPIK I Daily Dialogue", level: "A1-A2", length: "8 min", note: "Campus, shopping, and directions.", tasks: ["Catch the topic", "Write key words", "Shadow the audio"] },
@@ -518,8 +518,10 @@ decks = mergeImportedDecks(decks, state.importedDecks);
 let dailyGoal = state.dailyGoal || 20;
 let learningDirection = state.learningDirection || "ko";
 let wordProgress = state.wordProgress || {};
-let todayWords = state.todayWords.length ? hydrateWords(state.todayWords) : makeDailyWords();
-let reviewWords = hydrateWords(state.reviewWords).filter((word) => word.language === getTargetLanguage() && !isMastered(word) && isDue(word));
+activeDeckId = getTargetDecks()[0]?.id || decks[0]?.id || activeDeckId;
+let todayWords = state.todayWords.length ? hydrateWords(state.todayWords).filter((word) => word.language === getTargetLanguage() && decks.some((deck) => deck.title === word.deckTitle)) : makeDailyWords();
+if (!todayWords.length) todayWords = makeDailyWords();
+let reviewWords = hydrateWords(state.reviewWords).filter((word) => word.language === getTargetLanguage() && decks.some((deck) => deck.title === word.deckTitle) && !isMastered(word) && isDue(word));
 
 const deckList = document.querySelector("#deckList");
 const wordGrid = document.querySelector("#wordGrid");
@@ -583,14 +585,14 @@ async function cacheOfflineStudy() {
     const registration = await navigator.serviceWorker.register("/sw.js");
     await navigator.serviceWorker.ready;
     if (registration.waiting) registration.waiting.postMessage({ type: "SKIP_WAITING" });
-    const cache = await caches.open("lionlingo-offline-v8");
+    const cache = await caches.open("lionlingo-offline-v14");
     await cache.addAll([
       "/",
       "/index.html",
       "/styles.css",
-      "/vocabulary-data.js",
-      "/vocabulary-topik-i.js",
-      "/app.js",
+      "/vocabulary-data.js?v=topik-pdf-1665b",
+      "/vocabulary-topik-i.js?v=topik-pdf-1665b",
+      "/app.js?v=topik-pdf-1665b",
       "/manifest.webmanifest",
       "/vocabulary-template.csv",
       "/assets/lionlingo-hero-scene.png",
@@ -606,7 +608,7 @@ async function cacheOfflineStudy() {
 
 function mergeImportedDecks(baseDecks, importedDecks = []) {
   const knownIds = new Set(baseDecks.map((deck) => deck.id));
-  return [...baseDecks, ...importedDecks.filter((deck) => !knownIds.has(deck.id))];
+  return [...baseDecks, ...importedDecks.filter((deck) => deck.language !== "ko" && !knownIds.has(deck.id))];
 }
 
 function getAllWords() {
