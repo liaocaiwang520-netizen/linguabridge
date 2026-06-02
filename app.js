@@ -719,14 +719,14 @@ async function cacheOfflineStudy() {
     const registration = await navigator.serviceWorker.register("/sw.js");
     await navigator.serviceWorker.ready;
     if (registration.waiting) registration.waiting.postMessage({ type: "SKIP_WAITING" });
-    const cache = await caches.open("lionlingo-offline-v15");
+    const cache = await caches.open("lionlingo-offline-v16");
     await cache.addAll([
       "/",
       "/index.html",
       "/styles.css",
-      "/vocabulary-data.js?v=topik-relations-random",
-      "/vocabulary-topik-i.js?v=topik-relations-random",
-      "/app.js?v=topik-relations-random",
+      "/vocabulary-data.js?v=topik-relations-visible",
+      "/vocabulary-topik-i.js?v=topik-relations-visible",
+      "/app.js?v=topik-relations-visible",
       "/manifest.webmanifest",
       "/vocabulary-template.csv",
       "/assets/lionlingo-hero-scene.png",
@@ -891,9 +891,17 @@ function antonymsFor(word) {
   return uniqueList([...normalizeList(word.antonyms), ...(topikRelations[word.term]?.antonyms || [])]);
 }
 
+function hasRelations(word) {
+  return synonymsFor(word).length > 0 || antonymsFor(word).length > 0;
+}
+
 function previewWords(words, keyword) {
   if (keyword) return words.slice(0, 6);
-  return shuffle(words).slice(0, 6);
+  const relationWords = words.filter(hasRelations);
+  const primary = shuffle(relationWords).slice(0, 6);
+  if (primary.length >= 6) return primary;
+  const filler = shuffle(words.filter((word) => !primary.some((item) => item.term === word.term))).slice(0, 6 - primary.length);
+  return [...primary, ...filler];
 }
 
 function renderDecks() {
@@ -931,8 +939,8 @@ function renderWords() {
           const synonyms = synonymsFor(word);
           const antonyms = antonymsFor(word);
           const relationRows = [
-            synonyms.length ? `<span>${t("synonyms")}: ${synonyms.join(", ")}</span>` : "",
-            antonyms.length ? `<span>${t("antonyms")}: ${antonyms.join(", ")}</span>` : ""
+            `<span>${t("synonyms")}: ${synonyms.length ? synonyms.join(", ") : "작성 예정"}</span>`,
+            `<span>${t("antonyms")}: ${antonyms.length ? antonyms.join(", ") : "작성 예정"}</span>`
           ].join("");
           return `
             <article class="word-card">
@@ -943,7 +951,7 @@ function renderWords() {
               <div class="word-meta">${posFor(word) || "-"} · ${word.pronunciation || "-"}</div>
               <p class="word-meaning">${displayMeaningFor(word)}</p>
               ${word.example ? `<p class="word-example">${word.example}</p>` : ""}
-              ${relationRows ? `<div class="word-relations">${relationRows}</div>` : ""}
+              <div class="word-relations">${relationRows}</div>
             </article>
           `;
         })
@@ -1061,8 +1069,8 @@ function renderStudyCard() {
   const word = queue[studyIndex % queue.length];
   const synonymList = synonymsFor(word);
   const antonymList = antonymsFor(word);
-  const synonyms = synonymList.join(", ");
-  const antonyms = antonymList.join(", ");
+  const synonyms = synonymList.join(", ") || "작성 예정";
+  const antonyms = antonymList.join(", ") || "작성 예정";
   const options = makeMeaningOptions(word, queue);
   const canQuizMeaning = hasReliableMeaning(word);
   focusCard.classList.toggle("audio-only", audioOnlyMode);
@@ -1110,8 +1118,8 @@ function renderStudyCard() {
         </div>
         <div class="info-tabs" role="tablist" aria-label="Word notes">
           <button class="info-tab active" type="button" data-info-tab="example">${t("example")}</button>
-          ${synonymList.length ? `<button class="info-tab" type="button" data-info-tab="synonyms">${t("synonyms")}</button>` : ""}
-          ${antonymList.length ? `<button class="info-tab" type="button" data-info-tab="antonyms">${t("antonyms")}</button>` : ""}
+          <button class="info-tab" type="button" data-info-tab="synonyms">${t("synonyms")}</button>
+          <button class="info-tab" type="button" data-info-tab="antonyms">${t("antonyms")}</button>
         </div>
         <div class="focus-info" id="focusInfo">
           ${renderInfoTab(word, synonyms, antonyms)}
@@ -1349,8 +1357,8 @@ function switchInfoTab(tabName) {
   document.querySelectorAll(".info-tab").forEach((tab) => tab.classList.toggle("active", tab.dataset.infoTab === tabName));
   document.querySelector("#focusInfo").innerHTML = renderInfoTab(
     word,
-    synonymsFor(word).join(", "),
-    antonymsFor(word).join(", ")
+    synonymsFor(word).join(", ") || "작성 예정",
+    antonymsFor(word).join(", ") || "작성 예정"
   );
 }
 
