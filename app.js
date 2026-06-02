@@ -186,6 +186,122 @@ const englishDecks = decks.filter((deck) => deck.language !== "ko");
 const externalDecks = [...topikIDecks, ...extraDecks.filter((deck) => deck.language !== "ko")];
 decks = [...topikIDecks, ...englishDecks, ...externalDecks.filter((deck) => !topikIDecks.some((existing) => existing.id === deck.id) && !englishDecks.some((existing) => existing.id === deck.id))];
 
+const topikMeaningFixes = {
+  "감사합니다": ["thank you", "谢谢"],
+  "감자탕": ["pork backbone stew", "脊骨土豆汤"],
+  "강좌": ["course, lecture", "课程"],
+  "개나리": ["forsythia", "连翘花"],
+  "개인": ["individual, personal", "个人"],
+  "건배": ["cheers, toast", "干杯"],
+  "겨울방학": ["winter vacation", "寒假"],
+  "두부찌개": ["tofu stew", "豆腐汤"],
+  "드시다": ["to eat, to drink (honorific)", "吃、喝的敬语"],
+  "듣기": ["listening", "听力"],
+  "들": ["field, plural marker", "田野、复数标记"],
+  "등산복": ["hiking clothes", "登山服"],
+  "등산화": ["hiking boots", "登山鞋"],
+  "디브이디": ["DVD", "DVD"],
+  "따라가다": ["to follow, to go along", "跟着去"],
+  "따라오다": ["to follow, to come along", "跟着来"],
+  "따르다": ["to follow, to pour", "跟随、倒"],
+  "때문": ["because of, reason", "因为、原因"],
+  "떡": ["rice cake", "年糕"],
+  "떡국": ["rice cake soup", "年糕汤"],
+  "떡볶이": ["spicy stir-fried rice cakes", "炒年糕"],
+  "먹다": ["to eat", "吃"],
+  "멕시코": ["Mexico", "墨西哥"],
+  "면도": ["shaving", "刮胡子"],
+  "명": ["person counter", "人名量词"],
+  "모르겠습니다": ["I do not know", "我不知道"],
+  "모자": ["hat, cap", "帽子"],
+  "목욕하다": ["to take a bath", "洗澡"],
+  "반갑습니다": ["nice to meet you", "很高兴见到你"],
+  "반년": ["half a year", "半年"],
+  "반달": ["half moon", "半月"],
+  "발전": ["development, progress", "发展"],
+  "발표": ["presentation, announcement", "发表、公布"],
+  "배구": ["volleyball", "排球"],
+  "수도": ["capital city, water supply", "首都、自来水"],
+  "수돗물": ["tap water", "自来水"],
+  "수술하다": ["to have surgery", "做手术"],
+  "수업": ["class, lesson", "课程"],
+  "수학": ["mathematics", "数学"],
+  "쉬다": ["to rest", "休息"],
+  "스타킹": ["stockings", "丝袜"],
+  "스페인어": ["Spanish language", "西班牙语"],
+  "쓰기": ["writing", "写作"],
+  "쓰이다": ["to be used, to be written", "被使用、被写"],
+  "씨": ["Mr., Ms.; seed", "先生/女士、种子"],
+  "씩": ["each, apiece", "每、各"],
+  "아뇨": ["no", "不"],
+  "아니오": ["no", "不"],
+  "아랍어": ["Arabic language", "阿拉伯语"],
+  "아시아": ["Asia", "亚洲"],
+  "아침밥": ["breakfast", "早饭"],
+  "아침식사": ["breakfast", "早餐"],
+  "아프리카": ["Africa", "非洲"],
+  "어리다": ["to be young", "年幼"],
+  "어머": ["oh my", "哎呀"],
+  "어저께": ["yesterday", "昨天"],
+  "없이": ["without", "没有"],
+  "엔": ["in, at; won", "在、韩元"],
+  "여러가지": ["various kinds", "各种各样"],
+  "역": ["station, role", "车站、角色"],
+  "오랜만에": ["after a long time", "久违地"],
+  "오리": ["duck", "鸭子"],
+  "오징어": ["squid", "鱿鱼"],
+  "올려놓다": ["to put up, to place on", "放上去"],
+  "옮기다": ["to move, to transfer", "移动、转移"],
+  "옷가게": ["clothing store", "服装店"],
+  "외삼촌": ["maternal uncle", "舅舅"],
+  "외숙모": ["maternal uncle's wife", "舅妈"],
+  "외출하다": ["to go out", "外出"],
+  "외할머니": ["maternal grandmother", "外婆"],
+  "외할아버지": ["maternal grandfather", "外公"],
+  "요르단": ["Jordan", "约旦"],
+  "우리": ["we, our", "我们、我们的"],
+  "이상하다": ["to be strange", "奇怪"],
+  "이해": ["understanding", "理解"],
+  "정리하다": ["to organize, to arrange", "整理"],
+  "정말": ["really, truly", "真的"],
+  "정보": ["information", "信息"],
+  "제가": ["I, me (polite subject)", "我"],
+  "조사하다": ["to investigate, to survey", "调查"],
+  "조선": ["Joseon, Korea", "朝鲜"],
+  "조선말": ["Korean language", "朝鲜语"],
+  "조선어": ["Korean language", "朝鲜语"],
+  "조심하다": ["to be careful", "小心"],
+  "좀더": ["a little more", "再多一点"],
+  "종로": ["Jongno", "钟路"],
+  "종일": ["all day", "整天"],
+  "주": ["week, state, province", "周、州"],
+  "주머니": ["pocket", "口袋"],
+  "차": ["car, tea", "车、茶"],
+  "페이지": ["page", "页"]
+};
+
+function applyTopikMeaningFixes() {
+  decks = decks.map((deck) => {
+    if (deck.id !== "topik-basic") return deck;
+    return {
+      ...deck,
+      words: deck.words.map((word) => {
+        const fix = topikMeaningFixes[word.term];
+        if (!fix) return word;
+        const [meaningEn, meaningZh] = fix;
+        return {
+          ...word,
+          meaning: word.meaning || meaningEn,
+          meaningEn: meaningEn,
+          meaningZh: word.meaningZh || meaningZh
+        };
+      })
+    };
+  });
+}
+
+applyTopikMeaningFixes();
+
 const audioResources = [
   { title: "TOPIK I Daily Dialogue", level: "A1-A2", length: "8 min", note: "Campus, shopping, and directions.", tasks: ["Catch the topic", "Write key words", "Shadow the audio"] },
   { title: "TOPIK II Expository Listening", level: "B1-B2", length: "13 min", note: "Culture, society, and technology.", tasks: ["Mark connectors", "Summarize the view", "Retell for 60 seconds"] },
@@ -731,14 +847,14 @@ async function cacheOfflineStudy() {
     const registration = await navigator.serviceWorker.register("/sw.js");
     await navigator.serviceWorker.ready;
     if (registration.waiting) registration.waiting.postMessage({ type: "SKIP_WAITING" });
-    const cache = await caches.open("lionlingo-offline-v18");
+    const cache = await caches.open("lionlingo-offline-v19");
     await cache.addAll([
       "/",
       "/index.html",
       "/styles.css",
-      "/vocabulary-data.js?v=learning-flow-v2",
-      "/vocabulary-topik-i.js?v=learning-flow-v2",
-      "/app.js?v=learning-flow-v2",
+      "/vocabulary-data.js?v=learning-flow-v3",
+      "/vocabulary-topik-i.js?v=learning-flow-v3",
+      "/app.js?v=learning-flow-v3",
       "/manifest.webmanifest",
       "/vocabulary-template.csv",
       "/assets/lionlingo-hero-scene.png",
