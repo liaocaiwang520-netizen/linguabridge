@@ -867,14 +867,14 @@ async function cacheOfflineStudy() {
     const registration = await navigator.serviceWorker.register("/sw.js");
     await navigator.serviceWorker.ready;
     if (registration.waiting) registration.waiting.postMessage({ type: "SKIP_WAITING" });
-    const cache = await caches.open("lionlingo-offline-v22");
+    const cache = await caches.open("lionlingo-offline-v23");
     await cache.addAll([
       "/",
       "/index.html",
       "/styles.css",
-      "/vocabulary-data.js?v=learning-flow-v6",
-      "/vocabulary-topik-i.js?v=learning-flow-v6",
-      "/app.js?v=learning-flow-v6",
+      "/vocabulary-data.js?v=learning-flow-v7",
+      "/vocabulary-topik-i.js?v=learning-flow-v7",
+      "/app.js?v=learning-flow-v7",
       "/manifest.webmanifest",
       "/vocabulary-template.csv",
       "/assets/lionlingo-hero-scene.png",
