@@ -135,48 +135,6 @@ let decks = [
       { term: "투자", pronunciation: "tu-ja", meaning: "投资", example: "해외 투자를 검토 중입니다.", synonyms: ["출자", "자금"], antonyms: ["회수"], partOfSpeech: "名词" },
       { term: "발표", pronunciation: "bal-pyo", meaning: "发表、演讲", example: "내일 회의에서 발표할 예정입니다.", synonyms: ["프레젠테이션", "공개"], antonyms: [], partOfSpeech: "名词" }
     ]
-  },
-  {
-    id: "ielts-high-frequency",
-    language: "en",
-    type: "IELTS 高频",
-    title: "IELTS Academic 高频词",
-    description: "适合写作 Task 2、阅读和口语观点表达。",
-    words: [
-      { term: "sustainable", pronunciation: "/səˈsteɪnəbl/", meaning: "可持续的", example: "Cities need sustainable transport systems.", synonyms: ["durable", "renewable"], antonyms: ["wasteful", "unsustainable"], partOfSpeech: "adjective" },
-      { term: "evidence", pronunciation: "/ˈevɪdəns/", meaning: "证据", example: "The essay should include clear evidence.", synonyms: ["proof", "support"], antonyms: ["claim", "assumption"], partOfSpeech: "noun" },
-      { term: "significant", pronunciation: "/sɪɡˈnɪfɪkənt/", meaning: "显著的、重要的", example: "There was a significant increase in costs.", synonyms: ["important", "substantial"], antonyms: ["minor", "insignificant"], partOfSpeech: "adjective" },
-      { term: "perspective", pronunciation: "/pərˈspektɪv/", meaning: "视角、观点", example: "This issue can be seen from another perspective.", synonyms: ["viewpoint", "angle"], antonyms: ["blind spot"], partOfSpeech: "noun" },
-      { term: "consequently", pronunciation: "/ˈkɒnsɪkwəntli/", meaning: "因此、所以", example: "The data was incomplete; consequently, the results were unreliable.", synonyms: ["therefore", "as a result"], antonyms: ["nevertheless"], partOfSpeech: "adverb" },
-      { term: "fundamental", pronunciation: "/ˌfʌndəˈmentl/", meaning: "基本的、根本的", example: "Education is a fundamental human right.", synonyms: ["essential", "basic"], antonyms: ["secondary", "minor"], partOfSpeech: "adjective" },
-      { term: "comprehensive", pronunciation: "/ˌkɒmprɪˈhensɪv/", meaning: "全面的", example: "The report provides a comprehensive overview.", synonyms: ["thorough", "complete"], antonyms: ["limited", "narrow"], partOfSpeech: "adjective" },
-      { term: "phenomenon", pronunciation: "/fɪˈnɒmɪnən/", meaning: "现象", example: "Global warming is a complex phenomenon.", synonyms: ["occurrence", "event"], antonyms: [], partOfSpeech: "noun" },
-      { term: "ultimately", pronunciation: "/ˈʌltɪmətli/", meaning: "最终", example: "Ultimately, hard work leads to success.", synonyms: ["finally", "eventually"], antonyms: ["initially"], partOfSpeech: "adverb" },
-      { term: "nevertheless", pronunciation: "/ˌnevəðəˈles/", meaning: "然而、尽管如此", example: "It was difficult; nevertheless, she succeeded.", synonyms: ["however", "nonetheless"], antonyms: ["consequently"], partOfSpeech: "adverb" },
-      { term: "paradigm", pronunciation: "/ˈpærədaɪm/", meaning: "范式、典范", example: "This discovery shifted the scientific paradigm.", synonyms: ["model", "framework"], antonyms: [], partOfSpeech: "noun" },
-      { term: "revolutionize", pronunciation: "/ˌrevəˈluːʃənaɪz/", meaning: "革新、彻底改变", example: "Technology has revolutionized communication.", synonyms: ["transform", "overhaul"], antonyms: ["preserve", "maintain"], partOfSpeech: "verb" }
-    ]
-  },
-  {
-    id: "pte-core",
-    language: "en",
-    type: "PTE 词典",
-    title: "PTE 高频听说词",
-    description: "面向 Repeat Sentence、Retell Lecture 和 Essay 的常见学术词。",
-    words: [
-      { term: "lecture", pronunciation: "/ˈlektʃər/", meaning: "讲座", example: "The lecture explains basic economic theory.", synonyms: ["talk", "presentation"], antonyms: ["conversation"], partOfSpeech: "noun" },
-      { term: "summarize", pronunciation: "/ˈsʌməraɪz/", meaning: "总结", example: "Please summarize the main idea in one sentence.", synonyms: ["outline", "condense"], antonyms: ["expand", "elaborate"], partOfSpeech: "verb" },
-      { term: "accurate", pronunciation: "/ˈækjərət/", meaning: "准确的", example: "Accurate pronunciation improves speaking scores.", synonyms: ["correct", "precise"], antonyms: ["wrong", "inaccurate"], partOfSpeech: "adjective" },
-      { term: "resource", pronunciation: "/ˈriːsɔːrs/", meaning: "资源", example: "The library provides useful learning resources.", synonyms: ["material", "asset"], antonyms: ["shortage"], partOfSpeech: "noun" },
-      { term: "demonstrate", pronunciation: "/ˈdemənstreɪt/", meaning: "展示、证明", example: "The experiment demonstrates the theory clearly.", synonyms: ["show", "illustrate"], antonyms: ["conceal"], partOfSpeech: "verb" },
-      { term: "analyze", pronunciation: "/ˈænəlaɪz/", meaning: "分析", example: "Students must analyze the data carefully.", synonyms: ["examine", "evaluate"], antonyms: ["ignore"], partOfSpeech: "verb" },
-      { term: "essential", pronunciation: "/ɪˈsenʃl/", meaning: "必要的、本质的", example: "Good preparation is essential for success.", synonyms: ["crucial", "vital"], antonyms: ["unnecessary", "optional"], partOfSpeech: "adjective" },
-      { term: "contribution", pronunciation: "/ˌkɒntrɪˈbjuːʃn/", meaning: "贡献", example: "Her contribution to the project was invaluable.", synonyms: ["input", "effort"], antonyms: ["hindrance"], partOfSpeech: "noun" },
-      { term: "evaluate", pronunciation: "/ɪˈvæljueɪt/", meaning: "评估", example: "We need to evaluate all options carefully.", synonyms: ["assess", "judge"], antonyms: ["guess"], partOfSpeech: "verb" },
-      { term: "proportion", pronunciation: "/prəˈpɔːʃn/", meaning: "比例", example: "A large proportion of students passed the exam.", synonyms: ["percentage", "ratio"], antonyms: ["whole"], partOfSpeech: "noun" },
-      { term: "interpret", pronunciation: "/ɪnˈtɜːprɪt/", meaning: "解释、解读", example: "How do you interpret this graph?", synonyms: ["explain", "understand"], antonyms: ["misunderstand"], partOfSpeech: "verb" },
-      { term: "distinction", pronunciation: "/dɪˈstɪŋkʃn/", meaning: "区别、差别", example: "There is a clear distinction between the two theories.", synonyms: ["difference", "contrast"], antonyms: ["similarity"], partOfSpeech: "noun" }
-    ]
   }
 ];
 
@@ -960,11 +918,11 @@ async function cacheOfflineStudy() {
       "/",
       "/index.html",
       "/styles.css",
-      "/vocabulary-data.js?v=learning-flow-v12",
-      "/vocabulary-topik-i.js?v=learning-flow-v12",
-      "/vocabulary-topik-ii.js?v=learning-flow-v12",
-      "/vocabulary-ielts-categories.js?v=learning-flow-v12",
-      "/app.js?v=learning-flow-v12",
+      "/vocabulary-data.js?v=learning-flow-v13",
+      "/vocabulary-topik-i.js?v=learning-flow-v13",
+      "/vocabulary-topik-ii.js?v=learning-flow-v13",
+      "/vocabulary-ielts-categories.js?v=learning-flow-v13",
+      "/app.js?v=learning-flow-v13",
       "/manifest.webmanifest",
       "/vocabulary-template.csv",
       "/assets/lionlingo-hero-scene.png",
@@ -1032,14 +990,19 @@ function isMastered(word) {
 
 function meaningFor(word) {
   const info = termInfo[word.term] || {};
+  if (word.language === "en" && !learningDirection.startsWith("zh")) return word.meaningKo || info.ko || word.meaning || word.meaningEn || word.term;
   if (learningDirection.startsWith("zh")) return word.meaning || info.zh || word.meaningEn || info.en || word.meaningKo || info.ko || word.term;
   if (getTargetLanguage() === "ko") return word.meaningEn || info.en || word.meaning || word.term;
-  return word.meaningKo || info.ko || word.meaning || word.term;
+  if (getUiLang() === "ko") return word.meaningKo || info.ko || word.meaning || word.meaningEn || word.term;
+  return word.meaningEn || info.en || word.meaning || word.meaningKo || word.term;
 }
 
 function quizMeaningFor(word) {
   if (word.language === "ko") return word.meaningEn || word.meaning || termInfo[word.term]?.en || "";
-  return word.meaning || word.meaningEn || termInfo[word.term]?.en || "";
+  if (word.language === "en" && !learningDirection.startsWith("zh")) return word.meaningKo || termInfo[word.term]?.ko || word.meaning || word.meaningEn || "";
+  if (getUiLang() === "ko") return word.meaningKo || termInfo[word.term]?.ko || word.meaning || word.meaningEn || "";
+  if (getUiLang() === "zh") return word.meaning || word.meaningZh || word.meaningEn || termInfo[word.term]?.zh || "";
+  return word.meaningEn || word.meaning || termInfo[word.term]?.en || "";
 }
 
 function cleanQuizMeaning(meaning) {
@@ -1053,7 +1016,6 @@ function isUsableQuizMeaning(meaning, term = "") {
       value !== term &&
       !/^n\/?a$/i.test(value) &&
       value !== "?" &&
-      !/[가-힣]/.test(value) &&
       !value.startsWith("Korean hint:") &&
       !value.startsWith("POS:")
   );
@@ -1645,12 +1607,15 @@ function makeMeaningOptions(word, queue) {
   const correct = cleanQuizMeaning(quizMeaningFor(word));
   const meanings = getAllWords()
     .concat(queue)
-    .filter((item) => item.language === getTargetLanguage())
+    .filter((item) => item.language === word.language)
     .map((item) => cleanQuizMeaning(quizMeaningFor(item)))
     .filter((meaning) => meaning !== correct && isUsableQuizMeaning(meaning));
   const uniqueMeanings = [...new Set(meanings)];
   const distractors = shuffle(uniqueMeanings).slice(0, 3);
-  const fallbackDistractors = ["person", "place", "time", "thing", "action", "feeling", "food", "school", "family", "work"];
+  const fallbackDistractors =
+    word.language === "en" && !learningDirection.startsWith("zh")
+      ? ["사람", "장소", "시간", "사물", "행동", "감정", "음식", "학교", "가족", "일"]
+      : ["person", "place", "time", "thing", "action", "feeling", "food", "school", "family", "work"];
   while (distractors.length < 3) {
     const next = fallbackDistractors.find((item) => item !== correct && !distractors.includes(item));
     distractors.push(next || `meaning ${distractors.length + 1}`);
@@ -1701,7 +1666,7 @@ function examplesFor(word) {
   const meaning = meaningFor(word);
   const pos = (posFor(word) || "").toLowerCase();
   const index = stableIndex(word.term, 6);
-  if (getTargetLanguage() === "ko") {
+  if (word.language === "ko") {
     const koreanExamples = {
       학교: {
         simple: ["내일 학교에 일찍 가야 해요.", "우리 학교 도서관은 주말에도 열려 있어요."],
