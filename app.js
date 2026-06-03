@@ -960,11 +960,11 @@ async function cacheOfflineStudy() {
       "/",
       "/index.html",
       "/styles.css",
-      "/vocabulary-data.js?v=learning-flow-v11",
-      "/vocabulary-topik-i.js?v=learning-flow-v11",
-      "/vocabulary-topik-ii.js?v=learning-flow-v11",
-      "/vocabulary-ielts-categories.js?v=learning-flow-v11",
-      "/app.js?v=learning-flow-v11",
+      "/vocabulary-data.js?v=learning-flow-v12",
+      "/vocabulary-topik-i.js?v=learning-flow-v12",
+      "/vocabulary-topik-ii.js?v=learning-flow-v12",
+      "/vocabulary-ielts-categories.js?v=learning-flow-v12",
+      "/app.js?v=learning-flow-v12",
       "/manifest.webmanifest",
       "/vocabulary-template.csv",
       "/assets/lionlingo-hero-scene.png",
@@ -1331,6 +1331,7 @@ function renderCategoryPanel(deck, keyword = "") {
 }
 
 function renderCategoryOverview(deck) {
+  const wordLabel = getUiLang() === "zh" ? "个词" : getUiLang() === "ko" ? "개 단어" : "words";
   return `
     <div class="category-overview">
       ${deck.categories
@@ -1343,7 +1344,7 @@ function renderCategoryOverview(deck) {
           return `
             <button class="category-card" type="button" data-category="${category.id}">
               <span class="category-card-title">${categoryText(category)}</span>
-              <span class="category-card-count">${category.count} words</span>
+              <span class="category-card-count">${category.count} ${wordLabel}</span>
               <span class="category-card-sample">${sampleWords}</span>
               <span class="category-card-action">${showCategoryLabel()}</span>
             </button>
@@ -1355,7 +1356,7 @@ function renderCategoryOverview(deck) {
 }
 
 function renderDecks() {
-  const visibleDecks = decks.filter((deck) => deck.language === getTargetLanguage() && (activeLanguage === "all" || deck.language === activeLanguage));
+  const visibleDecks = decks.filter((deck) => activeLanguage === "all" || deck.language === activeLanguage);
   deckList.innerHTML = visibleDecks
     .map((deck) => {
       const languageLabel = deck.language === "ko" ? "Korean" : "English";
@@ -2543,6 +2544,7 @@ function applyLearningDirection(nextDirection) {
   learningDirection = nextDirection;
   relationCache = null;
   activeLanguage = "all";
+  activeCategoryId = "all";
   const firstDeck = getTargetDecks()[0];
   if (firstDeck) activeDeckId = firstDeck.id;
   todayWords = makeDailyWords();
