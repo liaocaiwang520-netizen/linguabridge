@@ -787,6 +787,89 @@ const topikRelations = {
   "힘들다": { synonyms: ["어렵다", "고되다"], antonyms: ["쉽다"] }
 };
 
+const englishAntonymHints = {
+  "close": ["far"],
+  "far": ["close"],
+  "light": ["heavy"],
+  "heavy": ["light"],
+  "simple": ["complex", "difficult"],
+  "easy": ["difficult", "hard"],
+  "difficult": ["easy", "simple"],
+  "hard": ["easy"],
+  "sometimes": ["always"],
+  "always": ["sometimes"],
+  "go": ["come"],
+  "come": ["go"],
+  "teach": ["learn"],
+  "learn": ["teach"],
+  "high": ["low"],
+  "low": ["high"],
+  "big": ["small"],
+  "large": ["small"],
+  "small": ["big", "large"],
+  "fast": ["slow"],
+  "quick": ["slow"],
+  "slow": ["fast", "quick"],
+  "hot": ["cold"],
+  "warm": ["cold", "cool"],
+  "cold": ["hot", "warm"],
+  "good": ["bad"],
+  "bad": ["good"],
+  "right": ["wrong", "left"],
+  "wrong": ["right", "correct"],
+  "left": ["right"],
+  "up": ["down"],
+  "above": ["below"],
+  "down": ["up"],
+  "below": ["above"],
+  "front": ["back"],
+  "back": ["front"],
+  "open": ["close", "closed"],
+  "closed": ["open"],
+  "start": ["finish", "end"],
+  "begin": ["finish", "end"],
+  "finish": ["start", "begin"],
+  "end": ["start", "begin"],
+  "sit": ["stand"],
+  "stand": ["sit"],
+  "laugh": ["cry"],
+  "cry": ["laugh"],
+  "buy": ["sell"],
+  "sell": ["buy"],
+  "give": ["receive", "take"],
+  "receive": ["give"],
+  "take": ["give"],
+  "live": ["die"],
+  "die": ["live"],
+  "clean": ["dirty"],
+  "dirty": ["clean"],
+  "quiet": ["noisy"],
+  "noisy": ["quiet"],
+  "beautiful": ["ugly"],
+  "ugly": ["beautiful"],
+  "happy": ["sad"],
+  "sad": ["happy"],
+  "safe": ["dangerous"],
+  "dangerous": ["safe"],
+  "remember": ["forget"],
+  "forget": ["remember"],
+  "know": ["not know", "unknown"],
+  "unknown": ["know"],
+  "convenient": ["inconvenient"],
+  "necessary": ["unnecessary"],
+  "needed": ["unnecessary"]
+};
+
+let relationCache = null;
+
+function noSynonymText() {
+  return getTargetLanguage() === "ko" ? "유의어 없음" : "No close synonym";
+}
+
+function noAntonymText() {
+  return getTargetLanguage() === "ko" ? "반의어 없음" : "No true antonym";
+}
+
 const state = loadState();
 decks = mergeImportedDecks(decks, state.importedDecks);
 let dailyGoal = state.dailyGoal || 20;
@@ -867,14 +950,14 @@ async function cacheOfflineStudy() {
     const registration = await navigator.serviceWorker.register("/sw.js");
     await navigator.serviceWorker.ready;
     if (registration.waiting) registration.waiting.postMessage({ type: "SKIP_WAITING" });
-    const cache = await caches.open("lionlingo-offline-v23");
+    const cache = await caches.open("lionlingo-offline-v24");
     await cache.addAll([
       "/",
       "/index.html",
       "/styles.css",
-      "/vocabulary-data.js?v=learning-flow-v7",
-      "/vocabulary-topik-i.js?v=learning-flow-v7",
-      "/app.js?v=learning-flow-v7",
+      "/vocabulary-data.js?v=learning-flow-v8",
+      "/vocabulary-topik-i.js?v=learning-flow-v8",
+      "/app.js?v=learning-flow-v8",
       "/manifest.webmanifest",
       "/vocabulary-template.csv",
       "/assets/lionlingo-hero-scene.png",
@@ -969,6 +1052,63 @@ function isUsableQuizMeaning(meaning, term = "") {
   );
 }
 
+function relationMeaningTokens(word) {
+  const raw = cleanQuizMeaning(quizMeaningFor(word)).toLowerCase();
+  return raw
+    .replace(/\([^)]*\)/g, "")
+    .split(/[;,/]|\bor\b|\band\b|\bto\b/)
+    .map((token) => token.replace(/[^a-z\s-]/g, "").trim())
+    .filter((token) => token.length > 1)
+    .flatMap((token) => [token, ...token.split(/\s+/).filter((part) => part.length > 2)]);
+}
+
+function relationPosGroup(word) {
+  const pos = String(word.partOfSpeech || posFor(word) || "").toLowerCase();
+  if (pos.includes("verb") || pos.includes("동사") || pos.includes("动词") || word.term.endsWith("다")) return "verb";
+  if (pos.includes("adjective") || pos.includes("형용사") || pos.includes("形容") || pos.includes("adverb") || pos.includes("부사")) return "modifier";
+  return "noun";
+}
+
+function buildRelationCache() {
+  const words = getAllWords().filter((word) => word.language === getTargetLanguage());
+  const byMeaning = new Map();
+  const byToken = new Map();
+  words.forEach((word) => {
+    const meaning = cleanQuizMeaning(quizMeaningFor(word)).toLowerCase();
+    if (isUsableQuizMeaning(meaning, word.term)) {
+      const key = `${relationPosGroup(word)}::${meaning}`;
+      byMeaning.set(key, [...(byMeaning.get(key) || []), word.term]);
+    }
+    relationMeaningTokens(word).forEach((token) => {
+      const key = `${relationPosGroup(word)}::${token}`;
+      byToken.set(key, [...(byToken.get(key) || []), word.term]);
+    });
+  });
+  return { byMeaning, byToken };
+}
+
+function getRelationCache() {
+  if (!relationCache) relationCache = buildRelationCache();
+  return relationCache;
+}
+
+function generatedSynonymsFor(word) {
+  const cache = getRelationCache();
+  const pos = relationPosGroup(word);
+  const meaning = cleanQuizMeaning(quizMeaningFor(word)).toLowerCase();
+  const exact = cache.byMeaning.get(`${pos}::${meaning}`) || [];
+  const tokenMatches = relationMeaningTokens(word).flatMap((token) => cache.byToken.get(`${pos}::${token}`) || []);
+  return uniqueList([...exact, ...tokenMatches]).filter((term) => term !== word.term && !/[a-z]/i.test(term)).slice(0, 3);
+}
+
+function generatedAntonymsFor(word) {
+  const cache = getRelationCache();
+  const pos = relationPosGroup(word);
+  const oppositeTokens = uniqueList(relationMeaningTokens(word).flatMap((token) => englishAntonymHints[token] || []));
+  const matches = oppositeTokens.flatMap((token) => cache.byToken.get(`${pos}::${token}`) || []);
+  return uniqueList(matches).filter((term) => term !== word.term && !/[a-z]/i.test(term)).slice(0, 3);
+}
+
 function isPublicTopikWord(word) {
   return word.deckTitle === "TOPIK I Public Vocabulary A Level" || word.deckType === "TOPIK I public list";
 }
@@ -1053,11 +1193,11 @@ function uniqueList(items) {
 }
 
 function synonymsFor(word) {
-  return uniqueList([...normalizeList(word.synonyms), ...(topikRelations[word.term]?.synonyms || [])]);
+  return uniqueList([...normalizeList(word.synonyms), ...(topikRelations[word.term]?.synonyms || []), ...generatedSynonymsFor(word)]);
 }
 
 function antonymsFor(word) {
-  return uniqueList([...normalizeList(word.antonyms), ...(topikRelations[word.term]?.antonyms || [])]);
+  return uniqueList([...normalizeList(word.antonyms), ...(topikRelations[word.term]?.antonyms || []), ...generatedAntonymsFor(word)]);
 }
 
 function hasRelations(word) {
@@ -1108,8 +1248,8 @@ function renderWords() {
           const synonyms = synonymsFor(word);
           const antonyms = antonymsFor(word);
           const relationRows = [
-            `<span>${t("synonyms")}: ${synonyms.length ? synonyms.join(", ") : "작성 예정"}</span>`,
-            `<span>${t("antonyms")}: ${antonyms.length ? antonyms.join(", ") : "작성 예정"}</span>`
+            `<span>${t("synonyms")}: ${synonyms.length ? synonyms.join(", ") : noSynonymText()}</span>`,
+            `<span>${t("antonyms")}: ${antonyms.length ? antonyms.join(", ") : noAntonymText()}</span>`
           ].join("");
           return `
             <article class="word-card">
@@ -1259,8 +1399,8 @@ function renderStudyCard() {
   const word = queue[studyIndex % queue.length];
   const synonymList = synonymsFor(word);
   const antonymList = antonymsFor(word);
-  const synonyms = synonymList.join(", ") || "작성 예정";
-  const antonyms = antonymList.join(", ") || "작성 예정";
+  const synonyms = synonymList.join(", ") || noSynonymText();
+  const antonyms = antonymList.join(", ") || noAntonymText();
   const options = makeMeaningOptions(word, queue);
   const correctMeaning = cleanQuizMeaning(quizMeaningFor(word));
   const canQuizMeaning = hasReliableMeaning(word);
@@ -1573,8 +1713,8 @@ function switchInfoTab(tabName) {
   document.querySelectorAll(".info-tab").forEach((tab) => tab.classList.toggle("active", tab.dataset.infoTab === tabName));
   document.querySelector("#focusInfo").innerHTML = renderInfoTab(
     word,
-    synonymsFor(word).join(", ") || "작성 예정",
-    antonymsFor(word).join(", ") || "작성 예정"
+    synonymsFor(word).join(", ") || noSynonymText(),
+    antonymsFor(word).join(", ") || noAntonymText()
   );
 }
 
@@ -2179,6 +2319,7 @@ function importCsv(file) {
 
     const imported = [...grouped.values()];
     decks = [...decks.filter((deck) => !deck.imported || !imported.some((next) => next.title === deck.title)), ...imported];
+    relationCache = null;
     activeDeckId = imported[0]?.id || activeDeckId;
     importStatus.textContent = imported.length ? t("deckImported", imported.length, imported.reduce((sum, deck) => sum + deck.words.length, 0)) : t("noImport");
     renderDecks();
@@ -2230,6 +2371,7 @@ function applyUiText() {
 
 function applyLearningDirection(nextDirection) {
   learningDirection = nextDirection;
+  relationCache = null;
   activeLanguage = "all";
   const firstDeck = getTargetDecks()[0];
   if (firstDeck) activeDeckId = firstDeck.id;
