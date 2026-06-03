@@ -190,6 +190,7 @@ const topikMeaningFixes = {
   "감사합니다": ["thank you", "谢谢"],
   "감자탕": ["pork backbone stew", "脊骨土豆汤"],
   "강좌": ["course, lecture", "课程"],
+  "개": ["dog; counter for things", "狗；个、只、件的量词"],
   "개나리": ["forsythia", "连翘花"],
   "개인": ["individual, personal", "个人"],
   "건배": ["cheers, toast", "干杯"],
@@ -289,12 +290,18 @@ function applyTopikMeaningFixes() {
         const fix = topikMeaningFixes[word.term];
         if (!fix) return word;
         const [meaningEn, meaningZh] = fix;
-        return {
+        const fixedWord = {
           ...word,
           meaning: word.meaning || meaningEn,
           meaningEn: meaningEn,
           meaningZh: word.meaningZh || meaningZh
         };
+        if (word.term === "개") {
+          fixedWord.meaning = meaningEn;
+          fixedWord.meaningZh = meaningZh;
+          fixedWord.partOfSpeech = "noun";
+        }
+        return fixedWord;
       })
     };
   });
@@ -847,14 +854,14 @@ async function cacheOfflineStudy() {
     const registration = await navigator.serviceWorker.register("/sw.js");
     await navigator.serviceWorker.ready;
     if (registration.waiting) registration.waiting.postMessage({ type: "SKIP_WAITING" });
-    const cache = await caches.open("lionlingo-offline-v20");
+    const cache = await caches.open("lionlingo-offline-v21");
     await cache.addAll([
       "/",
       "/index.html",
       "/styles.css",
-      "/vocabulary-data.js?v=learning-flow-v4",
-      "/vocabulary-topik-i.js?v=learning-flow-v4",
-      "/app.js?v=learning-flow-v4",
+      "/vocabulary-data.js?v=learning-flow-v5",
+      "/vocabulary-topik-i.js?v=learning-flow-v5",
+      "/app.js?v=learning-flow-v5",
       "/manifest.webmanifest",
       "/vocabulary-template.csv",
       "/assets/lionlingo-hero-scene.png",
@@ -1511,6 +1518,23 @@ function chooseMeaning(button) {
   document.querySelector("#choiceFeedback").className = "choice-feedback needs-work";
 }
 
+function revealCurrentAnswer(message = "") {
+  const queue = getStudyQueue();
+  const word = queue[studyIndex % queue.length];
+  if (!word) return;
+  document.querySelector("#wordDefinition")?.classList.add("visible");
+  const correct = quizMeaningFor(word) || displayMeaningFor(word);
+  document.querySelectorAll(".choice-button").forEach((button) => {
+    button.disabled = true;
+    if (button.dataset.choice === correct) button.classList.add("correct");
+  });
+  const feedback = document.querySelector("#choiceFeedback");
+  if (feedback) {
+    feedback.textContent = `${message} Correct answer: ${correct}`.trim();
+    feedback.className = "choice-feedback needs-work";
+  }
+}
+
 function switchInfoTab(tabName) {
   const queue = getStudyQueue();
   const word = queue[studyIndex % queue.length];
@@ -1562,6 +1586,17 @@ function handleMemory(action) {
       nextDue: mastered ? "" : addDays(reviewIntervals[intervalIndex]),
       mastered
     };
+  }
+
+  if (action === "fuzzy" || action === "unknown") {
+    revealCurrentAnswer(action === "fuzzy" ? "Almost." : "Review this.");
+    saveState();
+    showToast(action === "fuzzy" ? "↺ Fuzzy: check the answer" : "↺ Check the answer");
+    window.setTimeout(() => {
+      moveCurrentToBack();
+      saveState();
+    }, 1400);
+    return;
   }
 
   if (passedNow) {
