@@ -25,6 +25,10 @@
   Content-Type: application/javascript; charset=utf-8
   Cache-Control: no-cache
 
+/vocabulary-ielts-categories.js
+  Content-Type: application/javascript; charset=utf-8
+  Cache-Control: no-cache
+
 /styles.css
   Content-Type: text/css; charset=utf-8
   Cache-Control: no-cache

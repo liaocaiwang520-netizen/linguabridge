@@ -183,9 +183,10 @@ let decks = [
 const extraDecks = Array.isArray(window.LINGUABRIDGE_EXTRA_DECKS) ? window.LINGUABRIDGE_EXTRA_DECKS : [];
 const topikIDecks = Array.isArray(window.LINGUABRIDGE_TOPIK_I_DECKS) ? window.LINGUABRIDGE_TOPIK_I_DECKS : [];
 const topikIIDecks = Array.isArray(window.LINGUABRIDGE_TOPIK_II_DECKS) ? window.LINGUABRIDGE_TOPIK_II_DECKS : [];
+const ieltsCategoryDecks = Array.isArray(window.LINGUABRIDGE_IELTS_CATEGORY_DECKS) ? window.LINGUABRIDGE_IELTS_CATEGORY_DECKS : [];
 const englishDecks = decks.filter((deck) => deck.language !== "ko");
 const topikDecks = [...topikIDecks, ...topikIIDecks];
-const externalDecks = [...topikDecks, ...extraDecks.filter((deck) => deck.language !== "ko")];
+const externalDecks = [...topikDecks, ...ieltsCategoryDecks, ...extraDecks.filter((deck) => deck.language !== "ko")];
 decks = [...topikDecks, ...englishDecks, ...externalDecks.filter((deck) => !topikDecks.some((existing) => existing.id === deck.id) && !englishDecks.some((existing) => existing.id === deck.id))];
 
 const topikMeaningFixes = {
@@ -885,8 +886,10 @@ todaySessionTotal = state.todaySessionTotal || todayWords.length || dailyGoal;
 todaySessionDone = Math.min(state.todaySessionDone || 0, todaySessionTotal);
 reviewSessionTotal = state.reviewSessionTotal || reviewWords.length;
 reviewSessionDone = Math.min(state.reviewSessionDone || 0, reviewSessionTotal);
+let activeCategoryId = "all";
 
 const deckList = document.querySelector("#deckList");
+const categoryPanel = document.querySelector("#categoryPanel");
 const wordGrid = document.querySelector("#wordGrid");
 const wordSearch = document.querySelector("#wordSearch");
 const activeDeckType = document.querySelector("#activeDeckType");
@@ -957,10 +960,11 @@ async function cacheOfflineStudy() {
       "/",
       "/index.html",
       "/styles.css",
-      "/vocabulary-data.js?v=learning-flow-v10",
-      "/vocabulary-topik-i.js?v=learning-flow-v10",
-      "/vocabulary-topik-ii.js?v=learning-flow-v10",
-      "/app.js?v=learning-flow-v10",
+      "/vocabulary-data.js?v=learning-flow-v11",
+      "/vocabulary-topik-i.js?v=learning-flow-v11",
+      "/vocabulary-topik-ii.js?v=learning-flow-v11",
+      "/vocabulary-ielts-categories.js?v=learning-flow-v11",
+      "/app.js?v=learning-flow-v11",
       "/manifest.webmanifest",
       "/vocabulary-template.csv",
       "/assets/lionlingo-hero-scene.png",
@@ -1137,6 +1141,14 @@ function posFor(word) {
 }
 
 function localizeDeck(deck) {
+  const lang = getUiLang();
+  if (deck.localizedTitle || deck.localizedType || deck.localizedDescription) {
+    return {
+      type: deck.localizedType?.[lang] || deck.localizedType?.en || deck.type,
+      title: deck.localizedTitle?.[lang] || deck.localizedTitle?.en || deck.title,
+      description: deck.localizedDescription?.[lang] || deck.localizedDescription?.en || deck.description
+    };
+  }
   if (deck.language === "ko") {
     return {
       type: deck.type.includes("TOPIK") ? deck.type.replace("初级", "Basic").replace("中高级", "Intermediate") : "Korean Words",
@@ -1245,6 +1257,103 @@ function previewWords(words, keyword) {
   return [...primary, ...filler];
 }
 
+function categoryText(category) {
+  const lang = getUiLang();
+  return category?.[lang] || category?.en || category?.zh || category?.id || "";
+}
+
+function categoryForWord(deck, word) {
+  return deck.categories?.find((category) => category.id === word.category) || null;
+}
+
+function categoryPanelTitle() {
+  const lang = getUiLang();
+  if (lang === "zh") return "分类词汇";
+  if (lang === "ko") return "분류 어휘";
+  return "Categories";
+}
+
+function allCategoryLabel() {
+  const lang = getUiLang();
+  if (lang === "zh") return "全部分类";
+  if (lang === "ko") return "전체 분류";
+  return "All categories";
+}
+
+function showCategoryLabel() {
+  const lang = getUiLang();
+  if (lang === "zh") return "查看分类";
+  if (lang === "ko") return "분류 보기";
+  return "View category";
+}
+
+function renderCategoryPanel(deck, keyword = "") {
+  if (!categoryPanel) return;
+  if (!deck.categoryMode || !deck.categories?.length) {
+    categoryPanel.innerHTML = "";
+    return;
+  }
+
+  const categories = deck.categories;
+  const total = deck.words.length;
+  const hint =
+    getUiLang() === "zh"
+      ? "按 PDF 主题整理，选择一个分类查看词汇。"
+      : getUiLang() === "ko"
+        ? "PDF 주제별로 정리했습니다. 분류를 선택해 단어를 확인하세요."
+        : "Grouped by PDF topic. Choose a category to browse words.";
+  categoryPanel.innerHTML = `
+    <div class="category-panel-header">
+      <div>
+        <p class="eyebrow">${categoryPanelTitle()}</p>
+        <h3>${localizeDeck(deck).title}</h3>
+        <p>${hint}</p>
+      </div>
+      <span class="category-total">${total}</span>
+    </div>
+    <div class="category-chips" role="list">
+      <button class="category-chip ${activeCategoryId === "all" ? "active" : ""}" type="button" data-category="all">${allCategoryLabel()}</button>
+      ${categories
+        .map((category) => `
+          <button class="category-chip ${activeCategoryId === category.id ? "active" : ""}" type="button" data-category="${category.id}">
+            ${categoryText(category)}
+            <span>${category.count}</span>
+          </button>
+        `)
+        .join("")}
+    </div>
+  `;
+
+  if (keyword) {
+    categoryPanel.querySelector(".category-panel-header p:last-child").textContent =
+      getUiLang() === "zh" ? "正在按关键词搜索全部分类。" : getUiLang() === "ko" ? "전체 분류에서 검색 중입니다." : "Searching across all categories.";
+  }
+}
+
+function renderCategoryOverview(deck) {
+  return `
+    <div class="category-overview">
+      ${deck.categories
+        .map((category) => {
+          const sampleWords = deck.words
+            .filter((word) => word.category === category.id)
+            .slice(0, 5)
+            .map((word) => word.term)
+            .join(", ");
+          return `
+            <button class="category-card" type="button" data-category="${category.id}">
+              <span class="category-card-title">${categoryText(category)}</span>
+              <span class="category-card-count">${category.count} words</span>
+              <span class="category-card-sample">${sampleWords}</span>
+              <span class="category-card-action">${showCategoryLabel()}</span>
+            </button>
+          `;
+        })
+        .join("")}
+    </div>
+  `;
+}
+
 function renderDecks() {
   const visibleDecks = decks.filter((deck) => deck.language === getTargetLanguage() && (activeLanguage === "all" || deck.language === activeLanguage));
   deckList.innerHTML = visibleDecks
@@ -1280,16 +1389,30 @@ function renderWords() {
     <span class="active-progress-track" aria-hidden="true"><span style="width:${progress.percent}%"></span></span>
   `;
 
-  const words = deck.words.filter((word) => {
+  renderCategoryPanel(deck, keyword);
+
+  const matchingWords = deck.words.filter((word) => {
+    const category = categoryForWord(deck, word);
     const haystack = `${word.term} ${word.pronunciation} ${meaningFor(word)} ${word.example} ${synonymsFor(word).join(" ")} ${antonymsFor(word).join(" ")}`.toLowerCase();
-    return haystack.includes(keyword);
+    const categoryHaystack = category ? `${category.zh || ""} ${category.en || ""} ${category.ko || ""}`.toLowerCase() : "";
+    const matchesKeyword = !keyword || `${haystack} ${categoryHaystack}`.includes(keyword);
+    const matchesCategory = !deck.categoryMode || activeCategoryId === "all" || word.category === activeCategoryId;
+    return matchesKeyword && matchesCategory;
   });
 
-  wordGrid.innerHTML = words.length
-    ? previewWords(words, keyword)
+  if (deck.categoryMode && activeCategoryId === "all" && !keyword) {
+    wordGrid.innerHTML = renderCategoryOverview(deck);
+    return;
+  }
+
+  const wordsToRender = deck.categoryMode ? matchingWords : previewWords(matchingWords, keyword);
+
+  wordGrid.innerHTML = wordsToRender.length
+    ? wordsToRender
         .map((word) => {
           const synonyms = synonymsFor(word);
           const antonyms = antonymsFor(word);
+          const category = categoryForWord(deck, word);
           const relationRows = [
             `<span>${t("synonyms")}: ${synonyms.length ? synonyms.join(", ") : noSynonymText()}</span>`,
             `<span>${t("antonyms")}: ${antonyms.length ? antonyms.join(", ") : noAntonymText()}</span>`
@@ -1300,7 +1423,7 @@ function renderWords() {
                 <span class="word-main">${word.term}</span>
                 <button class="secondary-button compact" type="button" data-study-word="${escapeHtml(word.term)}">${t("startLearning")}</button>
               </div>
-              <div class="word-meta">${posFor(word) || "-"} · ${word.pronunciation || "-"}</div>
+              <div class="word-meta">${category ? `${categoryText(category)} · ` : ""}${posFor(word) || "-"} · ${word.pronunciation || "-"}</div>
               <p class="word-meaning">${displayMeaningFor(word)}</p>
               ${word.example ? `<p class="word-example">${word.example}</p>` : ""}
               <div class="word-relations">${relationRows}</div>
@@ -2633,6 +2756,7 @@ document.querySelectorAll(".tab").forEach((tab) => {
     document.querySelectorAll(".tab").forEach((item) => item.classList.toggle("active", item === tab));
     const firstVisible = decks.find((deck) => activeLanguage === "all" || deck.language === activeLanguage);
     activeDeckId = firstVisible.id;
+    activeCategoryId = "all";
     wordSearch.value = "";
     renderDecks();
     renderWords();
@@ -2643,12 +2767,26 @@ deckList.addEventListener("click", (event) => {
   const button = event.target.closest("[data-deck]");
   if (!button) return;
   activeDeckId = button.dataset.deck;
+  activeCategoryId = "all";
   wordSearch.value = "";
   renderDecks();
   renderWords();
 });
 
+categoryPanel?.addEventListener("click", (event) => {
+  const button = event.target.closest("[data-category]");
+  if (!button) return;
+  activeCategoryId = button.dataset.category;
+  renderWords();
+});
+
 wordGrid.addEventListener("click", (event) => {
+  const categoryButton = event.target.closest("[data-category]");
+  if (categoryButton) {
+    activeCategoryId = categoryButton.dataset.category;
+    renderWords();
+    return;
+  }
   const button = event.target.closest("[data-study-word]");
   if (button) {
     const term = button.dataset.studyWord;
