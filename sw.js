@@ -1,13 +1,13 @@
-const CACHE_NAME = "lionlingo-offline-v30";
+const CACHE_NAME = "lionlingo-offline-v31";
 const APP_ASSETS = [
   "/",
   "/index.html",
   "/styles.css",
-  "/vocabulary-data.js?v=learning-flow-v14",
-  "/vocabulary-topik-i.js?v=learning-flow-v14",
-  "/vocabulary-topik-ii.js?v=learning-flow-v14",
-  "/vocabulary-ielts-categories.js?v=learning-flow-v14",
-  "/app.js?v=learning-flow-v14",
+  "/vocabulary-data.js?v=learning-flow-v15",
+  "/vocabulary-topik-i.js?v=learning-flow-v15",
+  "/vocabulary-topik-ii.js?v=learning-flow-v15",
+  "/vocabulary-ielts-categories.js?v=learning-flow-v15",
+  "/app.js?v=learning-flow-v15",
   "/manifest.webmanifest",
   "/vocabulary-template.csv",
   "/assets/lionlingo-hero-scene.png",

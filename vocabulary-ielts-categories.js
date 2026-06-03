@@ -109,7 +109,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "湖色",
         "meaningKo": "호수 색깔",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "blue"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -125,7 +127,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "琥珀色",
         "meaningKo": "호박색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chromatic",
+          "gold",
+          "brownish-yellow"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-1",
@@ -141,7 +147,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "紫水晶色",
         "meaningKo": "자수정 색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chromatic",
+          "colored"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -157,7 +166,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "古紫色",
         "meaningKo": "고대 보라색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "old",
+          "ancient",
+          "gaffer"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -173,7 +186,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "苹果绿",
         "meaningKo": "애플 그린",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "green"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -189,7 +204,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "杏黄",
         "meaningKo": "살구 노란색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "peach",
+          "salmon pink",
+          "apricot tree"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -205,7 +224,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "水绿色",
         "meaningKo": "아쿠아 그린",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "green",
+          "aqua"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -221,7 +243,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "蓝",
         "meaningKo": "파란색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "blue",
+          "aqua"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -237,7 +262,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "赤褐色",
         "meaningKo": "적갈색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "colorful",
+          "reddish-brown",
+          "colored"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -253,7 +282,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "碧绿色",
         "meaningKo": "청록색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "green",
+          "azure"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -269,7 +301,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "浅蓝色",
         "meaningKo": "하늘색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "blue"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -285,7 +319,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "浅粉红色",
         "meaningKo": "라이트 핑크",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "pink"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -301,7 +337,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "枣色",
         "meaningKo": "날짜 색상",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "alcove",
+          "colorful",
+          "bay tree"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -317,7 +357,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "灰棕色",
         "meaningKo": "회색 갈색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chromatic",
+          "ecru",
+          "colored"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -333,7 +377,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "靛蓝色",
         "meaningKo": "남색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "blue"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -349,8 +395,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "黑色",
         "meaningKo": "검정색",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "mordant",
+          "grim",
+          "bleak"
+        ],
+        "antonyms": [
+          "achromatic",
+          "white",
+          "whiteness"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
         "categoryZh": "雅思分类词汇：色彩词汇",
@@ -365,7 +419,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "蓝色",
         "meaningKo": "파란색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "grim",
+          "chromatic",
+          "dejected"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -381,7 +439,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "竹青色",
         "meaningKo": "뱀부 그린",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "blue",
+          "green"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -397,7 +458,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "蓝灰色",
         "meaningKo": "블루 그레이",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "blue",
+          "grey"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -413,7 +477,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "青白色",
         "meaningKo": "청백색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "white"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -429,7 +495,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "青黄色",
         "meaningKo": "청황색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "yellow"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -445,7 +513,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "青莲色",
         "meaningKo": "녹색 연꽃 색상",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "red"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -461,7 +531,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "射光黑",
         "meaningKo": "래디언트 블랙",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "black"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -477,7 +549,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "青铜蓝",
         "meaningKo": "브론즈 블루",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "blue"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -493,7 +567,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "射光紫",
         "meaningKo": "빛나는 보라색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "violet"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -509,7 +585,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "棕色",
         "meaningKo": "갈색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chromatic",
+          "brownish",
+          "brownness"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -525,7 +605,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "浅黄色",
         "meaningKo": "밝은 노란색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chromatic",
+          "flush",
+          "devotee"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -541,7 +625,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "淡蓝色",
         "meaningKo": "하늘색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "blue"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -557,7 +643,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "酱色",
         "meaningKo": "소스색상",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chromatic",
+          "caramel brown",
+          "colored"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -573,8 +663,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "深红色",
         "meaningKo": "진한 빨간색",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "fundamental",
+          "important",
+          "carmine"
+        ],
+        "antonyms": [
+          "ordinal"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-1",
         "categoryZh": "雅思分类词汇：色彩词汇",
@@ -589,7 +685,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "紫红色",
         "meaningKo": "보라색 빨간색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "cardinal",
+          "chromatic",
+          "ruddy"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -605,7 +705,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "肉色",
         "meaningKo": "살색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chromatic",
+          "gillyflower",
+          "clove pink"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-1",
@@ -637,7 +741,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "白垩的",
         "meaningKo": "백악질의",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "achromatic",
+          "colorless",
+          "calcareous"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -653,7 +761,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "炭灰色",
         "meaningKo": "차콜 그레이",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "grey"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -669,7 +779,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "樱桃紅",
         "meaningKo": "체리 레드",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chromatic",
+          "carmine",
+          "ruddy"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -685,7 +799,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "栗褐色",
         "meaningKo": "밤나무 갈색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chromatic",
+          "chestnut tree",
+          "colored"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -717,7 +835,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "钴蓝色",
         "meaningKo": "코발트블루",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "blue"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -733,7 +853,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "胭脂红",
         "meaningKo": "카민",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "cochineal insect",
+          "dactylopius coccus"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-1",
@@ -749,7 +872,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "黄棕色",
         "meaningKo": "황갈색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "coconut palm",
+          "coco palm",
+          "cocoa palm"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -781,7 +908,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "铜色",
         "meaningKo": "구리색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "red"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -797,7 +926,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "珊瑚色",
         "meaningKo": "산호색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chromatic",
+          "red coral",
+          "precious coral"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-1",
@@ -813,7 +946,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "米色",
         "meaningKo": "베이지",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "emollient",
+          "skim",
+          "pick"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -829,7 +966,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "奶油白",
         "meaningKo": "크림 화이트",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "cream"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -845,7 +984,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "深绿色",
         "meaningKo": "진한 녹색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "green"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -861,7 +1002,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "深灰色",
         "meaningKo": "짙은 회색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "grey"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -877,7 +1020,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "墨绿色",
         "meaningKo": "진한 녹색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "green"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -893,7 +1038,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "深黄色",
         "meaningKo": "진한 노란색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "yellow"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -925,8 +1072,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "焦茶色",
         "meaningKo": "탄 갈색",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "chromatic",
+          "torment",
+          "fawn"
+        ],
+        "antonyms": [
+          "agreeably",
+          "pleasantly",
+          "enjoyably"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
         "categoryZh": "雅思分类词汇：色彩词汇",
@@ -941,7 +1096,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "鲜绿",
         "meaningKo": "밝은 녹색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "green"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -957,7 +1114,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "鲜红",
         "meaningKo": "밝은 빨간색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "aureate",
+          "fancy",
+          "showy"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -973,7 +1134,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "法国红",
         "meaningKo": "프렌치 레드",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "rose"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1021,7 +1184,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "金",
         "meaningKo": "금",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "aureate",
+          "chromatic",
+          "gilded"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1037,7 +1204,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "金黄色",
         "meaningKo": "황금색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "yellow",
+          "gold"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1053,8 +1223,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "绿色",
         "meaningKo": "녹색",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "chromatic",
+          "naive",
+          "naif"
+        ],
+        "antonyms": [
+          "mature",
+          "ripe"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
         "categoryZh": "雅思分类词汇：色彩词汇",
@@ -1069,7 +1246,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "灰",
         "meaningKo": "회색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "dull",
+          "hoary",
+          "achromatic"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1085,7 +1266,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "赤褐色",
         "meaningKo": "적갈색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chromatic",
+          "hazelnut",
+          "hazelnut tree"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1117,7 +1302,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "紫蓝色",
         "meaningKo": "보라색 파란색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "jacinth"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1133,7 +1320,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "靛青色",
         "meaningKo": "남색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "anil",
+          "indigotin",
+          "indigo plant"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1149,7 +1340,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "象牙黄",
         "meaningKo": "아이보리 옐로우",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "pearl",
+          "bone",
+          "tusk"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1165,7 +1360,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "翠绿色",
         "meaningKo": "에메랄드 그린",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "green"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1181,7 +1378,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "藕色",
         "meaningKo": "연꽃 색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chromatic",
+          "lilac",
+          "colored"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-1",
@@ -1213,7 +1414,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "淡灰色",
         "meaningKo": "밝은 회색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "grey"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1229,7 +1432,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "蓝紫色",
         "meaningKo": "파란색 보라색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "blue"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1245,7 +1450,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "深蓝",
         "meaningKo": "진한 파란색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "blue"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1261,7 +1468,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "海水绿",
         "meaningKo": "바다 녹색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "green"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1277,7 +1486,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "枣紅;茶色",
         "meaningKo": "빨간색; 갈색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chromatic",
+          "colored",
+          "strand"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1293,7 +1506,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "中蓝色",
         "meaningKo": "중간 파란색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "blue"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1309,7 +1524,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "中黄",
         "meaningKo": "중간 노란색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "yellow"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1325,7 +1542,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "乳白色",
         "meaningKo": "유백색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "white"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1341,7 +1560,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "藏青色",
         "meaningKo": "네이비 블루",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "blue"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1357,7 +1578,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "苔绿色",
         "meaningKo": "모스 그린",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "green"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1373,7 +1596,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "海水蓝",
         "meaningKo": "바다색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "blue"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1389,7 +1614,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "雨云灰",
         "meaningKo": "비구름 회색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "grey"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1405,7 +1632,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "赭色",
         "meaningKo": "황토",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chromatic",
+          "ochre",
+          "colored"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-1",
@@ -1421,7 +1652,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "灰白",
         "meaningKo": "회색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "white"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1437,7 +1670,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "橄榄色",
         "meaningKo": "올리브색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chromatic",
+          "olea europaea",
+          "european olive tree"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-1",
@@ -1453,7 +1690,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "草绿色;橄",
         "meaningKo": "잔디 녹색; 올리브",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "green",
+          "olive"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1469,8 +1709,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "不透明",
         "meaningKo": "불투명",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "turbid",
+          "incomprehensible",
+          "solid"
+        ],
+        "antonyms": [
+          "clear"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
         "categoryZh": "雅思分类词汇：色彩词汇",
@@ -1485,7 +1731,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "橘黄色",
         "meaningKo": "오렌지",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chromatic",
+          "orangish",
+          "orangeness"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1517,7 +1767,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "豆绿色",
         "meaningKo": "콩 그린",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "green"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1533,7 +1785,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "桃红色",
         "meaningKo": "핑크색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "babble",
+          "denounce",
+          "stag"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1549,7 +1805,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "孔雀蓝",
         "meaningKo": "공작 블루",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "blue"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1565,7 +1823,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "杂色",
         "meaningKo": "잡색의",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "piebald",
+          "colorful",
+          "varicolored"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1581,7 +1843,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "粉紅色",
         "meaningKo": "핑크색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chromatic",
+          "rap",
+          "knock"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1597,7 +1863,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "深黑色",
         "meaningKo": "진한 검정색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "black"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1629,7 +1897,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "普鲁士",
         "meaningKo": "프로이센",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "blue"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1645,7 +1915,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "紫色",
         "meaningKo": "보라색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chromatic",
+          "noble",
+          "embellished"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1661,7 +1935,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "紫铜色",
         "meaningKo": "구리색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "purple"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1677,8 +1953,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "红",
         "meaningKo": "빨간색",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "chromatic",
+          "carmine",
+          "ruddy"
+        ],
+        "antonyms": [
+          "white"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
         "categoryZh": "雅思分类词汇：色彩词汇",
@@ -1693,7 +1975,12 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "淡红",
         "meaningKo": "연한 빨간색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chromatic",
+          "carmine",
+          "ruddy",
+          "red"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1709,7 +1996,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "浓黄",
         "meaningKo": "리치 옐로우",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "red",
+          "yellow"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1741,7 +2031,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "玫瑰紅",
         "meaningKo": "로즈 레드",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chromatic",
+          "roseate",
+          "rosaceous"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1757,7 +2051,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "宝蓝色",
         "meaningKo": "로얄 블루",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "blue"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1773,7 +2069,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "鼻烟色",
         "meaningKo": "스너프 컬러",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "brown"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1789,7 +2087,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "苍黄",
         "meaningKo": "연한 노란색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "sickly",
+          "unhealthy"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1805,7 +2106,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "橙红",
         "meaningKo": "오렌지 레드",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "salmon river"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1821,8 +2124,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "淡茶色",
         "meaningKo": "연한 갈색",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "light",
+          "coarse",
+          "loose"
+        ],
+        "antonyms": [
+          "clayey",
+          "argillaceous"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
         "categoryZh": "雅思分类词汇：色彩词汇",
@@ -1837,7 +2147,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "暗绿色",
         "meaningKo": "진한 녹색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "green"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1853,7 +2165,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "绯色",
         "meaningKo": "진홍색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chromatic",
+          "carmine",
+          "ruddy"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1869,7 +2185,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "棕黑色",
         "meaningKo": "갈색 검정색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "burnt sienna",
+          "reddish brown",
+          "genus sepia"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1885,7 +2205,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "颜色深浅",
         "meaningKo": "색조",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "wraith",
+          "specter",
+          "nuance"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1901,7 +2225,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "鲜粉红",
         "meaningKo": "밝은 핑크색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "pink"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1917,7 +2243,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "银色",
         "meaningKo": "은",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "articulate",
+          "facile",
+          "eloquent"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-1",
@@ -1933,7 +2263,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "天蓝",
         "meaningKo": "하늘색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "blue"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1949,7 +2281,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "鼠灰色",
         "meaningKo": "마우스 그레이",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "grey"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1965,7 +2299,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "雾灰色",
         "meaningKo": "안개 회색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "grey"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -1981,7 +2317,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "雪白",
         "meaningKo": "백설공주",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "white"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -2013,7 +2351,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "紅棕色",
         "meaningKo": "적갈색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chromatic",
+          "dock",
+          "common sorrel"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -2029,7 +2371,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "浅棕色",
         "meaningKo": "연한 갈색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chromatic",
+          "burn",
+          "bronze"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -2045,7 +2391,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "咖啡色",
         "meaningKo": "갈색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "red"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -2061,7 +2409,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "黃褐色",
         "meaningKo": "황갈색",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chromatic",
+          "colored"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-1",
@@ -2077,7 +2428,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "半透明",
         "meaningKo": "반투명",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "clear",
+          "semitransparent"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-1",
@@ -2093,7 +2447,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "透明",
         "meaningKo": "투명",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "pellucid",
+          "clear",
+          "gossamer"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-1",
@@ -2109,8 +2467,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "有才干的，能干的",
         "meaningKo": "재능 있는, 유능한",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "competent",
+          "fit",
+          "capable"
+        ],
+        "antonyms": [
+          "unable",
+          "not able"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2125,8 +2490,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "适应性",
         "meaningKo": "적응성",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "pliant",
+          "pliable",
+          "variable"
+        ],
+        "antonyms": [
+          "unadaptable"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2141,8 +2512,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "主动的，",
         "meaningKo": "적극적이고,",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "dynamic",
+          "brisk",
+          "hot"
+        ],
+        "antonyms": [
+          "quiet",
+          "passive",
+          "inactive"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2157,8 +2536,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "有进取",
         "meaningKo": "진취적인",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "belligerent",
+          "rapacious",
+          "contentious"
+        ],
+        "antonyms": [
+          "unaggressive",
+          "nonaggressive"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2173,8 +2559,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "有雄心壮志的",
         "meaningKo": "야심찬",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "challenging",
+          "hard",
+          "difficult"
+        ],
+        "antonyms": [
+          "unambitious",
+          "ambitionless"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2189,7 +2582,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "和蔼可",
         "meaningKo": "상냥한",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "affable",
+          "cordial",
+          "genial"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
@@ -2205,8 +2602,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "友好的",
         "meaningKo": "친절한",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "friendly",
+          "well-meaning",
+          "unthreatening"
+        ],
+        "antonyms": [
+          "hostile"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2221,8 +2624,13 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "善于分析的",
         "meaningKo": "분석적",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "analytic"
+        ],
+        "antonyms": [
+          "synthetic",
+          "synthetical"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2237,7 +2645,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "有理解力的",
         "meaningKo": "이해",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "uneasy",
+          "perceptive",
+          "discerning"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
@@ -2253,7 +2665,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "有志",
         "meaningKo": "야심찬",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "aspirant",
+          "wishful",
+          "would-be"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-2",
@@ -2269,7 +2685,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "大胆的，有冒险精神的",
         "meaningKo": "대담한, 모험적인",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "brazen",
+          "brassy",
+          "intrepid"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
@@ -2285,8 +2705,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "有能力的，有才能的",
         "meaningKo": "유능한, 재능 있는",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "adequate",
+          "competent",
+          "susceptible"
+        ],
+        "antonyms": [
+          "incapable"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2301,8 +2727,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "办理仔细的",
         "meaningKo": "조심히 다루세요",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "deliberate",
+          "close",
+          "conscientious"
+        ],
+        "antonyms": [
+          "careless"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2317,7 +2749,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "正直的",
         "meaningKo": "똑바로",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "ingenuous",
+          "forthright",
+          "blunt"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-2",
@@ -2333,8 +2769,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "能胜任的",
         "meaningKo": "유능한",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "adequate",
+          "efficient",
+          "effective"
+        ],
+        "antonyms": [
+          "incompetent"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2349,8 +2791,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "建设",
         "meaningKo": "건설",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "positive",
+          "creative",
+          "formative"
+        ],
+        "antonyms": [
+          "destructive"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2365,8 +2813,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "有合作精神的",
         "meaningKo": "협력 정신",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "joint",
+          "helpful",
+          "synergistic"
+        ],
+        "antonyms": [
+          "uncooperative"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2381,8 +2835,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "富创",
         "meaningKo": "행운",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "ingenious",
+          "inventive",
+          "fanciful"
+        ],
+        "antonyms": [
+          "uncreative"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2397,8 +2857,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "有奉献精神的",
         "meaningKo": "헌신적인",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "sacred",
+          "devoted",
+          "votive"
+        ],
+        "antonyms": [
+          "desecrated",
+          "undedicated"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2413,8 +2880,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "可",
         "meaningKo": "예",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "good",
+          "secure",
+          "reliable"
+        ],
+        "antonyms": [
+          "unreliable",
+          "undependable"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2429,7 +2903,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "尽职的",
         "meaningKo": "성실한",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "obedient",
+          "duteous"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
@@ -2461,8 +2938,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "有效率的",
         "meaningKo": "효율적인",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "prompt",
+          "competent",
+          "expeditious"
+        ],
+        "antonyms": [
+          "inefficient"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2477,8 +2960,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "精力充沛的",
         "meaningKo": "정력적인",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "vigorous",
+          "brisk",
+          "active"
+        ],
+        "antonyms": [
+          "lethargic",
+          "unergetic"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2509,8 +2999,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "守信的，",
         "meaningKo": "신뢰할 수 있는,",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "close",
+          "congregation",
+          "reliable"
+        ],
+        "antonyms": [
+          "unfaithful"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2525,7 +3021,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "直率的，",
         "meaningKo": "간단하고,",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "candid",
+          "forthright",
+          "blunt"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-2",
@@ -2541,8 +3041,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "宽宏大量",
         "meaningKo": "관대함",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "benevolent",
+          "ample",
+          "lavish"
+        ],
+        "antonyms": [
+          "stingy",
+          "meanspirited",
+          "ungenerous"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2557,7 +3065,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "有教养的",
         "meaningKo": "교육받은",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "refined",
+          "cultivated",
+          "civilized"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-2",
@@ -2573,7 +3085,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "有礼貌的",
         "meaningKo": "공손한",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "docile",
+          "light",
+          "soft"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-2",
@@ -2589,8 +3105,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "有幽默",
         "meaningKo": "유머를 가지세요",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "wry",
+          "ludicrous",
+          "facetious"
+        ],
+        "antonyms": [
+          "humorless",
+          "unhumorous"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2605,8 +3128,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "公正的",
         "meaningKo": "박람회",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "indifferent",
+          "open",
+          "fair"
+        ],
+        "antonyms": [
+          "prejudiced",
+          "partial",
+          "discriminatory"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2621,8 +3152,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "有主见的",
         "meaningKo": "독단적",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "free",
+          "autonomous",
+          "individual"
+        ],
+        "antonyms": [
+          "subordinate",
+          "indulgence",
+          "dependent"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2637,7 +3176,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "勤奋",
         "meaningKo": "부지런하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "diligent",
+          "energetic",
+          "enterprising"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
@@ -2653,7 +3196,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "有独创性的",
         "meaningKo": "원본",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "cunning",
+          "artful",
+          "adroit"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
@@ -2669,8 +3216,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "目的明",
         "meaningKo": "명확한 목적",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "driven",
+          "impelled",
+          "actuated"
+        ],
+        "antonyms": [
+          "unmotivated"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2685,8 +3238,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "理解力强的",
         "meaningKo": "종합적인",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "keen",
+          "sharp",
+          "incisive"
+        ],
+        "antonyms": [
+          "stupid",
+          "unintelligent"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2701,8 +3261,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "精通某门",
         "meaningKo": "뭔가에 능숙하다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "erudite",
+          "knowledgeable",
+          "enlightened"
+        ],
+        "antonyms": [
+          "innate",
+          "unconditioned",
+          "unlearned"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2717,8 +3285,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "条理分明的",
         "meaningKo": "잘 조직된",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "sensible",
+          "rational",
+          "legitimate"
+        ],
+        "antonyms": [
+          "illogical",
+          "unlogical"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2733,7 +3308,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "有方法的",
         "meaningKo": "체계적인",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "organized"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
@@ -2749,8 +3326,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "谦虚的",
         "meaningKo": "겸손한",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "coy",
+          "demure",
+          "plain"
+        ],
+        "antonyms": [
+          "immodest"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2765,8 +3348,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "客观的",
         "meaningKo": "목표",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "cool",
+          "concrete",
+          "object"
+        ],
+        "antonyms": [
+          "subjective"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2781,8 +3370,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "一丝不苟的",
         "meaningKo": "꼼꼼함",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "meticulous",
+          "dead",
+          "fine"
+        ],
+        "antonyms": [
+          "imprecise"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2797,8 +3392,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "严守时刻",
         "meaningKo": "시간을 엄수하라",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "prompt",
+          "timely",
+          "on time"
+        ],
+        "antonyms": [
+          "unpunctual"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2813,8 +3414,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "实事求是的",
         "meaningKo": "사실에서 진실을 찾는다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "pragmatic",
+          "vivid",
+          "veridical"
+        ],
+        "antonyms": [
+          "unrealistic"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2829,8 +3436,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "负责的",
         "meaningKo": "책임 있는",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "judicious",
+          "causative",
+          "liable"
+        ],
+        "antonyms": [
+          "irresponsible"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2845,8 +3458,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "明白事理的",
         "meaningKo": "현명한",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "prudent",
+          "judicious",
+          "serious"
+        ],
+        "antonyms": [
+          "insensible",
+          "unreasonable"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2861,7 +3481,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "光明正大",
         "meaningKo": "보드 위",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "indulgent",
+          "just",
+          "fair"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-2",
@@ -2877,8 +3501,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "踏实的",
         "meaningKo": "현실적인",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "steadfast",
+          "secure",
+          "unwavering"
+        ],
+        "antonyms": [
+          "unsteady",
+          "falteringly",
+          "unsteadily"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2893,8 +3525,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "有系统的",
         "meaningKo": "체계적인",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "orderly",
+          "tabular",
+          "systematized"
+        ],
+        "antonyms": [
+          "unsystematic"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2909,8 +3547,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "稳健的",
         "meaningKo": "견고함",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "restrained",
+          "moderate",
+          "mild"
+        ],
+        "antonyms": [
+          "intemperate"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -2925,7 +3569,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "孜孜不倦的",
         "meaningKo": "지치지 않고",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "diligent",
+          "energetic",
+          "industrious"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
@@ -2941,7 +3589,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "学历",
         "meaningKo": "교육 자격",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "pedagogy",
+          "teaching",
+          "instruction"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-2",
@@ -2989,7 +3641,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "课程",
         "meaningKo": "강좌",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "program",
+          "syllabus",
+          "course of study"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-2",
@@ -3005,8 +3661,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "主修",
         "meaningKo": "전공",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "great",
+          "better",
+          "outstanding"
+        ],
+        "antonyms": [
+          "minor",
+          "underage",
+          "nonaged"
+        ],
         "partOfSpeech": "noun",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -3021,8 +3685,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "副修",
         "meaningKo": "미성년자",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "modest",
+          "insignificant",
+          "tyke"
+        ],
+        "antonyms": [
+          "major",
+          "uncurl"
+        ],
         "partOfSpeech": "noun",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -3069,8 +3740,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "所学课程",
         "meaningKo": "공부한 강좌",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "condemned",
+          "affected",
+          "assumed"
+        ],
+        "antonyms": [
+          "given"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -3085,7 +3762,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "社会实践",
         "meaningKo": "사회적 실천",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "apply",
+          "use",
+          "carry out"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-2",
@@ -3101,8 +3782,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "进修课程",
         "meaningKo": "재교육 과정",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "line",
+          "flow",
+          "run"
+        ],
+        "antonyms": [
+          "unnaturally"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -3213,8 +3900,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "优秀团员",
         "meaningKo": "우수회원",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "penis",
+          "phallus",
+          "appendage"
+        ],
+        "antonyms": [
+          "nonmember"
+        ],
         "partOfSpeech": "noun",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -3261,7 +3954,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "学期（英）",
         "meaningKo": "학기(영어)",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "condition",
+          "full term"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-2",
@@ -3277,7 +3973,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "论文导师",
         "meaningKo": "논문 지도교수",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "executive program",
+          "supervisory program"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-2",
@@ -3293,8 +3992,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "及格",
         "meaningKo": "통과",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "clear",
+          "crack",
+          "lead"
+        ],
+        "antonyms": [
+          "fail",
+          "flunk",
+          "flush it"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -3309,8 +4016,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "不及格",
         "meaningKo": "실패했다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "break",
+          "neglect",
+          "die"
+        ],
+        "antonyms": [
+          "pass",
+          "manage",
+          "succeed"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-2",
         "categoryZh": "雅思口语词汇：个人品质、教育程度",
@@ -3341,7 +4056,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "考试",
         "meaningKo": "시험",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "scrutiny",
+          "test",
+          "inspection"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-2",
@@ -3357,7 +4076,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "学位",
         "meaningKo": "정도",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "point",
+          "level",
+          "stage"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-2",
@@ -3405,7 +4128,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "硕士",
         "meaningKo": "마스터",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "control",
+          "subdue",
+          "surmount"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-2",
@@ -3421,7 +4148,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "学士",
         "meaningKo": "학사",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "bach",
+          "bachelor-at-arms",
+          "unmarried man"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-2",
@@ -3437,7 +4168,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "留学生",
         "meaningKo": "유학생",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "scholar",
+          "pupil",
+          "educatee"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-2",
@@ -3469,7 +4204,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "自费生",
         "meaningKo": "자비 학생",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "common man",
+          "common person"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-2",
@@ -3485,7 +4223,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "走读生",
         "meaningKo": "통학생",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "medical extern"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-2",
@@ -3501,7 +4241,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "实习生",
         "meaningKo": "인턴",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "internist",
+          "interne",
+          "houseman"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-2",
@@ -3533,7 +4277,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "寄宿生",
         "meaningKo": "하숙인",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "lodger",
+          "roomer"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-2",
@@ -3549,7 +4296,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "毕业生",
         "meaningKo": "졸업하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "alum",
+          "alumna",
+          "alumnus"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-2",
@@ -3581,7 +4332,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "旁听生",
         "meaningKo": "감사인",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "listener",
+          "hearer"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-2",
@@ -3613,7 +4367,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "工作经历",
         "meaningKo": "업무 경험",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chronicle",
+          "account",
+          "story"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -3629,8 +4387,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "具体经历",
         "meaningKo": "구체적인 경험",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "have",
+          "feel",
+          "live"
+        ],
+        "antonyms": [
+          "inexperience"
+        ],
         "partOfSpeech": "noun",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -3693,7 +4457,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "管理",
         "meaningKo": "관리",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "deal",
+          "allot",
+          "distribute"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-3",
@@ -3709,7 +4477,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "辅助",
         "meaningKo": "보조",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "attend",
+          "assistance",
+          "serve"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-3",
@@ -3741,7 +4513,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "完成",
         "meaningKo": "완료",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "attain",
+          "reach",
+          "carry out"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -3757,8 +4533,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "被",
         "meaningKo": "수",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "ordained",
+          "settled",
+          "nominative"
+        ],
+        "antonyms": [
+          "elected",
+          "elective"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -3789,8 +4572,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "分析",
         "meaningKo": "분석",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "examine",
+          "study",
+          "dissect"
+        ],
+        "antonyms": [
+          "synthesize",
+          "synthesise"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -3805,8 +4595,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "委任的；核准的",
         "meaningKo": "임명됨; 승인됨",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "authoritative",
+          "sanctioned",
+          "official"
+        ],
+        "antonyms": [
+          "unauthorized"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -3821,8 +4617,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "表现",
         "meaningKo": "성능",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "conduct",
+          "carry",
+          "act"
+        ],
+        "antonyms": [
+          "misdemean",
+          "misbehave"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -3853,7 +4656,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "关键问题的解决",
         "meaningKo": "주요 문제에 대한 솔루션",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "discovery",
+          "find"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -3869,8 +4675,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "控制",
         "meaningKo": "제어",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "ascertain",
+          "assure",
+          "hold"
+        ],
+        "antonyms": [
+          "unrestraint"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -3885,7 +4697,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "经营，处理",
         "meaningKo": "관리하다, 처리하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "convey",
+          "demeanor",
+          "lead"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -3901,7 +4717,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "成本；费用",
         "meaningKo": "비용; 비용",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "be",
+          "monetary value",
+          "price"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -3917,7 +4737,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "创造",
         "meaningKo": "창조하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "produce",
+          "make"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -3933,8 +4756,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "证明，示范",
         "meaningKo": "증명하다, 시연하다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "ascertain",
+          "exhibit",
+          "manifest"
+        ],
+        "antonyms": [
+          "confute",
+          "disprove"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -3949,8 +4779,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "减少",
         "meaningKo": "감소시키다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "diminish",
+          "diminution",
+          "fall"
+        ],
+        "antonyms": [
+          "growth",
+          "increment",
+          "step-up"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -3965,7 +4803,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "设计",
         "meaningKo": "디자인",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "contrive",
+          "project",
+          "conception"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -3981,7 +4823,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "开发，发挥",
         "meaningKo": "개발하다, 개발하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "explicate",
+          "break",
+          "produce"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -3997,7 +4843,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "设计，发明",
         "meaningKo": "디자인, 발명",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "contrive",
+          "forge",
+          "formulate"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -4013,8 +4863,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "指导",
         "meaningKo": "지도",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "candid",
+          "address",
+          "forthright"
+        ],
+        "antonyms": [
+          "oblique",
+          "inverse",
+          "retrograde"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -4029,8 +4887,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "加倍，翻一番",
         "meaningKo": "더블, 더블",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "ambiguous",
+          "equivocal",
+          "large"
+        ],
+        "antonyms": [
+          "single",
+          "multivalent",
+          "univalent"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -4045,7 +4911,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "获得，赚取",
         "meaningKo": "얻다, 벌다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "clear",
+          "realize",
+          "make"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -4061,7 +4931,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "效果，作用",
         "meaningKo": "효과, 액션",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "essence",
+          "core",
+          "issue"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -4077,8 +4951,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "消除",
         "meaningKo": "제거하다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "void",
+          "obviate",
+          "pass"
+        ],
+        "antonyms": [
+          "necessitate",
+          "demand",
+          "need"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -4093,8 +4975,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "扩大",
         "meaningKo": "확장하다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "expound",
+          "expatiate",
+          "expand"
+        ],
+        "antonyms": [
+          "reduce",
+          "scale down"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -4110,7 +4999,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningKo": "부자가 되다",
         "example": "",
         "synonyms": [],
-        "antonyms": [],
+        "antonyms": [
+          "deprive",
+          "impoverish"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -4125,7 +5017,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "开发（资源，产品）",
         "meaningKo": "개발(자원,제품)",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "effort",
+          "deed",
+          "feat"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -4141,8 +5037,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "搞活",
         "meaningKo": "활기를 불어넣다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "exalt",
+          "invigorate",
+          "animate"
+        ],
+        "antonyms": [
+          "blunt",
+          "deaden"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -4157,8 +5060,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "设立（公司等）；使开业",
         "meaningKo": "(회사 등을) 설립하다 사업을 시작하다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "base",
+          "demonstrate",
+          "constitute"
+        ],
+        "antonyms": [
+          "confute",
+          "get rid of",
+          "disprove"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -4173,7 +5084,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "估价，评价",
         "meaningKo": "평가, 평가",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "valuation",
+          "rating"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-3",
@@ -4189,7 +5103,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "实行，实施",
         "meaningKo": "구현하다, 구현하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "carry",
+          "carry out",
+          "accomplish"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -4205,7 +5123,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "加快；促进",
         "meaningKo": "속도를 높이다; 홍보하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "hasten"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -4221,7 +5141,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "产生",
         "meaningKo": "생산하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "yield",
+          "render",
+          "give"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -4253,7 +5177,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "指导；*纵",
         "meaningKo": "지도; *조작",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "conduct",
+          "lead",
+          "direct"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -4269,8 +5197,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "改进，提高",
         "meaningKo": "개선하다, 개선하다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "ameliorate",
+          "meliorate",
+          "better"
+        ],
+        "antonyms": [
+          "decline",
+          "exacerbate",
+          "aggravate"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -4285,8 +5221,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "创始，开创",
         "meaningKo": "시작, 생성",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "enlightened",
+          "novice",
+          "tyro"
+        ],
+        "antonyms": [
+          "uninitiate"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -4301,7 +5243,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "改革，革新",
         "meaningKo": "개혁, 혁신",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "introduce"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -4317,8 +5261,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "投资",
         "meaningKo": "투자",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "endow",
+          "empower",
+          "induct"
+        ],
+        "antonyms": [
+          "divest"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -4333,8 +5283,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "使结合；使一体化",
         "meaningKo": "결합하다; 통합하다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "incorporate",
+          "mix",
+          "desegregate"
+        ],
+        "antonyms": [
+          "differentiate",
+          "disintegrate",
+          "segregate"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -4349,7 +5307,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "经证明的；",
         "meaningKo": "입증됨;",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "even"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -4365,8 +5325,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "开办",
         "meaningKo": "사업을 시작하세요",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "establish",
+          "mount",
+          "set up"
+        ],
+        "antonyms": [
+          "get rid of",
+          "abolish"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -4381,7 +5348,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "保持；",
         "meaningKo": "유지하다; 유지하다;",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "assert",
+          "sustain",
+          "observe"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -4397,7 +5368,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "使现代化",
         "meaningKo": "현대화하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "develop",
+          "overhaul",
+          "civilize"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -4413,7 +5388,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "谈判",
         "meaningKo": "협상하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "negociate",
+          "talk terms"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -4429,7 +5407,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "被提名；被认",
         "meaningKo": "후보로 지명; 인정받다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "appointed",
+          "nominative",
+          "appointive"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -4445,7 +5427,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "克服",
         "meaningKo": "극복하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "inundated",
+          "subdue",
+          "surmount"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -4461,8 +5447,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "使完善；改善",
         "meaningKo": "완벽하다; 개선하다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "stark",
+          "cold",
+          "clear"
+        ],
+        "antonyms": [
+          "imperfect"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -4477,7 +5469,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "执行，履行",
         "meaningKo": "실행하다, 이행하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "execute",
+          "do"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -4493,8 +5488,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "利润",
         "meaningKo": "이익",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "benefit",
+          "net",
+          "lucre"
+        ],
+        "antonyms": [
+          "lose",
+          "break even"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -4509,7 +5511,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "被提名（推荐）为",
         "meaningKo": "후보로 추천(추천)됨",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "equally",
+          "arsenic",
+          "every bit"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -4525,7 +5531,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "实现（目标）获得（利润）",
         "meaningKo": "달성 (목표) 이득 (이익)",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "clear",
+          "recognize",
+          "actualize"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -4541,7 +5551,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "重建",
         "meaningKo": "재건하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "construct",
+          "retrace",
+          "rebuild"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -4557,8 +5571,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "记载的",
         "meaningKo": "녹음된",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "transcribed",
+          "listed",
+          "registered"
+        ],
+        "antonyms": [
+          "live",
+          "unrecorded"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -4573,7 +5594,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "精练，精制",
         "meaningKo": "다듬다, 다듬다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "elaborate",
+          "down",
+          "polish"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -4589,8 +5614,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "已注册的",
         "meaningKo": "등록됨",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "qualified",
+          "documented",
+          "certified"
+        ],
+        "antonyms": [
+          "unregistered"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -4605,8 +5636,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "更新，",
         "meaningKo": "업데이트,",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "restore",
+          "revitalize",
+          "renew"
+        ],
+        "antonyms": [
+          "unregenerate",
+          "unregenerated"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -4621,7 +5659,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "接替，替换",
         "meaningKo": "인수하다, 교체하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "substitute",
+          "supersede",
+          "supplant"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -4637,8 +5679,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "挽回",
         "meaningKo": "구속하다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "recall",
+          "think",
+          "recover"
+        ],
+        "antonyms": [
+          "block",
+          "blank out",
+          "draw a blank"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -4653,7 +5703,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "收益，收入",
         "meaningKo": "소득, 소득",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "gross",
+          "taxation",
+          "tax revenue"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -4669,8 +5723,12 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "科学的，",
         "meaningKo": "과학적,",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "technological"
+        ],
+        "antonyms": [
+          "unscientific"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -4701,7 +5759,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "服务，",
         "meaningKo": "서비스,",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "process",
+          "function",
+          "assist"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -4717,8 +5779,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "解决（问题等）",
         "meaningKo": "(문제 등을) 해결하다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "resolve",
+          "conciliate",
+          "reconcile"
+        ],
+        "antonyms": [
+          "float",
+          "swim"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -4733,8 +5802,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "减低……",
         "meaningKo": "줄이다...",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "reduce",
+          "contract",
+          "abbreviate"
+        ],
+        "antonyms": [
+          "lengthen"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -4749,8 +5824,13 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "简化，精简",
         "meaningKo": "단순화하다, 합리화하다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "reduce"
+        ],
+        "antonyms": [
+          "perplex",
+          "complicate"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -4765,8 +5845,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "传播，扩大",
         "meaningKo": "퍼지다, 확장하다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "disseminate",
+          "propagate",
+          "open"
+        ],
+        "antonyms": [
+          "fold",
+          "gather",
+          "collect"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -4781,8 +5869,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "标准，规格",
         "meaningKo": "표준, 사양",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "common",
+          "stock",
+          "definitive"
+        ],
+        "antonyms": [
+          "nonstandard"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -4813,8 +5907,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "供给，",
         "meaningKo": "공급,",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "render",
+          "issue",
+          "provide"
+        ],
+        "antonyms": [
+          "demand",
+          "recall"
+        ],
         "partOfSpeech": "adverb",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -4829,7 +5930,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "使系统化",
         "meaningKo": "체계화하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "systemize"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -4845,7 +5948,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "试验，检验",
         "meaningKo": "시험하다, 검사하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "assay",
+          "examine",
+          "model"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -4877,8 +5984,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "有价值的",
         "meaningKo": "귀중한",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "important",
+          "rich",
+          "invaluable"
+        ],
+        "antonyms": [
+          "worthless"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -4893,7 +6006,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "目标，指标",
         "meaningKo": "목표, 목표",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "objective",
+          "mark",
+          "butt"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -4909,8 +6026,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "先进工作者",
         "meaningKo": "고급 노동자",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "actor",
+          "proletarian",
+          "doer"
+        ],
+        "antonyms": [
+          "nonworker"
+        ],
         "partOfSpeech": "noun",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -4925,7 +6048,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "姓名",
         "meaningKo": "이름",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "epithet",
+          "constitute",
+          "call"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -4989,7 +6116,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "别名",
         "meaningKo": "별칭",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "assumed name",
+          "false name",
+          "also known as"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -5037,7 +6168,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "路",
         "meaningKo": "도로",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "moving",
+          "route",
+          "traveling"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -5053,8 +6188,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "小姐",
         "meaningKo": "미스",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "neglect",
+          "overlook",
+          "drop"
+        ],
+        "antonyms": [
+          "strike",
+          "have",
+          "attend"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -5069,7 +6212,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "区",
         "meaningKo": "지구",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "territory",
+          "zone",
+          "local"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -5133,8 +6280,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "年龄",
         "meaningKo": "나이",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "mature",
+          "get on",
+          "maturate"
+        ],
+        "antonyms": [
+          "rejuvenate"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -5149,7 +6302,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "身高",
         "meaningKo": "신장",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "pinnacle",
+          "superlative",
+          "peak"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -5181,8 +6338,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "体重",
         "meaningKo": "무게",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "angle",
+          "burthen",
+          "weighting"
+        ],
+        "antonyms": [
+          "disburden",
+          "unburden"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -5197,7 +6361,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "地址",
         "meaningKo": "주소",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "work",
+          "direct",
+          "cover"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -5213,8 +6381,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "生于",
         "meaningKo": "출생",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "innate",
+          "whelped",
+          "dropped"
+        ],
+        "antonyms": [
+          "unborn"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -5229,7 +6403,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "省",
         "meaningKo": "지방",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "state",
+          "mandate",
+          "territory"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -5261,7 +6439,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "市",
         "meaningKo": "도시",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "metropolis",
+          "urban center"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-3",
@@ -5277,7 +6458,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "出生地点",
         "meaningKo": "출생지",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "cradle",
+          "provenance",
+          "place of origin"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -5357,7 +6542,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "办公电话",
         "meaningKo": "사무실 전화",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "ring",
+          "call",
+          "sound"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -5453,8 +6642,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "已婚",
         "meaningKo": "결혼했다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "marital",
+          "matrimonial",
+          "ringed"
+        ],
+        "antonyms": [
+          "single",
+          "unmarried"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -5469,8 +6665,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "未婚",
         "meaningKo": "미혼",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "ace",
+          "individual",
+          "separate"
+        ],
+        "antonyms": [
+          "double",
+          "married"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -5485,7 +6688,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "离异",
         "meaningKo": "이혼",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "single",
+          "unmarried"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -5501,7 +6707,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "分居",
         "meaningKo": "분리된",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "detached",
+          "separate",
+          "disjointed"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -5629,7 +6839,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "会员、资格",
         "meaningKo": "회원자격, 자격",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "rank"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-3",
@@ -5645,7 +6857,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "会长",
         "meaningKo": "대통령",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chairman",
+          "chair",
+          "chairperson"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-3",
@@ -5677,7 +6893,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "理事",
         "meaningKo": "감독",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "manager",
+          "conductor",
+          "managing director"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-3",
@@ -5709,7 +6929,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "学会",
         "meaningKo": "배우다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "order",
+          "fellowship",
+          "club"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -5725,7 +6949,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "协会",
         "meaningKo": "협회",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "connection",
+          "affiliation",
+          "connexion"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-3",
@@ -5757,7 +6985,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "谋求职位",
         "meaningKo": "자리를 구하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "wanted",
+          "sought-after"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -5933,7 +7164,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "阅读",
         "meaningKo": "읽다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "interpretation",
+          "recital",
+          "version"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-3",
@@ -5965,8 +7200,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "话剧",
         "meaningKo": "드라마",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "render",
+          "work",
+          "run"
+        ],
+        "antonyms": [
+          "tautness",
+          "tightness"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -6029,7 +7271,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "缝纫",
         "meaningKo": "바느질",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "stitching",
+          "stitchery"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-3",
@@ -6045,7 +7290,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "旅游",
         "meaningKo": "여행",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "travel",
+          "traveling"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-3",
@@ -6141,7 +7389,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "生日 * 性别",
         "meaningKo": "생일 * 성별",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "natal day"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -6157,8 +7407,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "男",
         "meaningKo": "남성",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "virile",
+          "priapic",
+          "manlike"
+        ],
+        "antonyms": [
+          "female",
+          "androgynous",
+          "female person"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -6173,8 +7431,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "女",
         "meaningKo": "여성",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "feminine",
+          "distaff",
+          "pistillate"
+        ],
+        "antonyms": [
+          "androgynous",
+          "male person",
+          "male"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -6205,7 +7471,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "小姐或太太",
         "meaningKo": "미스 또는 부인",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "manuscript",
+          "sm",
+          "multiple sclerosis"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -6221,7 +7491,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "民族；国籍",
         "meaningKo": "국가; 국적",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "land",
+          "nation",
+          "country"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-3",
@@ -6285,7 +7559,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "公斤",
         "meaningKo": "킬로그램",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "key",
+          "kilo",
+          "kilogram"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -6349,8 +7627,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "好",
         "meaningKo": "좋아",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "benevolent",
+          "keen",
+          "adept"
+        ],
+        "antonyms": [
+          "malevolent",
+          "evil",
+          "wicked"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -6365,8 +7651,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "强壮",
         "meaningKo": "강한",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "robust",
+          "vehement",
+          "substantial"
+        ],
+        "antonyms": [
+          "impotent",
+          "weak"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -6397,7 +7690,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "色盲",
         "meaningKo": "색맹",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "impartial",
+          "blind",
+          "unprejudiced"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -6413,8 +7710,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "可到职时间",
         "meaningKo": "이용 가능 시간",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "accessibility",
+          "handiness",
+          "availableness"
+        ],
+        "antonyms": [
+          "unavailability",
+          "inaccessibility"
+        ],
         "partOfSpeech": "noun",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -6445,8 +7749,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "可到职",
         "meaningKo": "근무 가능",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "free",
+          "open",
+          "forthcoming"
+        ],
+        "antonyms": [
+          "unavailable"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -6493,8 +7803,13 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "优秀干部",
         "meaningKo": "뛰어난 간부",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "loss leader",
+          "drawing card"
+        ],
+        "antonyms": [
+          "follower"
+        ],
         "partOfSpeech": "noun",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -6589,7 +7904,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "学年",
         "meaningKo": "학년도",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "class",
+          "twelvemonth",
+          "yr"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -6637,7 +7956,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "院长",
         "meaningKo": "딘",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "doyen"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -6653,7 +7974,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "系主任",
         "meaningKo": "학과장",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chair",
+          "president",
+          "chairperson"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -6717,7 +8042,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "助教",
         "meaningKo": "조교",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "subordinate",
+          "adjunct",
+          "supporter"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-3",
@@ -6733,7 +8062,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "研究员",
         "meaningKo": "연구원",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "familiar",
+          "companion",
+          "swain"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -6765,7 +8098,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "奖学金",
         "meaningKo": "장학금",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "erudition",
+          "eruditeness",
+          "learning"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-3",
@@ -6781,7 +8118,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "党支部书记",
         "meaningKo": "당지부비서",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "repository",
+          "escritoire",
+          "secretaire"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-3",
@@ -6861,7 +8202,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "教师",
         "meaningKo": "선생님",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "instructor"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-3",
@@ -6893,7 +8236,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "家庭教师",
         "meaningKo": "가정교사",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "coach",
+          "private instructor"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-3",
@@ -7021,7 +8367,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "分数",
         "meaningKo": "점수",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "dozens",
+          "oodles",
+          "loads"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -7037,7 +8387,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "尚未取得学",
         "meaningKo": "아직 교육을 받지 않았습니다.",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "undergrad"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -7053,8 +8405,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "大学四年级/高",
         "meaningKo": "대학 선배/고위",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "old",
+          "elder",
+          "elderly"
+        ],
+        "antonyms": [
+          "junior"
+        ],
         "partOfSpeech": "noun",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -7069,7 +8427,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "年级",
         "meaningKo": "등급",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "order",
+          "mark",
+          "range"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -7085,8 +8447,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "大学三年级/高中二年",
         "meaningKo": "대학교 3학년/고등학교 2학년",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "subordinate",
+          "inferior",
+          "lowly"
+        ],
+        "antonyms": [
+          "senior"
+        ],
         "partOfSpeech": "noun",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -7101,7 +8469,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "班级",
         "meaningKo": "수업",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "form",
+          "separate",
+          "course"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -7117,7 +8489,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "大学二年级/高中",
         "meaningKo": "대학교/고등학교 2학년",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "second-year"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -7133,7 +8507,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "班长",
         "meaningKo": "모니터",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "admonisher",
+          "supervise",
+          "reminder"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-3",
@@ -7149,7 +8527,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "大学一年级学生",
         "meaningKo": "대학생 1학년",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "neophyte",
+          "fledgling",
+          "first"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -7213,7 +8595,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "劳动委员",
         "meaningKo": "노동위원",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "drive",
+          "travail",
+          "push"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -7277,7 +8663,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "同班同学",
         "meaningKo": "동급생",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "schoolmate",
+          "schoolfellow",
+          "class fellow"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -7293,7 +8683,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "留级生",
         "meaningKo": "중계기",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "recidivist",
+          "habitual criminal",
+          "repeating firearm"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-3",
@@ -7309,7 +8703,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "同校同学",
         "meaningKo": "급우",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "classmate",
+          "schoolfellow",
+          "class fellow"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -7325,7 +8723,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "校友",
         "meaningKo": "동문",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "alum",
+          "alumna",
+          "graduate"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -7341,7 +8743,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "学徒",
         "meaningKo": "견습생",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "learner",
+          "prentice"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -7613,7 +9018,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "薪水",
         "meaningKo": "급여",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "remuneration",
+          "wage",
+          "earnings"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-3",
@@ -7629,7 +9038,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "工资",
         "meaningKo": "급여",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "reward",
+          "payoff"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -7661,7 +9073,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "外快",
         "meaningKo": "추가 금액",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "godsend",
+          "gravy",
+          "bunce"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -7933,7 +9349,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "相当",
         "meaningKo": "꽤",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "quite a",
+          "quite an",
+          "rather"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -7949,8 +9369,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "安静地",
         "meaningKo": "조용히",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "repose",
+          "subdued",
+          "tranquil"
+        ],
+        "antonyms": [
+          "charge",
+          "rouse",
+          "sound"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -7997,7 +9425,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "适应",
         "meaningKo": "적응하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "embrace",
+          "accommodate",
+          "conform"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8013,7 +9445,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "采用",
         "meaningKo": "채택하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "acquire",
+          "take",
+          "espouse"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8029,7 +9465,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "内行",
         "meaningKo": "전문가",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "proficient",
+          "good",
+          "maven"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8045,7 +9485,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "天使",
         "meaningKo": "천사",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "saint",
+          "backer",
+          "holy man"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8061,7 +9505,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "角度",
         "meaningKo": "각도",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "lean",
+          "tilt",
+          "tip"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8077,7 +9525,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "牛奶厂",
         "meaningKo": "우유 공장",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "dairy farm"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8093,7 +9543,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "日记",
         "meaningKo": "일기",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "journal"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-3",
@@ -8109,7 +9561,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "奋斗, 斗争",
         "meaningKo": "투쟁하다, 싸우다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "manage",
+          "postulate",
+          "grapple"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8125,8 +9581,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "内容, 满",
         "meaningKo": "콘텐츠, 전체",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "subject",
+          "substance",
+          "happy"
+        ],
+        "antonyms": [
+          "discontent"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -8141,7 +9603,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "上下文",
         "meaningKo": "맥락",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "circumstance",
+          "linguistic context",
+          "context of use"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8157,7 +9623,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "竞争, 比赛",
         "meaningKo": "경쟁, 경쟁",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "contend",
+          "competition",
+          "repugn"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8173,7 +9643,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "校长, 主要的",
         "meaningKo": "교장, 교장",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "lead",
+          "head",
+          "primary"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-3",
@@ -8189,7 +9663,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "原则",
         "meaningKo": "원칙",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "rationale",
+          "precept",
+          "rule"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8205,8 +9683,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "含蓄的",
         "meaningKo": "암시적",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "tacit",
+          "inherent",
+          "silent"
+        ],
+        "antonyms": [
+          "explicit",
+          "expressed"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -8221,8 +9706,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "明白的",
         "meaningKo": "이해하다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "unequivocal",
+          "express",
+          "definitive"
+        ],
+        "antonyms": [
+          "implicit",
+          "inexplicit"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -8237,7 +9729,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "甜食",
         "meaningKo": "과자",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "sweet"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8253,7 +9747,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "沙漠",
         "meaningKo": "사막",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "desolate",
+          "wild",
+          "lurch"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8285,7 +9783,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "轻拍",
         "meaningKo": "탭",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "glib",
+          "appropriate",
+          "plausible"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8301,7 +9803,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "轻打",
         "meaningKo": "가볍게 두드리다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "strike",
+          "solicit",
+          "bug"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8317,8 +9823,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "正经的",
         "meaningKo": "심각한",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "modest",
+          "comely",
+          "adequate"
+        ],
+        "antonyms": [
+          "indecent",
+          "improperly"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -8365,8 +9878,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "甜的",
         "meaningKo": "달콤한",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "saccharine",
+          "dulcet",
+          "gratifying"
+        ],
+        "antonyms": [
+          "sour",
+          "dry"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -8381,7 +9901,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "汗水",
         "meaningKo": "땀",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "sudor",
+          "fret",
+          "travail"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8397,7 +9921,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "后来",
         "meaningKo": "나중에",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "subsequently",
+          "last",
+          "ulterior"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-3",
@@ -8413,8 +9941,13 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "后者",
         "meaningKo": "후자",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "last",
+          "later"
+        ],
+        "antonyms": [
+          "former"
+        ],
         "partOfSpeech": "noun",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -8429,7 +9962,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "最近的",
         "meaningKo": "최신",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "last",
+          "modern",
+          "up-to-date"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8477,7 +10014,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "习惯",
         "meaningKo": "습관",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "bespoke",
+          "tailored",
+          "tradition"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8493,8 +10034,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "广泛的",
         "meaningKo": "광범위한",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "comprehensive",
+          "copious",
+          "abundant"
+        ],
+        "antonyms": [
+          "intensive"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -8509,8 +10056,13 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "深刻的",
         "meaningKo": "심오한",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "intense",
+          "intensifier"
+        ],
+        "antonyms": [
+          "extensive"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -8541,8 +10093,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "口头的",
         "meaningKo": "구두의",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "spoken",
+          "buccal",
+          "viva voce"
+        ],
+        "antonyms": [
+          "aboral",
+          "anal"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -8557,7 +10116,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "国外",
         "meaningKo": "해외에서",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "foreign",
+          "overseas",
+          "afield"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8573,7 +10136,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "上（船，飞机）",
         "meaningKo": "(배, 비행기)에",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "alongside",
+          "onboard",
+          "on base"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8589,7 +10156,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "祭坛",
         "meaningKo": "제단",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "communion table"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8605,8 +10174,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "改变",
         "meaningKo": "변화",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "change",
+          "interpolate",
+          "falsify"
+        ],
+        "antonyms": [
+          "leave"
+        ],
         "partOfSpeech": "noun",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -8621,8 +10196,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "同意",
         "meaningKo": "동의하다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "accede",
+          "acquiesce",
+          "acquiescence"
+        ],
+        "antonyms": [
+          "dissent"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -8637,8 +10218,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "上升",
         "meaningKo": "상승",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "rise",
+          "raise",
+          "upgrade"
+        ],
+        "antonyms": [
+          "decline",
+          "fall",
+          "descent"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -8653,8 +10242,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "口",
         "meaningKo": "입",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "emphasize",
+          "accentuate",
+          "accentuation"
+        ],
+        "antonyms": [
+          "destress",
+          "deemphasize"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -8669,7 +10265,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "冠军",
         "meaningKo": "챔피언",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "paladin",
+          "friend",
+          "supporter"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8685,7 +10285,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "香槟酒",
         "meaningKo": "샴페인",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "bubbly",
+          "champagne-ardenne"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8701,7 +10304,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "战役",
         "meaningKo": "전투",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "drive",
+          "run",
+          "push"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8717,7 +10324,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "男爵",
         "meaningKo": "남작",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "power",
+          "magnate",
+          "mogul"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8733,7 +10344,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "梁， 光束",
         "meaningKo": "빔, 빔",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "glow",
+          "air",
+          "transmit"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8749,8 +10364,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "领先",
         "meaningKo": "선도하는",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "lead",
+          "antedate",
+          "forego"
+        ],
+        "antonyms": [
+          "succeed",
+          "follow",
+          "postdate"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -8765,8 +10388,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "进行，继续",
         "meaningKo": "계속하다, 계속하다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "keep",
+          "move",
+          "carry on"
+        ],
+        "antonyms": [
+          "discontinue"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -8781,7 +10410,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "祈祷",
         "meaningKo": "기도하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "implore",
+          "beg"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8797,7 +10429,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "猎物",
         "meaningKo": "먹이",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "quarry",
+          "raven",
+          "feed"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8813,7 +10449,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "鸡",
         "meaningKo": "닭고기",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "lily-livered",
+          "fearful",
+          "wimp"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8845,7 +10485,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "猴子",
         "meaningKo": "원숭이",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "rascal",
+          "scamp",
+          "rapscallion"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8861,7 +10505,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "驴",
         "meaningKo": "당나귀",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "equus asinus",
+          "domestic ass"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8877,7 +10524,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "家务活",
         "meaningKo": "집안일",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "task",
+          "job"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8893,7 +10543,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "和弦",
         "meaningKo": "화음",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "harmonize"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8909,7 +10561,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "细绳",
         "meaningKo": "문자열",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "corduroy",
+          "electric cord"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8925,7 +10580,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "引用",
         "meaningKo": "견적",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "acknowledge",
+          "reference",
+          "advert"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8941,7 +10600,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "场所",
         "meaningKo": "장소",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "situation",
+          "locate",
+          "land site"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8957,7 +10620,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "视觉",
         "meaningKo": "비전",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "slew",
+          "view",
+          "spate"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8973,7 +10640,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "碰幢，坠",
         "meaningKo": "건물에 부딪혀 넘어짐",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "dash",
+          "collapse",
+          "smash"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -8989,7 +10660,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "压坏",
         "meaningKo": "으깨다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "trounce",
+          "squelch",
+          "infatuation"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -9005,7 +10680,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "赞美",
         "meaningKo": "칭찬하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "congratulate"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-3",
@@ -9021,7 +10698,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "附加",
         "meaningKo": "추가",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "full complement"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-3",
@@ -9037,8 +10716,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "确认",
         "meaningKo": "확인",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "sustain",
+          "affirm",
+          "support"
+        ],
+        "antonyms": [
+          "negate",
+          "contradict"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -9053,8 +10739,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "使顺从",
         "meaningKo": "순종하게 하다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "adapt",
+          "adjust"
+        ],
+        "antonyms": [
+          "deviate",
+          "depart",
+          "diverge"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -9069,7 +10762,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "接触",
         "meaningKo": "연락",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "liaison",
+          "touch",
+          "reach"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -9085,7 +10782,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "乌鸦",
         "meaningKo": "까마귀",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "gloat",
+          "brag",
+          "crowing"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -9101,7 +10802,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "王冠",
         "meaningKo": "왕관",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "crest",
+          "peak",
+          "diadem"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -9117,7 +10822,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "小丑",
         "meaningKo": "광대",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "antic",
+          "buffoon",
+          "clown around"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -9133,7 +10842,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "牛",
         "meaningKo": "소",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "overawe",
+          "moo-cow"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -9149,7 +10861,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "一剂药",
         "meaningKo": "약의 복용량",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "drug",
+          "dosage"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -9165,7 +10880,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "打盹",
         "meaningKo": "낮잠을 자세요",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "drowse",
+          "snooze"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -9197,7 +10915,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "溺水",
         "meaningKo": "익사",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "submerge",
+          "overwhelm"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -9213,7 +10934,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "唉呦.............烦恼，生病",
         "meaningKo": "앗..........말썽, 질병",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "trouble",
+          "afflict",
+          "garlic"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -9229,8 +10954,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "凄呕...................寒意;凉气",
         "meaningKo": "구토...........오한, 시원함",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "cool",
+          "frisson",
+          "quiver"
+        ],
+        "antonyms": [
+          "heat",
+          "heat up",
+          "hot up"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
         "categoryZh": "雅思口语词汇：工作经历、个人资料",
@@ -9261,7 +10994,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "风......................扇子",
         "meaningKo": "바람......................팬",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "devotee",
+          "buff",
+          "afficionado"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-3",
@@ -9277,7 +11014,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "这个",
         "meaningKo": "이",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "bean curd"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-4",
@@ -9421,7 +11160,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "职业介绍",
         "meaningKo": "경력소개",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "convert",
+          "change",
+          "interchange"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
@@ -9437,7 +11180,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "职业介",
         "meaningKo": "직업 소개소",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "direction",
+          "managing"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -9469,7 +11215,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "按小时付酬",
         "meaningKo": "시간 단위로 지불",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "minute",
+          "hr",
+          "time of day"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
@@ -9565,8 +11315,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "组装线工作 (美",
         "meaningKo": "조립라인 작업(미국",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "cultivate",
+          "address",
+          "process"
+        ],
+        "antonyms": [
+          "malfunction",
+          "stagnate",
+          "misfunction"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
         "categoryZh": "雅思分类词汇:常见工作名称",
@@ -9581,7 +11339,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "车间",
         "meaningKo": "작업장",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "shop"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
@@ -9613,7 +11373,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "行当",
         "meaningKo": "무역",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "cunning",
+          "trade",
+          "craftsmanship"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
@@ -9629,7 +11393,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "职务",
         "meaningKo": "위치",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "line",
+          "vocation",
+          "business"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -9645,7 +11413,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "工",
         "meaningKo": "일",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "work",
+          "speculate",
+          "caper"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
@@ -9661,7 +11433,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "位置",
         "meaningKo": "위치",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "base",
+          "position",
+          "berth"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
@@ -9677,7 +11453,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "空缺, 空额",
         "meaningKo": "빈자리, 빈자리",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "void",
+          "emptiness"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
@@ -9725,8 +11504,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "雇用",
         "meaningKo": "고용",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "engage",
+          "apply",
+          "use"
+        ],
+        "antonyms": [
+          "dismiss",
+          "terminate",
+          "fire"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
         "categoryZh": "雅思分类词汇:常见工作名称",
@@ -9757,7 +11544,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "劳动事故",
         "meaningKo": "노동 재해",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "fortuity",
+          "chance event"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-5",
@@ -9789,7 +11579,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "职业指导",
         "meaningKo": "진로지도",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "counsel",
+          "direction",
+          "guiding"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -9805,7 +11599,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "职业训练",
         "meaningKo": "직업 훈련",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "preparation",
+          "grooming",
+          "education"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -9821,7 +11619,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "再训练",
         "meaningKo": "재교육",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "revival",
+          "reclamation",
+          "renewal"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -9837,7 +11639,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "假期",
         "meaningKo": "휴가",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "holiday"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -9853,7 +11657,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "劳力成本",
         "meaningKo": "인건비",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "stimulus",
+          "stimulant",
+          "stimulation"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
@@ -9869,7 +11677,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "人员",
         "meaningKo": "인원",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "faculty",
+          "stave"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
@@ -9886,7 +11697,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningKo": "직원",
         "example": "",
         "synonyms": [],
-        "antonyms": [],
+        "antonyms": [
+          "employer"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
         "categoryZh": "雅思分类词汇:常见工作名称",
@@ -9917,7 +11730,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "工人",
         "meaningKo": "노동자",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "working man",
+          "working person"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
@@ -10045,7 +11861,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "合作者",
         "meaningKo": "협력자",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "partner",
+          "henchman",
+          "partner in crime"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -10061,7 +11881,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "工头",
         "meaningKo": "감독",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "gaffer",
+          "honcho",
+          "boss"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
@@ -10093,7 +11917,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "工匠",
         "meaningKo": "장인",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "artisan",
+          "artificer",
+          "journeyman"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
@@ -10109,8 +11937,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "专家",
         "meaningKo": "전문가",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "specialistic",
+          "specializer",
+          "medical specialist"
+        ],
+        "antonyms": [
+          "generalist",
+          "renaissance man"
+        ],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
         "categoryZh": "雅思分类词汇:常见工作名称",
@@ -10141,7 +11976,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "缺乏劳力",
         "meaningKo": "노동력 부족",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "workforce",
+          "men",
+          "work force"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -10173,8 +12012,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "无产者",
         "meaningKo": "프롤레타리아의",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "prole",
+          "worker",
+          "low-class"
+        ],
+        "antonyms": [
+          "plebeian",
+          "patrician"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
         "categoryZh": "雅思分类词汇:常见工作名称",
@@ -10189,7 +12035,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "无产阶级",
         "meaningKo": "프롤레타리아트",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "labor",
+          "working class",
+          "labour"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
@@ -10253,7 +12103,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "行会,同会,公会",
         "meaningKo": "길드, 협회, 길드",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "order",
+          "society",
+          "club"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
@@ -10269,8 +12123,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "协会",
         "meaningKo": "협회",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "organized",
+          "matrimony",
+          "wedlock"
+        ],
+        "antonyms": [
+          "separation",
+          "nonunion"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
         "categoryZh": "雅思分类词汇:常见工作名称",
@@ -10285,7 +12146,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "移民,移居",
         "meaningKo": "이주하다, 이주하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "out-migration"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -10302,7 +12165,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningKo": "고용주, 상사",
         "example": "",
         "synonyms": [],
-        "antonyms": [],
+        "antonyms": [
+          "employee"
+        ],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
         "categoryZh": "雅思分类词汇:常见工作名称",
@@ -10317,7 +12182,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "代表",
         "meaningKo": "대표하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "designate",
+          "assign",
+          "depute"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
@@ -10333,8 +12202,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "代表",
         "meaningKo": "대표하다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "emblematic",
+          "typical",
+          "instance"
+        ],
+        "antonyms": [
+          "nonrepresentative",
+          "unsymbolic"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-5",
         "categoryZh": "雅思分类词汇:常见工作名称",
@@ -10381,8 +12257,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "工作日",
         "meaningKo": "근무일",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "working day",
+          "work day"
+        ],
+        "antonyms": [
+          "rest day",
+          "day of rest"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
         "categoryZh": "雅思分类词汇:常见工作名称",
@@ -10429,8 +12311,12 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "业余时间",
         "meaningKo": "여가 시간",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "extra time"
+        ],
+        "antonyms": [
+          "regulation time"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
         "categoryZh": "雅思分类词汇:常见工作名称",
@@ -10445,7 +12331,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "报酬",
         "meaningKo": "보상",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "wage",
+          "salary",
+          "earnings"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -10717,7 +12607,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "薪水册",
         "meaningKo": "급여",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "paysheet"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
@@ -10733,7 +12625,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "失业救济",
         "meaningKo": "실업급여",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "welfare",
+          "do good",
+          "gain"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
@@ -10765,8 +12661,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "工会代表",
         "meaningKo": "노동조합 대표",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "accord",
+          "understanding",
+          "arrangement"
+        ],
+        "antonyms": [
+          "dissension",
+          "disagreement"
+        ],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
         "categoryZh": "雅思分类词汇:常见工作名称",
@@ -10781,7 +12684,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "退休",
         "meaningKo": "은퇴하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "retreat"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -10813,8 +12718,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "罢工",
         "meaningKo": "파업",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "bang",
+          "affect",
+          "impress"
+        ],
+        "antonyms": [
+          "miss"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
         "categoryZh": "雅思分类词汇:常见工作名称",
@@ -10925,7 +12836,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "破坏罢工者",
         "meaningKo": "파업파괴자",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "rat",
+          "strikebreaker",
+          "scab"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
@@ -10941,7 +12856,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "示威",
         "meaningKo": "데모",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "reflection",
+          "expression",
+          "reflexion"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -10957,8 +12876,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "制裁",
         "meaningKo": "제재",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "countenance",
+          "authority",
+          "endorsement"
+        ],
+        "antonyms": [
+          "reject",
+          "disapprove"
+        ],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
         "categoryZh": "雅思分类词汇:常见工作名称",
@@ -10974,7 +12900,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningKo": "실업자",
         "example": "",
         "synonyms": [],
-        "antonyms": [],
+        "antonyms": [
+          "employ",
+          "employment"
+        ],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
         "categoryZh": "雅思分类词汇:常见工作名称",
@@ -11021,8 +12950,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "辞退,开除,解",
         "meaningKo": "해고하다, 추방하다, 해고하다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "disregard",
+          "terminate",
+          "drop"
+        ],
+        "antonyms": [
+          "engage",
+          "employ",
+          "hire"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
         "categoryZh": "雅思分类词汇:常见工作名称",
@@ -11037,7 +12974,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "开除,解雇",
         "meaningKo": "퇴학, 해고",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "discharge",
+          "release",
+          "liberation"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-5",
@@ -11053,8 +12994,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "结束合同,结",
         "meaningKo": "계약을 종료하다, 종결하다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "compact",
+          "reduce",
+          "take"
+        ],
+        "antonyms": [
+          "stretch",
+          "widen"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
         "categoryZh": "雅思分类词汇:常见工作名称",
@@ -11069,7 +13017,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "谈判",
         "meaningKo": "협상하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "talks"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -11149,7 +13099,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "速记员",
         "meaningKo": "속기사",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "amanuensis",
+          "shorthand typist"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -11165,7 +13118,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "电话接线员",
         "meaningKo": "전화 교환원",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "hustler",
+          "manipulator",
+          "wheeler dealer"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -11181,7 +13138,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "电脑程",
         "meaningKo": "컴퓨터 프로그램",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "computer programmer",
+          "software engineer"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -11261,7 +13221,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "国家公务员",
         "meaningKo": "국가 공무원",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "retainer",
+          "handmaid",
+          "handmaiden"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-5",
@@ -11277,8 +13241,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "国营铁路职员",
         "meaningKo": "국영 철도 직원",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "world",
+          "piece",
+          "valet"
+        ],
+        "antonyms": [
+          "woman",
+          "civilian",
+          "adult female"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
         "categoryZh": "雅思分类词汇:常见工作名称",
@@ -11293,7 +13265,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "绘图员",
         "meaningKo": "제도사",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "tracer bullet"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -11325,7 +13299,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "女店员",
         "meaningKo": "판매원",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "salesgirl",
+          "saleslady"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
@@ -11341,7 +13318,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "驾驶员",
         "meaningKo": "운전사",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "model",
+          "archetype",
+          "original"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
@@ -11357,7 +13338,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "同时译",
         "meaningKo": "동시번역",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "concurrent",
+          "synchronic",
+          "synchronous"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-5",
@@ -11373,7 +13358,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "出版人员",
         "meaningKo": "출판 직원",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "publishing house",
+          "publishing firm",
+          "publishing company"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -11421,7 +13410,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "警察",
         "meaningKo": "경찰",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "police officer",
+          "officer"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
@@ -11437,7 +13429,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "记者",
         "meaningKo": "기자",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "diarist",
+          "diary keeper"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -11453,7 +13448,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "编辑",
         "meaningKo": "편집",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "editor program"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -11469,7 +13466,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "通译者",
         "meaningKo": "번역가",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "representative",
+          "translator",
+          "spokesperson"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -11485,7 +13486,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "星探",
         "meaningKo": "인재 스카우트",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "endowment",
+          "gift",
+          "natural endowment"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-5",
@@ -11501,7 +13506,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "男演员",
         "meaningKo": "배우",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "thespian",
+          "doer",
+          "player"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -11549,7 +13558,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "学者",
         "meaningKo": "학자",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "student",
+          "learner",
+          "scholarly person"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
@@ -11565,7 +13578,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "翻译家",
         "meaningKo": "번역가",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "interpreter",
+          "translating program"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -11597,7 +13613,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "剧作家",
         "meaningKo": "극작가",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "dramatist"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
@@ -11613,7 +13631,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "语言学家",
         "meaningKo": "언어학자",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "polyglot",
+          "linguistic scientist"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -11629,7 +13650,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "植物学家",
         "meaningKo": "식물학자",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "phytologist",
+          "plant scientist"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -11645,7 +13669,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "经济学家",
         "meaningKo": "경제학자",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "economic expert"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -11661,7 +13687,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "化学家",
         "meaningKo": "화학자",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "apothecary",
+          "pharmacist",
+          "druggist"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -11677,7 +13707,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "科学家",
         "meaningKo": "과학자",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "man of science"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -11709,7 +13741,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "政治学家",
         "meaningKo": "정치학자",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "politico",
+          "pol",
+          "political leader"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
@@ -11757,7 +13793,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "考古学",
         "meaningKo": "고고학",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "archeologist"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -11773,7 +13811,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "地质学家",
         "meaningKo": "지질학자",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "geophysicist"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -11821,7 +13861,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "生物学家",
         "meaningKo": "생물학자",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "life scientist"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -11837,7 +13879,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "动物学家",
         "meaningKo": "동물학자",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "animal scientist"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -11853,7 +13897,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "统计学家",
         "meaningKo": "통계학자",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "actuary",
+          "mathematical statistician"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
@@ -11917,7 +13964,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "画家",
         "meaningKo": "화가",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "catamount",
+          "puma",
+          "cougar"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -11933,7 +13984,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "音乐家",
         "meaningKo": "음악가",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "player",
+          "instrumentalist"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
@@ -11965,7 +14019,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "歌唱家",
         "meaningKo": "가수",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "vocalist"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -11981,7 +14037,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "设计家",
         "meaningKo": "디자이너",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "architect",
+          "decorator",
+          "interior designer"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -11997,7 +14057,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "雕刻家",
         "meaningKo": "조각가",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "carver",
+          "sculpturer",
+          "statue maker"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -12029,7 +14093,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "女装裁",
         "meaningKo": "여성 의류 테일러링",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "seamstress",
+          "modiste",
+          "needlewoman"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -12045,7 +14113,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "裁剪师",
         "meaningKo": "커터",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "carver",
+          "cutlery",
+          "cutting tool"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -12061,7 +14133,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "裁缝师",
         "meaningKo": "재단사",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "cloaca",
+          "sewerage"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -12077,7 +14152,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "西装师傅",
         "meaningKo": "양복 제작자",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "style",
+          "cut",
+          "shoehorn"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -12093,7 +14172,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "美容师",
         "meaningKo": "미용사",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "cosmetician"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
@@ -12109,7 +14190,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "模特",
         "meaningKo": "모델",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "framework",
+          "exemplar",
+          "pose"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
@@ -12125,7 +14210,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "芭蕾舞星",
         "meaningKo": "발레리나",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "danseuse"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
@@ -12141,7 +14228,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "刑警",
         "meaningKo": "인터폴",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "investigator",
+          "tec",
+          "police detective"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-5",
@@ -12189,7 +14280,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "店员",
         "meaningKo": "점원",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "salesclerk",
+          "shop clerk"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
@@ -12205,7 +14299,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "邮差",
         "meaningKo": "우체부",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "carrier",
+          "mail carrier",
+          "letter carrier"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
@@ -12237,7 +14335,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "擦鞋童",
         "meaningKo": "구두닦이 소년",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "shoeblack"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
@@ -12253,7 +14353,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "诗人",
         "meaningKo": "시인",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "versifier"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
@@ -12285,7 +14387,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "制片人",
         "meaningKo": "생산자",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "manufacturer"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -12333,7 +14437,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "商人",
         "meaningKo": "사업가",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "merchandiser"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-5",
@@ -12349,7 +14455,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "卖花人",
         "meaningKo": "꽃집",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "florist shop",
+          "flower store"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -12365,7 +14474,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "面包师",
         "meaningKo": "빵 굽는 사람",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "bread maker"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -12413,7 +14524,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "肉贩",
         "meaningKo": "정육점",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "slaughter",
+          "botcher",
+          "bungler"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -12445,7 +14560,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "空中小姐",
         "meaningKo": "스튜어디스",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "hostess",
+          "air hostess"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
@@ -12461,8 +14579,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "车掌",
         "meaningKo": "운전사",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "director",
+          "music director"
+        ],
+        "antonyms": [
+          "dielectric",
+          "insulator",
+          "nonconductor"
+        ],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
         "categoryZh": "雅思分类词汇:常见工作名称",
@@ -12493,7 +14618,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "行李夫",
         "meaningKo": "포터",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "gatekeeper",
+          "doorman",
+          "redcap"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -12525,7 +14654,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "建筑师",
         "meaningKo": "건축가",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "designer"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
@@ -12573,7 +14704,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "药剂师",
         "meaningKo": "약사",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "apothecary",
+          "chemist",
+          "druggist"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -12605,8 +14740,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "保健护士",
         "meaningKo": "건강 간호사",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "hold",
+          "suck",
+          "suckle"
+        ],
+        "antonyms": [
+          "bottlefeed"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-5",
         "categoryZh": "雅思分类词汇:常见工作名称",
@@ -12621,7 +14762,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "牙科医生",
         "meaningKo": "치과 의사",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "dental practitioner",
+          "tooth doctor"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
@@ -12653,8 +14797,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "医生",
         "meaningKo": "의사",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "mend",
+          "repair",
+          "restore"
+        ],
+        "antonyms": [
+          "break",
+          "bust"
+        ],
         "partOfSpeech": "noun",
         "category": "ielts-cat-5",
         "categoryZh": "雅思分类词汇:常见工作名称",
@@ -12669,7 +14820,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "味道",
         "meaningKo": "맛",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "discernment",
+          "savor",
+          "predilection"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-6",
@@ -12685,7 +14840,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "美味的",
         "meaningKo": "맛있다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "dainty",
+          "tasteful",
+          "appetizing"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-6",
@@ -12701,7 +14860,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "味道好的",
         "meaningKo": "맛이 좋다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "luscious",
+          "delightful",
+          "delectable"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-6",
@@ -12717,8 +14880,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "酸的",
         "meaningKo": "신맛",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "sullen",
+          "dour",
+          "morose"
+        ],
+        "antonyms": [
+          "sweet",
+          "dulcify",
+          "edulcorate"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-6",
         "categoryZh": "雅思口语分类词汇：味道及餐厅",
@@ -12733,7 +14904,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "苦的",
         "meaningKo": "쓴맛",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "acerbic",
+          "caustic",
+          "virulent"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-6",
@@ -12749,8 +14924,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "辣的",
         "meaningKo": "매운",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "torrid",
+          "fervid",
+          "fervent"
+        ],
+        "antonyms": [
+          "cold",
+          "cool"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-6",
         "categoryZh": "雅思口语分类词汇：味道及餐厅",
@@ -12765,7 +14947,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "咸的",
         "meaningKo": "짠",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "piquant",
+          "stimulating",
+          "tasteful"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-6",
@@ -12797,8 +14983,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "香的",
         "meaningKo": "향기로운",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "sweet",
+          "redolent",
+          "aromatic"
+        ],
+        "antonyms": [
+          "malodorous"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-6",
         "categoryZh": "雅思口语分类词汇：味道及餐厅",
@@ -12813,8 +15005,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "加作料的",
         "meaningKo": "양념으로",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "experienced",
+          "tasteful",
+          "cured"
+        ],
+        "antonyms": [
+          "unseasoned"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-6",
         "categoryZh": "雅思口语分类词汇：味道及餐厅",
@@ -12829,8 +15027,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "无味的",
         "meaningKo": "맛없는",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "ostentatious",
+          "insipid",
+          "garish"
+        ],
+        "antonyms": [
+          "tasteful"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-6",
         "categoryZh": "雅思口语分类词汇：味道及餐厅",
@@ -12845,8 +15049,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "淡而无味的（如走",
         "meaningKo": "부드럽다(걷는 것 같은",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "dull",
+          "insipid",
+          "vapid"
+        ],
+        "antonyms": [
+          "sharp",
+          "natural",
+          "indirectly"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-6",
         "categoryZh": "雅思口语分类词汇：味道及餐厅",
@@ -12861,7 +15073,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "油腻的",
         "meaningKo": "기름진",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "dirty",
+          "soiled",
+          "fat"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-6",
@@ -12877,8 +15093,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "清淡的",
         "meaningKo": "빛",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "insipid",
+          "vapid",
+          "flat"
+        ],
+        "antonyms": [
+          "pungent"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-6",
         "categoryZh": "雅思口语分类词汇：味道及餐厅",
@@ -12893,8 +15115,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "清淡的",
         "meaningKo": "빛",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "frivolous",
+          "clear",
+          "bright"
+        ],
+        "antonyms": [
+          "heavy",
+          "dark",
+          "obliterate"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-6",
         "categoryZh": "雅思口语分类词汇：味道及餐厅",
@@ -12909,7 +15139,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "餐厅",
         "meaningKo": "레스토랑",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "eating place",
+          "eating house"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-6",
@@ -12989,7 +15222,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "早餐",
         "meaningKo": "아침 식사",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "petit dejeuner"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-6",
@@ -13005,7 +15240,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "午餐",
         "meaningKo": "점심",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "luncheon",
+          "dejeuner",
+          "tiffin"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-6",
@@ -13021,7 +15260,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "午餐，午餐",
         "meaningKo": "점심, 점심",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "lunch",
+          "dejeuner",
+          "tiffin"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-6",
@@ -13053,7 +15296,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "快餐",
         "meaningKo": "패스트푸드",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "collation",
+          "bite",
+          "nosh"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-6",
@@ -13149,7 +15396,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "宴会",
         "meaningKo": "연회",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "junket",
+          "feast"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-6",
@@ -13165,7 +15415,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "一顿饭",
         "meaningKo": "식사",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "repast"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-6",
@@ -13181,7 +15433,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "番茄,西红柿",
         "meaningKo": "토마토, 토마토",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "love apple",
+          "lycopersicon esculentum",
+          "tomato plant"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-6",
@@ -13197,7 +15453,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "芦笋",
         "meaningKo": "아스파라거스",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "asparagus officinales",
+          "edible asparagus"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-6",
@@ -13213,7 +15472,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "黄瓜",
         "meaningKo": "오이",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "cuke",
+          "cucumis sativus",
+          "cucumber vine"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-6",
@@ -13229,7 +15492,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "菜豆",
         "meaningKo": "강낭콩",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "noodle",
+          "noggin",
+          "attic"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-6",
@@ -13245,7 +15512,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "甜菜",
         "meaningKo": "사탕무",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "beta vulgaris rubra",
+          "beet"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-6",
@@ -13261,7 +15531,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "胡椒",
         "meaningKo": "후추",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "pelt",
+          "capsicum",
+          "black pepper"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-6",
@@ -13277,7 +15551,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "甜椒",
         "meaningKo": "피망",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "paprika",
+          "pimento",
+          "bell pepper"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-6",
@@ -13293,7 +15571,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "马铃薯",
         "meaningKo": "감자",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "tater",
+          "murphy",
+          "white potato"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-6",
@@ -13309,7 +15591,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "胡萝卜",
         "meaningKo": "당근",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "cultivated carrot",
+          "daucus carota sativa"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-6",
@@ -13325,7 +15610,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "菜花,花椰",
         "meaningKo": "콜리플라워, 콜리플라워",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "brassica oleracea botrytis"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-6",
@@ -13341,7 +15628,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "西葫芦",
         "meaningKo": "호박",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "cucurbita pepo",
+          "pumpkin vine",
+          "autumn pumpkin"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-6",
@@ -13373,7 +15664,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "圆白菜,卷心",
         "meaningKo": "양배추, 양배추",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "abstract",
+          "sneak",
+          "lift"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-6",
@@ -13389,7 +15684,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "辣椒",
         "meaningKo": "칠리 고추",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chilly",
+          "chile",
+          "chili pepper"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-6",
@@ -13405,7 +15704,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "蒜",
         "meaningKo": "마늘",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "ail",
+          "allium sativum"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-6",
@@ -13421,7 +15723,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "葱",
         "meaningKo": "파",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "cive",
+          "allium schoenoprasum",
+          "schnittlaugh"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-6",
@@ -13437,7 +15743,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "香瓜,甜瓜",
         "meaningKo": "멜론, 멜론",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "melon vine"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-6",
@@ -13453,7 +15761,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "芹",
         "meaningKo": "셀러리",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "apium graveolens dulce",
+          "cultivated celery"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-6",
@@ -13469,7 +15780,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "韭",
         "meaningKo": "부추",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "allium cepa",
+          "onion plant"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-6",
@@ -13485,7 +15799,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "韭菜",
         "meaningKo": "향신료",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "allium porrum",
+          "scallion"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-6",
@@ -13501,7 +15818,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "萝卜",
         "meaningKo": "무",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "raphanus sativus"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-6",
@@ -13517,8 +15836,13 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "蘑菇",
         "meaningKo": "버섯",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "mushroom cloud",
+          "mushroom-shaped cloud"
+        ],
+        "antonyms": [
+          "toadstool"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-6",
         "categoryZh": "雅思口语分类词汇：味道及餐厅",
@@ -13565,7 +15889,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "欧芹",
         "meaningKo": "파슬리",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "petroselinum crispum"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-6",
@@ -13581,7 +15907,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "豌豆",
         "meaningKo": "완두콩",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "pea plant"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-6",
@@ -13693,8 +16021,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "小卖部",
         "meaningKo": "매점",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "peach",
+          "denounce",
+          "stag"
+        ],
+        "antonyms": [
+          "boycott"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
         "categoryZh": "雅思分类词汇：Hotel词汇",
@@ -13709,8 +16043,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "酒吧间",
         "meaningKo": "바 룸",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "block",
+          "measure",
+          "relegate"
+        ],
+        "antonyms": [
+          "unbar"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
         "categoryZh": "雅思分类词汇：Hotel词汇",
@@ -13725,7 +16065,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "休息厅",
         "meaningKo": "라운지",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "tarry",
+          "lurk",
+          "lallygag"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
@@ -13773,7 +16117,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "餐厅",
         "meaningKo": "레스토랑",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "vestibule",
+          "foyer",
+          "anteroom"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
@@ -13837,7 +16185,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "地下室",
         "meaningKo": "지하실",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "cellar"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-7",
@@ -13853,7 +16203,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "地窖",
         "meaningKo": "지하실",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "basement",
+          "wine cellar",
+          "root cellar"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
@@ -13917,7 +16271,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "一套房间",
         "meaningKo": "한 벌의 방",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "retinue",
+          "entourage",
+          "cortege"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
@@ -13981,7 +16339,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "长沙发",
         "meaningKo": "소파",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "settle"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
@@ -14093,7 +16453,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "凳子",
         "meaningKo": "의자",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "dejection",
+          "potty",
+          "pot"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
@@ -14109,7 +16473,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "条凳",
         "meaningKo": "의자",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "judiciary",
+          "workbench",
+          "work bench"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
@@ -14189,7 +16557,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "衣柜",
         "meaningKo": "옷장",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "press",
+          "closet"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
@@ -14205,7 +16576,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "壁橱",
         "meaningKo": "옷장",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "secret",
+          "press",
+          "confidential"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
@@ -14237,7 +16612,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "屏风",
         "meaningKo": "스크린",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "cover",
+          "shield",
+          "sieve"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
@@ -14269,7 +16648,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "小地毯",
         "meaningKo": "깔개",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "carpet",
+          "carpeting"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
@@ -14285,7 +16667,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "大地毯",
         "meaningKo": "대형 깔개",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "rug",
+          "carpeting"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
@@ -14365,7 +16750,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "被",
         "meaningKo": "수",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "puff",
+          "comforter"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
@@ -14381,7 +16769,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "毯子",
         "meaningKo": "담요",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "broad",
+          "panoptic",
+          "cover"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
@@ -14397,7 +16789,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "床单",
         "meaningKo": "침대 시트",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "shroud",
+          "tack",
+          "plane"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
@@ -14413,7 +16809,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "床罩",
         "meaningKo": "침대보",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "counterpane",
+          "bedcover",
+          "bed cover"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
@@ -14429,7 +16829,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "枕头",
         "meaningKo": "베개",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "rest"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
@@ -14445,7 +16847,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "枕套",
         "meaningKo": "베갯잇",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "case",
+          "slip",
+          "pillow slip"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
@@ -14461,8 +16867,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "席",
         "meaningKo": "좌석",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "snarl",
+          "dull",
+          "flat"
+        ],
+        "antonyms": [
+          "straighten out",
+          "disentangle",
+          "unsnarl"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
         "categoryZh": "雅思分类词汇：Hotel词汇",
@@ -14477,7 +16891,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "垫子",
         "meaningKo": "매트",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "shock",
+          "buffer",
+          "soften"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
@@ -14493,7 +16911,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "浴室",
         "meaningKo": "화장실",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "privy",
+          "facility",
+          "john"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
@@ -14525,7 +16947,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "冷热自来水龙头",
         "meaningKo": "따뜻한 것과 차가운 수도꼭지",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "lights-out"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
@@ -14589,7 +17013,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "洗脸盆",
         "meaningKo": "세면대",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "lavatory",
+          "lavabo",
+          "washstand"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
@@ -14685,8 +17113,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "海绵",
         "meaningKo": "스펀지",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "bum",
+          "parasite",
+          "cadge"
+        ],
+        "antonyms": [
+          "felicitous"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
         "categoryZh": "雅思分类词汇：Hotel词汇",
@@ -14765,7 +17199,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "气窗",
         "meaningKo": "트랜섬",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "windowpane"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
@@ -14781,7 +17217,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "窗帘",
         "meaningKo": "커튼",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "pall",
+          "drape",
+          "drapery"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
@@ -14829,7 +17269,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "有空",
         "meaningKo": "가능",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "cool"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
@@ -15021,7 +17463,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "灯罩",
         "meaningKo": "갓",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "lamp shade"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
@@ -15053,7 +17497,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "灯泡",
         "meaningKo": "전구",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "medulla",
+          "medulla oblongata",
+          "light bulb"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
@@ -15117,7 +17565,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "开关",
         "meaningKo": "스위치",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "shift",
+          "throw",
+          "change"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
@@ -15149,7 +17601,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "插头",
         "meaningKo": "플러그",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "secure",
+          "hack",
+          "jade"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
@@ -15165,7 +17621,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "电话",
         "meaningKo": "전화",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "ring",
+          "call",
+          "phone"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
@@ -15197,8 +17657,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "衣钩",
         "meaningKo": "옷고리",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "abstract",
+          "plume",
+          "draw"
+        ],
+        "antonyms": [
+          "unhook",
+          "undercharge"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
         "categoryZh": "雅思分类词汇：Hotel词汇",
@@ -15245,7 +17712,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "经理",
         "meaningKo": "매니저",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "coach",
+          "handler",
+          "director"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-7",
@@ -15261,7 +17732,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "服务员",
         "meaningKo": "웨이터",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "concomitant",
+          "related",
+          "incidental"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-7",
@@ -15293,7 +17768,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "租金",
         "meaningKo": "임대",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "engage",
+          "take",
+          "split"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-7",
@@ -15309,7 +17788,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "账单",
         "meaningKo": "계산서",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "charge",
+          "account",
+          "peak"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-7",
@@ -15325,7 +17808,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "鲍鱼",
         "meaningKo": "전복",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "ear-shell",
+          "sea snail",
+          "shellfish"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-8",
@@ -15341,7 +17828,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "火锅",
         "meaningKo": "훠궈",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "stew",
+          "fire pot"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-8",
@@ -15357,7 +17847,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "烤鸭",
         "meaningKo": "오리구이",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "roasted duck"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-8",
@@ -15373,7 +17865,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "海",
         "meaningKo": "해삼",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "beche-de-mer"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-8",
@@ -15389,7 +17883,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "鱼",
         "meaningKo": "샥스핀 수프",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "shark-fin soup"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-8",
@@ -15405,7 +17901,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "石斑鱼",
         "meaningKo": "바리",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "sea bass"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-8",
@@ -15453,7 +17951,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "蟹",
         "meaningKo": "게",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "crab louse",
+          "crabmeat",
+          "pubic louse"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-8",
@@ -15501,7 +18003,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "虾子",
         "meaningKo": "새우",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "runt",
+          "peewee",
+          "prawn"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-8",
@@ -15517,7 +18023,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "烤乳猪",
         "meaningKo": "새끼 돼지 구이",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "guttle",
+          "devour",
+          "raven"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-8",
@@ -15565,7 +18075,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "干贝",
         "meaningKo": "가리비",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "cutlet",
+          "scollop"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-8",
@@ -15581,7 +18094,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "糖醋排骨",
         "meaningKo": "탕수육 돼지갈비",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "pork barrel",
+          "porc"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-8",
@@ -15613,7 +18129,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "海蜇",
         "meaningKo": "해파리",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "man-of-war",
+          "medusa",
+          "medusan"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-8",
@@ -15629,7 +18149,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "芥末",
         "meaningKo": "겨자",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "mustard greens",
+          "leaf mustard",
+          "table mustard"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-8",
@@ -15709,7 +18233,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "烧卖",
         "meaningKo": "시오마이",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "dumpling"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-8",
@@ -15837,7 +18363,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "化妆",
         "meaningKo": "메이크업",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "toiletry",
+          "toilet article"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
@@ -15853,7 +18382,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "鸡胸肉",
         "meaningKo": "닭 가슴살",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "bosom",
+          "front",
+          "boob"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
@@ -15997,7 +18530,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "小里肌肉",
         "meaningKo": "작은 근육",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "filet",
+          "taenia",
+          "tenia"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
@@ -16093,7 +18630,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "猪",
         "meaningKo": "돼지",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "aggrandize",
+          "embellish",
+          "pad"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
@@ -16109,7 +18650,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "蹄膀",
         "meaningKo": "발굽",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "pawn",
+          "rhine wine",
+          "rhennish"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
@@ -16141,8 +18686,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "有骨的大块肉",
         "meaningKo": "뼈가 있는 고기 덩어리",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "articulate",
+          "collective",
+          "juncture"
+        ],
+        "antonyms": [
+          "separate"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
         "categoryZh": "雅思分类词汇：超市商品",
@@ -16365,7 +18916,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "鲱",
         "meaningKo": "청어",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "clupea harangus"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-9",
@@ -16381,7 +18934,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "鳕",
         "meaningKo": "대구",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "tease",
+          "fool",
+          "twit"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
@@ -16397,7 +18954,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "鲔鱼",
         "meaningKo": "참치",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "tunny",
+          "opuntia tuna",
+          "tuna fish"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
@@ -16413,7 +18974,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "比目鱼",
         "meaningKo": "넙치",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "pleuronectes platessa"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
@@ -16429,7 +18992,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "鱆鱼",
         "meaningKo": "신 생선",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "devilfish"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
@@ -16445,7 +19010,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "乌贼",
         "meaningKo": "오징어",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "calamary",
+          "calamari"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
@@ -16493,7 +19061,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "北大西",
         "meaningKo": "북경대학교 서부",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "melanogrammus aeglefinus"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
@@ -16621,7 +19191,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "牡犡",
         "meaningKo": "무양",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "huitre"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-9",
@@ -16653,7 +19225,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "虾",
         "meaningKo": "새우",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "shrimp"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
@@ -16733,7 +19307,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "茄子",
         "meaningKo": "가지",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "brinjal",
+          "mad apple",
+          "garden egg"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
@@ -16797,7 +19375,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "西",
         "meaningKo": "서쪽",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chromatic",
+          "cress green",
+          "colored"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
@@ -16829,7 +19411,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "姜",
         "meaningKo": "생강",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "colorful",
+          "peppiness",
+          "gingery"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-9",
@@ -16845,7 +19431,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "芥菜苗",
         "meaningKo": "겨자 모종",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "cress plant"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
@@ -16909,7 +19497,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "香菜",
         "meaningKo": "고수풀",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "cilantro",
+          "coriander seed",
+          "coriandrum sativum"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-9",
@@ -16925,7 +19517,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "透明包心菜,中文又叫生",
         "meaningKo": "투명배추, 한자로 생배추라고도 함",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "berg"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
@@ -16957,7 +19551,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "秋",
         "meaningKo": "가을",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "gumbo",
+          "abelmoschus esculentus",
+          "hibiscus esculentus"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
@@ -17005,7 +19603,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "大芋头",
         "meaningKo": "빅 타로",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "eddo",
+          "dasheen",
+          "cocoyam"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
@@ -17037,7 +19639,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "菠菜",
         "meaningKo": "시금치",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "prickly-seeded spinach",
+          "spinach plant",
+          "spinacia oleracea"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
@@ -17085,7 +19691,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "玉米粒",
         "meaningKo": "옥수수 커널",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "wheat",
+          "clavus",
+          "corn whiskey"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
@@ -17101,7 +19711,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "豆芽菜",
         "meaningKo": "콩나물",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "shoot",
+          "germinate",
+          "pullulate"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
@@ -17117,7 +19731,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "柠檬",
         "meaningKo": "레몬",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "gamboge",
+          "lemon yellow",
+          "lemon tree"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
@@ -17133,7 +19751,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "梨子",
         "meaningKo": "배",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "pyrus communis",
+          "pear tree"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
@@ -17149,7 +19770,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "葡萄",
         "meaningKo": "포도",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "grapevine"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
@@ -17197,7 +19820,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "草莓",
         "meaningKo": "딸기",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "strawberry mark",
+          "hemangioma simplex"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
@@ -17213,7 +19839,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "芒果",
         "meaningKo": "망고",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "mango tree",
+          "mangifera indica"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
@@ -17229,7 +19858,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "菠萝",
         "meaningKo": "파인애플",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "ananas",
+          "ananas comosus",
+          "pineapple plant"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
@@ -17277,7 +19910,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "枣子",
         "meaningKo": "날짜",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "see",
+          "engagement",
+          "escort"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
@@ -17293,7 +19930,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "荔枝",
         "meaningKo": "리치",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "leechee",
+          "litchi",
+          "lichee"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
@@ -17325,7 +19966,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "椰",
         "meaningKo": "코코넛",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "coco",
+          "cocoanut",
+          "coconut palm"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
@@ -17341,7 +19986,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "无花果",
         "meaningKo": "무화과",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "figure",
+          "common fig",
+          "ficus carica"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
@@ -17533,7 +20182,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "麻油",
         "meaningKo": "참기름",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "anele",
+          "anoint",
+          "lube"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
@@ -17645,7 +20298,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "鱼干",
         "meaningKo": "건어물",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "mark",
+          "fool",
+          "sucker"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
@@ -17741,7 +20398,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "燕",
         "meaningKo": "얀",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "agar"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
@@ -17773,7 +20432,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "八角",
         "meaningKo": "스타 아니스",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "aniseed",
+          "anise plant",
+          "pimpinella anisum"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-9",
@@ -18285,7 +20948,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "污水",
         "meaningKo": "하수",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "sewerage"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -18893,7 +21558,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "掌击",
         "meaningKo": "때리다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "bang",
+          "bolt",
+          "slapdash"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -18909,7 +21578,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "敲，打",
         "meaningKo": "노크하다, 때리다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "strike",
+          "pat",
+          "pink"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -18925,7 +21598,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "不毛之地的",
         "meaningKo": "불모의",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "desolate",
+          "bleak",
+          "stark"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -18957,8 +21634,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "过去式",
         "meaningKo": "과거형",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "induce",
+          "sustain",
+          "hold"
+        ],
+        "antonyms": [
+          "decline",
+          "reject",
+          "miss"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
         "categoryZh": "雅思分类词汇：环境污染",
@@ -18973,7 +21658,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "对照",
         "meaningKo": "제어",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "line",
+          "demarcation",
+          "counterpoint"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -18989,7 +21678,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "忠告",
         "meaningKo": "조언",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "advocate",
+          "advise",
+          "guidance"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -19021,7 +21714,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "移民到国外",
         "meaningKo": "해외로 이민하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "outgoer",
+          "emigre",
+          "emigree"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-10",
@@ -19085,7 +21782,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "擅长",
         "meaningKo": "잘하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "surpass",
+          "stand out"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -19117,7 +21817,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "青年旅社",
         "meaningKo": "유스호스텔",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "hostelry",
+          "youth hostel",
+          "student lodging"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -19133,7 +21837,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "纬度",
         "meaningKo": "위도",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "parallel",
+          "parallel of latitude",
+          "line of latitude"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -19149,7 +21857,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "高度",
         "meaningKo": "신장",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "elevation",
+          "el",
+          "alt"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -19166,7 +21878,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningKo": "감사하다",
         "example": "",
         "synonyms": [],
-        "antonyms": [],
+        "antonyms": [
+          "ingratitude",
+          "ungratefulness"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
         "categoryZh": "雅思分类词汇：环境污染",
@@ -19181,7 +21896,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "孤独的",
         "meaningKo": "외로운",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "solitary",
+          "only",
+          "lonely"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -19197,7 +21916,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "单独的",
         "meaningKo": "혼자",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "solitary",
+          "unique",
+          "unparalleled"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -19213,7 +21936,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "寂寞的",
         "meaningKo": "외로운",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "dejected",
+          "solitary",
+          "lone"
+        ],
         "antonyms": [],
         "partOfSpeech": "adverb",
         "category": "ielts-cat-10",
@@ -19229,8 +21956,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "会死的",
         "meaningKo": "죽을 것이다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "soul",
+          "individual",
+          "fatal"
+        ],
+        "antonyms": [
+          "immortal"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-10",
         "categoryZh": "雅思分类词汇：环境污染",
@@ -19245,7 +21978,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "金属",
         "meaningKo": "금속",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "metallic",
+          "metallic element"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-10",
@@ -19261,8 +21997,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "神经的",
         "meaningKo": "신경질적인",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "genial",
+          "rational",
+          "moral"
+        ],
+        "antonyms": [
+          "physical"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-10",
         "categoryZh": "雅思分类词汇：环境污染",
@@ -19277,7 +22019,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "玩弄",
         "meaningKo": "장난감",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "tamper"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -19293,7 +22037,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "惊吓",
         "meaningKo": "겁 먹은",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "dash",
+          "pall",
+          "panic"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -19309,8 +22057,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "缺乏的",
         "meaningKo": "부족한",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "deficient",
+          "just",
+          "tight"
+        ],
+        "antonyms": [
+          "abundant"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
         "categoryZh": "雅思分类词汇：环境污染",
@@ -19341,7 +22095,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "通风",
         "meaningKo": "환기",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "draft",
+          "gulp",
+          "blueprint"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -19357,8 +22115,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "保证",
         "meaningKo": "보증",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "ascertain",
+          "control",
+          "secure"
+        ],
+        "antonyms": [
+          "worry"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
         "categoryZh": "雅思分类词汇：环境污染",
@@ -19373,7 +22137,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "使确定",
         "meaningKo": "확실히 해라",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "ascertain",
+          "control",
+          "assure"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -19389,7 +22157,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "保险",
         "meaningKo": "보험",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "ascertain",
+          "control",
+          "assure"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -19405,8 +22177,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "除外",
         "meaningKo": "제외",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "demur",
+          "omit",
+          "exclude"
+        ],
+        "antonyms": [
+          "include"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
         "categoryZh": "雅思分类词汇：环境污染",
@@ -19421,7 +22199,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "期望",
         "meaningKo": "기대",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "look",
+          "carry",
+          "anticipate"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -19437,8 +22219,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "接受",
         "meaningKo": "받아들이다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "have",
+          "take",
+          "admit"
+        ],
+        "antonyms": [
+          "decline",
+          "reject",
+          "refuse"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
         "categoryZh": "雅思分类词汇：环境污染",
@@ -19453,7 +22243,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "地板",
         "meaningKo": "바닥",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "base",
+          "level",
+          "shock"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-10",
@@ -19485,8 +22279,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "事件",
         "meaningKo": "이벤트",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "incidental",
+          "secondary",
+          "peripheral"
+        ],
+        "antonyms": [
+          "basic"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-10",
         "categoryZh": "雅思分类词汇：环境污染",
@@ -19501,7 +22301,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "灵感",
         "meaningKo": "영감",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "stirring",
+          "brainchild",
+          "inhalation"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-10",
@@ -19517,7 +22321,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "渴",
         "meaningKo": "목마른",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "ambition",
+          "dream",
+          "rough breathing"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-10",
@@ -19533,7 +22341,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "三月, 前进",
         "meaningKo": "3월, 앞으로 나아가다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "exhibit",
+          "demonstrate",
+          "stride"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -19549,8 +22361,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "比赛",
         "meaningKo": "경쟁",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "touch",
+          "peer",
+          "fit"
+        ],
+        "antonyms": [
+          "disaccord",
+          "disagree",
+          "discord"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
         "categoryZh": "雅思分类词汇：环境污染",
@@ -19565,7 +22385,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "专利",
         "meaningKo": "특허",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "manifest",
+          "plain",
+          "evident"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-10",
@@ -19581,8 +22405,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "有力的",
         "meaningKo": "강력한",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "cogent",
+          "virile",
+          "powerful"
+        ],
+        "antonyms": [
+          "impotent"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-10",
         "categoryZh": "雅思分类词汇：环境污染",
@@ -19597,8 +22427,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "潜在的",
         "meaningKo": "잠재력",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "potency",
+          "latent",
+          "prospective"
+        ],
+        "antonyms": [
+          "existent",
+          "actual"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-10",
         "categoryZh": "雅思分类词汇：环境污染",
@@ -19613,7 +22450,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "警察",
         "meaningKo": "경찰",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "law",
+          "constabulary",
+          "patrol"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -19629,7 +22470,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "政策",
         "meaningKo": "정책",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "insurance",
+          "insurance policy"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -19645,7 +22489,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "政治",
         "meaningKo": "정치",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "government",
+          "political science",
+          "political relation"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -19661,7 +22509,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "抗议",
         "meaningKo": "항의",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "dissent",
+          "resist",
+          "objection"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -19693,8 +22545,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "需要",
         "meaningKo": "필요",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "compel",
+          "necessitate",
+          "command"
+        ],
+        "antonyms": [
+          "obviate",
+          "eliminate",
+          "rid of"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
         "categoryZh": "雅思分类词汇：环境污染",
@@ -19709,7 +22569,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "询问",
         "meaningKo": "물어보세요",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "enquire",
+          "ask",
+          "wonder"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -19725,7 +22589,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "询问",
         "meaningKo": "물어보세요",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "inquire",
+          "ask"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -19741,7 +22608,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "获得",
         "meaningKo": "얻다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "produce",
+          "develop",
+          "take"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -19757,7 +22628,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "报仇",
         "meaningKo": "복수",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "retaliation",
+          "avenge",
+          "retaliate"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -19773,7 +22648,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "为...报仇",
         "meaningKo": "복수하다...",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "retaliate",
+          "revenge"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -19789,7 +22667,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "故事",
         "meaningKo": "이야기",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "narrative",
+          "level",
+          "chronicle"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -19805,8 +22687,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "坚持",
         "meaningKo": "지속하다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "joint",
+          "adhere",
+          "sting"
+        ],
+        "antonyms": [
+          "free",
+          "move",
+          "dislodge"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
         "categoryZh": "雅思分类词汇：环境污染",
@@ -19821,7 +22711,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "严",
         "meaningKo": "엄격한",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "stern",
+          "severe",
+          "rigid"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -19837,7 +22731,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "扩张",
         "meaningKo": "확장",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "expound",
+          "flourish",
+          "expatiate"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -19853,7 +22751,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "花费",
         "meaningKo": "비용",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "use",
+          "drop",
+          "spend"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -19869,7 +22771,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "延长",
         "meaningKo": "연장하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "strain",
+          "lead",
+          "expand"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -19885,7 +22791,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "通过",
         "meaningKo": "패스",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "finished",
+          "done",
+          "through and through"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -19901,7 +22811,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "彻底的",
         "meaningKo": "철저한",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "complete",
+          "careful",
+          "exhaustive"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -19949,7 +22863,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "目的",
         "meaningKo": "목적",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "resolve",
+          "determination",
+          "function"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -19965,7 +22883,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "假设",
         "meaningKo": "가설",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "conjecture",
+          "speculate",
+          "reckon"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -19981,7 +22903,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "建议",
         "meaningKo": "제안",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "project",
+          "purpose",
+          "advise"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -19997,8 +22923,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "尊敬",
         "meaningKo": "존경",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "regard",
+          "observe",
+          "esteem"
+        ],
+        "antonyms": [
+          "disesteem",
+          "disrespect"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
         "categoryZh": "雅思分类词汇：环境污染",
@@ -20013,7 +22946,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "方面",
         "meaningKo": "측면",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "prospect",
+          "look",
+          "facet"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -20029,7 +22966,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "视察",
         "meaningKo": "검사",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "scrutinize",
+          "audit",
+          "visit"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -20045,8 +22986,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "怀疑",
         "meaningKo": "의심",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "surmise",
+          "queer",
+          "doubt"
+        ],
+        "antonyms": [
+          "trust",
+          "bank",
+          "complainant"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
         "categoryZh": "雅思分类词汇：环境污染",
@@ -20061,7 +23010,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "滑翔",
         "meaningKo": "활공",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "gliding",
+          "soaring",
+          "sailing"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -20077,7 +23030,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "偷",
         "meaningKo": "훔치다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "slip",
+          "creep",
+          "sneak"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-10",
@@ -20093,7 +23050,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "钢",
         "meaningKo": "강철",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "brand",
+          "nerve",
+          "blade"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -20109,7 +23070,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "努力",
         "meaningKo": "열심히 일하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "endeavor",
+          "strain",
+          "reach"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-10",
@@ -20125,7 +23090,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "大步走",
         "meaningKo": "큰 걸음을 내딛다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "pace",
+          "tread",
+          "step"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -20157,8 +23126,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "幻觉",
         "meaningKo": "환각",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "fancy",
+          "legerdemain",
+          "deception"
+        ],
+        "antonyms": [
+          "maladroit"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
         "categoryZh": "雅思分类词汇：环境污染",
@@ -20173,7 +23148,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "错觉",
         "meaningKo": "환상",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "psychotic belief"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -20189,7 +23166,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "逃避",
         "meaningKo": "탈출",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "slip",
+          "eluding"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -20205,7 +23185,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "前景",
         "meaningKo": "잠재 고객",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "aspect",
+          "view",
+          "scene"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -20221,7 +23205,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "透",
         "meaningKo": "통해",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "position",
+          "view",
+          "linear perspective"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-10",
@@ -20237,7 +23225,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "文具",
         "meaningKo": "문구류",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "notepaper",
+          "letter paper"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -20253,7 +23244,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "固",
         "meaningKo": "고체",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "unmoving",
+          "fixed",
+          "nonmoving"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-10",
@@ -20269,8 +23264,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "松的",
         "meaningKo": "느슨한",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "wanton",
+          "light",
+          "free"
+        ],
+        "antonyms": [
+          "compact",
+          "tight",
+          "affixed"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
         "categoryZh": "雅思分类词汇：环境污染",
@@ -20301,8 +23304,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "改正, 修正",
         "meaningKo": "맞다, 수정하다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "ameliorate",
+          "improve",
+          "rectify"
+        ],
+        "antonyms": [
+          "exacerbate",
+          "aggravate",
+          "exasperate"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
         "categoryZh": "雅思分类词汇：环境污染",
@@ -20429,8 +23440,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "喜剧片",
         "meaningKo": "코미디",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "drollery",
+          "funniness",
+          "clowning"
+        ],
+        "antonyms": [
+          "tragedy"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
         "categoryZh": "雅思分类词汇：环境污染",
@@ -20445,8 +23462,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "悲剧片",
         "meaningKo": "비극",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "calamity",
+          "cataclysm",
+          "catastrophe"
+        ],
+        "antonyms": [
+          "comedy"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
         "categoryZh": "雅思分类词汇：环境污染",
@@ -20589,7 +23612,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "系列片",
         "meaningKo": "시리즈",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "sequent",
+          "consecutive",
+          "ordered"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-10",
@@ -20605,7 +23632,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "预告片",
         "meaningKo": "트레일러",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "mobile home",
+          "house trailer",
+          "camper trailer"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-10",
@@ -20717,7 +23748,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "有声",
         "meaningKo": "소리와 함께",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "talking picture"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -20765,7 +23798,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "片名",
         "meaningKo": "제목",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "claim",
+          "deed",
+          "entitle"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -20797,7 +23834,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "对白",
         "meaningKo": "대화",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "dialog",
+          "duologue"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -20861,7 +23901,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "牲畜",
         "meaningKo": "가축",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "stock",
+          "farm animal"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -20893,7 +23936,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "铢(泰国)",
         "meaningKo": "바트(태국)",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "tical"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -20941,7 +23986,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "第纳尔(部分阿拉伯国家、南斯",
         "meaningKo": "디나르(일부 아랍 국가, 유고슬라비아",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "algerian dinar",
+          "iraqi dinar",
+          "jordanian dinar"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -20957,7 +24006,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "迪拉姆(阿联酋、摩洛哥）",
         "meaningKo": "디르함(UAE, 모로코)",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "kuwaiti dirham",
+          "libyan dirham",
+          "qatari dirham"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -20973,7 +24026,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "元(美国、澳大利亚、加拿大、",
         "meaningKo": "위안화(미국, 호주, 캐나다,",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "clam",
+          "dollar sign",
+          "dollar bill"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -20989,7 +24046,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "盾(越南)",
         "meaningKo": "동어(베트남)",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "ding",
+          "dingdong"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -21005,7 +24065,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "盾(荷兰)",
         "meaningKo": "길더(네덜란드)",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "guilder",
+          "gulden"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -21053,7 +24116,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "盾(荷兰)",
         "meaningKo": "길더(네덜란드)",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "guilder",
+          "florin"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -21101,7 +24167,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "里拉(意大利等)",
         "meaningKo": "리라(이탈리아어 등)",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "italian lira",
+          "maltese lira",
+          "turkish lira"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -21117,8 +24187,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "马克(德国)",
         "meaningKo": "마크(독일)",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "set",
+          "check",
+          "score"
+        ],
+        "antonyms": [
+          "ignore"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
         "categoryZh": "雅思分类词汇：环境污染",
@@ -21165,7 +24241,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "比索(阿根廷、智利等)",
         "meaningKo": "페소(아르헨티나, 칠레 등)",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "colombian peso",
+          "cuban peso",
+          "chilean peso"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -21181,7 +24261,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "镑(英国、爱尔兰等)",
         "meaningKo": "파운드(영국, 아일랜드 등)",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "thump",
+          "beat",
+          "lumber"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -21229,7 +24313,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "里亚尔(伊朗等)",
         "meaningKo": "리알(이란 등)",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "iranian rial"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-10",
@@ -21261,7 +24347,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "里亚尔(沙特阿拉伯等)",
         "meaningKo": "리알(사우디아라비아 등)",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "qatari riyal",
+          "saudi arabian riyal"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-10",
@@ -21277,7 +24366,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "卢比(印度、巴基斯坦等)",
         "meaningKo": "루피(인도, 파키스탄 등)",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "mauritian rupee",
+          "nepalese rupee",
+          "seychelles rupee"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -21341,7 +24434,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "先令(坦桑尼亚等)",
         "meaningKo": "실링(탄자니아 등)",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "bob",
+          "british shilling",
+          "kenyan shilling"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-10",
@@ -21357,7 +24454,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "索尔(秘鲁)",
         "meaningKo": "솔어(페루)",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "so",
+          "colloidal suspension",
+          "colloidal solution"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -21389,7 +24490,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "图格里克(蒙古)",
         "meaningKo": "투그릭어(몽골)",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "tughrik"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -21421,8 +24524,13 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "元(朝鲜、韩国)",
         "meaningKo": "위안화 (북한, 한국)",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "north korean won",
+          "south korean won"
+        ],
+        "antonyms": [
+          "lost"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
         "categoryZh": "雅思分类词汇：环境污染",
@@ -21437,7 +24545,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "元(日本)",
         "meaningKo": "위안(일본)",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "languish",
+          "ache",
+          "pine"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -21453,7 +24565,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "元(中国)",
         "meaningKo": "위안(중국)",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "kwai"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -21469,7 +24583,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "茄子",
         "meaningKo": "가지",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "aubergine",
+          "brinjal",
+          "mad apple"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-10",
@@ -21485,7 +24603,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "茴香",
         "meaningKo": "회향",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "common fennel",
+          "finocchio",
+          "florence fennel"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -21517,7 +24639,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "嫩葫芦",
         "meaningKo": "부드러운 조롱박",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "essence",
+          "core",
+          "pith"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -21533,7 +24659,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "狭叶青蒿",
         "meaningKo": "Artemisia annua",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "estragon",
+          "artemisia dracunculus"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -21565,7 +24694,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "洋蓟",
         "meaningKo": "아티초크",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "globe artichoke",
+          "cynara scolymus",
+          "artichoke plant"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -21613,7 +24746,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "刺山柑,老鼠瓜",
         "meaningKo": "케이퍼, 아칸서스",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "antic",
+          "frolic",
+          "play"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-10",
@@ -21629,7 +24766,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "刺菜蓟",
         "meaningKo": "카둔",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "cynara cardunculus"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -21645,7 +24784,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "雪维菜,细叶芹",
         "meaningKo": "차빌, 차빌",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "beaked parsley",
+          "anthriscus cereifolium"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -21677,7 +24819,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "苣荬菜",
         "meaningKo": "꽃상추",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "succory",
+          "cichorium intybus",
+          "curly endive"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -21709,7 +24855,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "蒲公英",
         "meaningKo": "민들레",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "blowball"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -21757,7 +24905,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "辣根",
         "meaningKo": "고추냉이",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "armoracia rusticana",
+          "red cole",
+          "horseradish root"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -21789,7 +24941,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "无头甘蓝",
         "meaningKo": "케일",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "loot",
+          "lucre",
+          "pelf"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -21805,7 +24961,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "甘蓝",
         "meaningKo": "양배추",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "turnip cabbage",
+          "brassica oleracea gongylodes"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -21821,7 +24980,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "兵豆",
         "meaningKo": "렌즈콩",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "lentil plant",
+          "lens culinaris"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -21837,7 +24999,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "欧防风",
         "meaningKo": "파스닙",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "pastinaca sativa"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -21853,7 +25017,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "大黄",
         "meaningKo": "대황",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "pieplant",
+          "rhubarb plant"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -21869,7 +25036,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "婆罗门参",
         "meaningKo": "Salsify",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "oyster plant",
+          "vegetable oyster",
+          "tragopogon porrifolius"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -21885,7 +25056,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "块菌",
         "meaningKo": "송로버섯",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "earthnut",
+          "chocolate truffle",
+          "earth-ball"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -21901,7 +25076,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "芜菁",
         "meaningKo": "순무",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "brassica rapa",
+          "white turnip"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-10",
@@ -21917,7 +25095,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "马繽松",
         "meaningKo": "마 빈송",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "endurance contest",
+          "battle of marathon"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -21933,7 +25114,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "接力",
         "meaningKo": "릴레이",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "electrical relay"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -22077,7 +25260,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "铁饼",
         "meaningKo": "토론하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "saucer"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -22173,7 +25358,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "男子/女子 10 米气手枪",
         "meaningKo": "남자/여자 10m 공기권총",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "handgun",
+          "shooting iron",
+          "side arm"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -22253,7 +25442,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "蝶泳",
         "meaningKo": "나비 스트로크",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "butterfly stroke"
+        ],
         "antonyms": [],
         "partOfSpeech": "adverb",
         "category": "ielts-cat-11",
@@ -22270,7 +25461,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningKo": "배영",
         "example": "",
         "synonyms": [],
-        "antonyms": [],
+        "antonyms": [
+          "stained"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -22317,7 +25510,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "帆船运动",
         "meaningKo": "항해",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "glide",
+          "gliding",
+          "soaring"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -22413,7 +25610,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "竞技体操男子双杠",
         "meaningKo": "체조 남자 평행봉",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "parallel bars"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -22557,7 +25756,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "抓举",
         "meaningKo": "날치기",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "snap",
+          "catch",
+          "grab"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -22573,7 +25776,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "高尔夫球",
         "meaningKo": "골프공",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "golf game"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -22605,7 +25810,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "曲棍球",
         "meaningKo": "하키",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "field hockey",
+          "ice hockey",
+          "hockey game"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -22621,7 +25830,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "排球",
         "meaningKo": "배구",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "volleyball game"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -22669,7 +25880,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "棒球",
         "meaningKo": "야구",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "ball game",
+          "baseball game"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -22685,7 +25899,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "篮球",
         "meaningKo": "농구",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "basketball game"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -22717,7 +25933,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "网球",
         "meaningKo": "테니스",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "lawn tennis"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -22733,7 +25951,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "橄榄球",
         "meaningKo": "럭비",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "rugger",
+          "rugby football"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -22749,8 +25970,13 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "垒球",
         "meaningKo": "소프트볼",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "playground ball",
+          "softball game"
+        ],
+        "antonyms": [
+          "hardball"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -22957,8 +26183,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "山地车：越野",
         "meaningKo": "산악자전거: 크로스컨트리",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "state",
+          "area",
+          "land"
+        ],
+        "antonyms": [
+          "urban area"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -23997,7 +27229,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "沙龙",
         "meaningKo": "살롱",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "beauty parlor",
+          "beauty salon",
+          "beauty shop"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -24013,7 +27249,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "展览",
         "meaningKo": "전시회",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "exposition",
+          "expo"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -24029,7 +27268,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "收藏",
         "meaningKo": "컬렉션",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "compendium",
+          "assemblage",
+          "aggregation"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -24045,7 +27288,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "作者",
         "meaningKo": "작성자",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "source",
+          "writer",
+          "generator"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -24061,7 +27308,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "风格",
         "meaningKo": "스타일",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "dash",
+          "panache",
+          "flair"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -24077,7 +27328,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "灵感",
         "meaningKo": "영감",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "ruminate",
+          "contemplate",
+          "speculate"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -24125,7 +27380,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "拜占庭式",
         "meaningKo": "비잔틴",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "artful",
+          "intricate",
+          "convoluted"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -24157,7 +27416,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "哥特式",
         "meaningKo": "고딕",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "strange",
+          "unusual",
+          "medieval"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
@@ -24173,7 +27436,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "巴洛克式",
         "meaningKo": "바로크",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "fancy",
+          "baroqueness",
+          "churrigueresque"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -24189,7 +27456,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "洛可可式",
         "meaningKo": "로코코",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "fancy"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -24206,7 +27475,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningKo": "고전주의, 고전적인 스타일",
         "example": "",
         "synonyms": [],
-        "antonyms": [],
+        "antonyms": [
+          "romanticism"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -24237,8 +27508,12 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "浪漫主义",
         "meaningKo": "낭만주의",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "romance"
+        ],
+        "antonyms": [
+          "classicism"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -24253,8 +27528,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "现实主义",
         "meaningKo": "사실주의",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "naturalism",
+          "realness",
+          "platonism"
+        ],
+        "antonyms": [
+          "irreality",
+          "unreality"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -24381,7 +27663,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "达达主义",
         "meaningKo": "다다이즘",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "dada"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -24413,7 +27697,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "自然主义",
         "meaningKo": "자연주의",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "realism"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -24429,7 +27715,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "存在主义",
         "meaningKo": "실존주의",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "existentialist philosophy"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -24461,7 +27749,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "衣服,服装",
         "meaningKo": "옷, 의복",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "vesture",
+          "apparel",
+          "wear"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -24477,7 +27769,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "服装",
         "meaningKo": "의류",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "vesture",
+          "apparel",
+          "wear"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -24493,7 +27789,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "个人依习惯.身份而着的服装",
         "meaningKo": "개인이 습관과 지위에 따라 입는 옷",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "use",
+          "wont",
+          "substance abuse"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -24573,7 +27873,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "男外衣",
         "meaningKo": "남성용 겉옷",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "case",
+          "accommodate",
+          "fit"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -24589,8 +27893,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "女服",
         "meaningKo": "여성 의류",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "set",
+          "plume",
+          "preen"
+        ],
+        "antonyms": [
+          "strip",
+          "disrobe",
+          "undress"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -24685,8 +27997,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "制服",
         "meaningKo": "유니폼",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "regular",
+          "homogeneous",
+          "consistent"
+        ],
+        "antonyms": [
+          "multiform",
+          "differentiated"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -24781,7 +28100,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "燕尾服,礼服",
         "meaningKo": "턱시도, 드레스",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "full dress",
+          "tailcoat",
+          "white tie"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -24861,7 +28184,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "礼袍",
         "meaningKo": "예복",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "vest",
+          "gown"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -24877,7 +28203,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "长袍",
         "meaningKo": "가운",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "adventitia",
+          "tunica"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
@@ -24893,7 +28222,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "男式大衣",
         "meaningKo": "남성 코트",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "surcoat",
+          "greatcoat",
+          "topcoat"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -24909,7 +28242,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "女大衣",
         "meaningKo": "여성 코트",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "cake",
+          "coating",
+          "surface"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -24925,7 +28262,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "夹大衣",
         "meaningKo": "코트",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "surcoat",
+          "overcoat",
+          "greatcoat"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -24989,7 +28330,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "斗篷",
         "meaningKo": "망토",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "mask",
+          "dissemble"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -25053,7 +28397,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "短外衣夹克",
         "meaningKo": "튜닉 재킷",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "jacket crown"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -25085,7 +28431,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "风帽",
         "meaningKo": "후드",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "tough",
+          "goon",
+          "punk"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -25101,7 +28451,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "围巾",
         "meaningKo": "스카프",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "silencer"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -25165,7 +28517,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "皮手筒",
         "meaningKo": "가죽 머프",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "blunder",
+          "bollix",
+          "spoil"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -25213,7 +28569,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "女睡衣",
         "meaningKo": "여성 잠옷",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "nightgown",
+          "nightie",
+          "night-robe"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -25229,7 +28589,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "衣袋",
         "meaningKo": "주머니",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "bag",
+          "sack",
+          "scoop"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -25293,7 +28657,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "袖子",
         "meaningKo": "소매",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "arm"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -25309,7 +28675,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "袖口",
         "meaningKo": "커프스",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "manacle",
+          "cuffs",
+          "handlock"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -25325,7 +28695,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "钮扣孔",
         "meaningKo": "단추구멍",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "lobby",
+          "button hole"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -25373,7 +28746,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "短袖圆领衫,体恤衫",
         "meaningKo": "반팔 크루넥 셔츠, 티셔츠",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "jersey",
+          "tee shirt"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -25485,7 +28861,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "套服",
         "meaningKo": "정장",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "tout ensemble",
+          "corps de ballet",
+          "supporting players"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -25581,7 +28961,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "开襟毛衣",
         "meaningKo": "카디건 스웨터",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "cardigan welsh corgi"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -25597,7 +28979,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "橡胶雨",
         "meaningKo": "고무 비",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "waterproof"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -25613,7 +28997,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "裤子",
         "meaningKo": "바지",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "pants"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -25661,7 +29047,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "儿童灯笼短裤",
         "meaningKo": "어린이 블루머 반바지",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "drawers",
+          "breeches",
+          "bloomers"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -25677,7 +29067,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "灯笼裤",
         "meaningKo": "블루머",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "breeches",
+          "knickers",
+          "knee breeches"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -25709,7 +29103,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "裤子背带 (美",
         "meaningKo": "바지 멜빵(미국",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "brace"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -25725,7 +29121,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "裤角折边,挽脚",
         "meaningKo": "바지 모서리를 단으로 묶고 다리를 위로 당깁니다.",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "cuff"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -25741,7 +29139,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "马裤",
         "meaningKo": "바지",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "knickers",
+          "knee breeches",
+          "knee pants"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -25757,8 +29159,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "裤带",
         "meaningKo": "벨트",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "bang",
+          "smash",
+          "rap"
+        ],
+        "antonyms": [
+          "unbelt"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -25773,7 +29181,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "裙子",
         "meaningKo": "스커트",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "elude",
+          "wench",
+          "dame"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -25805,7 +29217,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "内衣",
         "meaningKo": "속옷",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "petticoat",
+          "half-slip"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -25821,7 +29236,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "内衣裤",
         "meaningKo": "속옷",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "underwear",
+          "underclothing"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -25837,7 +29255,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "内衣裤 (美",
         "meaningKo": "속옷(미국)",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "trousers",
+          "drawers",
+          "knickers"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -25885,7 +29307,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "乳罩",
         "meaningKo": "브래지어",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "brassiere",
+          "bandeau"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -25901,7 +29326,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "紧身胸衣",
         "meaningKo": "코르셋",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "corslet"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -25917,7 +29344,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "束腰,胸衣",
         "meaningKo": "코르셋, 코르셋",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "girdle",
+          "stays",
+          "panty girdle"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -25933,7 +29364,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "背心",
         "meaningKo": "조끼",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "vest"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -25949,7 +29382,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "衬裙",
         "meaningKo": "페티코트",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "underskirt",
+          "half-slip"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -25965,7 +29401,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "腰带",
         "meaningKo": "벨트",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "cincture",
+          "sash",
+          "gird"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -26045,7 +29485,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "手帕",
         "meaningKo": "손수건",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "hankie",
+          "hanky",
+          "hankey"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -26093,7 +29537,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "比基尼泳衣",
         "meaningKo": "비키니 수영복",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "two-piece"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -26125,7 +29571,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "鞋",
         "meaningKo": "신발",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "horseshoe",
+          "brake shoe",
+          "provide with shoes"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -26141,7 +29591,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "鞋底",
         "meaningKo": "유일한",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "solitary",
+          "exclusive",
+          "only"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -26157,7 +29611,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "鞋后跟",
         "meaningKo": "뒤꿈치",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "cad",
+          "blackguard",
+          "dog"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -26173,8 +29631,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "鞋带",
         "meaningKo": "신발끈",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "fortify",
+          "twine",
+          "intertwine"
+        ],
+        "antonyms": [
+          "untwine"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -26189,7 +29653,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "鹿皮鞋",
         "meaningKo": "모카신",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "moccasins",
+          "mocassin"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -26221,7 +29688,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "靴子",
         "meaningKo": "부츠",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "kick",
+          "trunk",
+          "bring up"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -26269,8 +29740,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "木拖鞋",
         "meaningKo": "나무 슬리퍼",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "foul",
+          "back up",
+          "choke"
+        ],
+        "antonyms": [
+          "unworldly",
+          "unclog"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -26301,7 +29779,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "手套",
         "meaningKo": "장갑",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "mitt",
+          "gloves",
+          "boxing glove"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -26349,7 +29831,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "便帽",
         "meaningKo": "해골 모자",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "crest",
+          "capital",
+          "chapiter"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -26365,7 +29851,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "带沿的帽子",
         "meaningKo": "챙모자",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chapeau",
+          "lid"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -26477,7 +29966,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "头饰",
         "meaningKo": "머리 장식",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "headgear"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -26493,7 +29984,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "头巾",
         "meaningKo": "머리 스카프",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "toque",
+          "pillbox"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -26525,7 +30019,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "棉",
         "meaningKo": "면화",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "cotton wool",
+          "cotton plant"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -26557,7 +30054,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "毛料",
         "meaningKo": "모직 소재",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "fleece",
+          "woollen",
+          "woolen"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -26573,7 +30074,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "麻",
         "meaningKo": "대마",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "linen paper"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -26669,7 +30172,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "羊毛",
         "meaningKo": "양모",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "kashmir"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -26701,7 +30206,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "圆点花",
         "meaningKo": "폴카 도트 꽃",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "point",
+          "disperse",
+          "stud"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -26717,7 +30226,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "条纹",
         "meaningKo": "줄무늬",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "band",
+          "streak",
+          "chevron"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -26749,8 +30262,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "面纱",
         "meaningKo": "베일",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "caul",
+          "humeral veil",
+          "head covering"
+        ],
+        "antonyms": [
+          "unveil"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -26765,7 +30284,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "亲",
         "meaningKo": "친애하는",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "cognate",
+          "clan",
+          "tribe"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -26861,7 +30384,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "代",
         "meaningKo": "세대",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "propagation",
+          "contemporaries",
+          "coevals"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -26877,7 +30404,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "支,系",
         "meaningKo": "지점, 부서",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "offset",
+          "separate",
+          "outgrowth"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -26893,7 +30424,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "部族,部落",
         "meaningKo": "부족,부족",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "kin",
+          "clan",
+          "kin group"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -26909,7 +30444,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "氏族",
         "meaningKo": "클랜",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "kin",
+          "tribe",
+          "kin group"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -26925,7 +30464,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "种族",
         "meaningKo": "인종",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "strain",
+          "stock",
+          "cover"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -26941,7 +30484,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "宗族,世系",
         "meaningKo": "씨족, 혈통",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "line",
+          "stock",
+          "descent"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -26957,7 +30504,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "门第,血统",
         "meaningKo": "가문의 계보, 혈통",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "banal",
+          "standard",
+          "strain"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -27021,7 +30572,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "出身",
         "meaningKo": "원산지",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "line",
+          "stock",
+          "source"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -27037,7 +30592,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "祖先,先辈",
         "meaningKo": "조상, 조상",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "line",
+          "stock",
+          "descent"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -27053,7 +30612,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "家世",
         "meaningKo": "가족 배경",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "descent",
+          "abstraction",
+          "origin"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -27069,7 +30632,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "后代,后辈",
         "meaningKo": "후손, 후손",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "issue",
+          "progeny",
+          "young"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -27085,7 +30652,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "后代,晚辈",
         "meaningKo": "후손, 후배",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "posterity"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -27101,8 +30670,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "后裔",
         "meaningKo": "자손",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "yield",
+          "subject",
+          "consequence"
+        ],
+        "antonyms": [
+          "recall"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -27117,7 +30692,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "继承",
         "meaningKo": "상속",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "sequence",
+          "successiveness",
+          "taking over"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -27149,8 +30728,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "姻亲关系,嫡戚关系",
         "meaningKo": "혼인관계, 직계친족관계",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "kinship",
+          "chemical attraction",
+          "phylogenetic relation"
+        ],
+        "antonyms": [
+          "cognation",
+          "consanguinity",
+          "blood kinship"
+        ],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -27181,7 +30768,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "血",
         "meaningKo": "피",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "profligate",
+          "line",
+          "stock"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -27245,7 +30836,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "性别",
         "meaningKo": "성별",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "arouse",
+          "wind up",
+          "excite"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -27501,7 +31096,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "讲师",
         "meaningKo": "강사",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "reader",
+          "lector"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -27549,7 +31147,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "中学校长（英）",
         "meaningKo": "중등학교 교장(영어)",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "master",
+          "schoolmaster"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -27613,7 +31214,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "文娱委员",
         "meaningKo": "엔터테인먼트 위원회",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "amusement"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -27629,7 +31232,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "劳动委员",
         "meaningKo": "노동위원",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "project",
+          "drive",
+          "travail"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -27677,7 +31284,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "组织委员",
         "meaningKo": "조직위원회",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "brass",
+          "governance",
+          "system"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -27773,8 +31384,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "经历",
         "meaningKo": "경험",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "work",
+          "employ",
+          "engagement"
+        ],
+        "antonyms": [
+          "unemployment"
+        ],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -27885,7 +31502,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "职位",
         "meaningKo": "위치",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "set",
+          "perspective",
+          "view"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -27933,8 +31554,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "推销（商品）；创立（企业）",
         "meaningKo": "(상품을) 홍보하다; (기업)을 창조하다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "advance",
+          "encourage",
+          "elevate"
+        ],
+        "antonyms": [
+          "break",
+          "relegate",
+          "demote"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -28029,8 +31658,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "灵巧的，机敏的",
         "meaningKo": "능숙한, 기민한",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "cunning",
+          "artful",
+          "clever"
+        ],
+        "antonyms": [
+          "maladroit"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -28045,8 +31680,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "机灵的",
         "meaningKo": "영리하다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "conscious",
+          "intelligent",
+          "vigilant"
+        ],
+        "antonyms": [
+          "unalert"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -28061,8 +31702,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "宽厚的",
         "meaningKo": "관대한",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "benevolent",
+          "sympathetic",
+          "kind"
+        ],
+        "antonyms": [
+          "uncharitable"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -28077,8 +31724,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "有信心的",
         "meaningKo": "자신감",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "positive",
+          "cocksure",
+          "bold"
+        ],
+        "antonyms": [
+          "unconfident"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -28093,8 +31746,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "认真的，自觉的",
         "meaningKo": "진지한, 의식이 있는",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "scrupulous",
+          "moral",
+          "careful"
+        ],
+        "antonyms": [
+          "unconscientious"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -28109,8 +31768,13 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "体贴的",
         "meaningKo": "사려 깊은",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "kind",
+          "thoughtful"
+        ],
+        "antonyms": [
+          "inconsiderate"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -28125,7 +31789,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "好沉思的",
         "meaningKo": "명상적이네요",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "pensive",
+          "musing",
+          "thoughtful"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
@@ -28141,7 +31809,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "有一股子冲劲的，有拼搏精",
         "meaningKo": "에너지가 넘치고 투지가 넘치는 사람",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "spirited",
+          "rakish",
+          "dapper"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -28157,7 +31829,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "有献身精神的",
         "meaningKo": "헌신적인",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "dedicated"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -28173,8 +31847,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "老练的，有策略的",
         "meaningKo": "정교하고 전략적인",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "suave",
+          "smooth",
+          "wise"
+        ],
+        "antonyms": [
+          "undiplomatic"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -28189,7 +31869,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "守纪律的",
         "meaningKo": "훈련된",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chastised",
+          "controlled",
+          "trained"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -28205,8 +31889,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "精悍的",
         "meaningKo": "활발하다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "impulsive",
+          "active",
+          "kinetic"
+        ],
+        "antonyms": [
+          "adynamic",
+          "stative",
+          "undynamic"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -28221,7 +31913,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "认真的",
         "meaningKo": "진지하게",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "solemn",
+          "serious",
+          "devout"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -28237,7 +31933,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "受过良好教育的",
         "meaningKo": "교육을 잘 받은",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "knowledgeable",
+          "enlightened",
+          "knowing"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -28253,8 +31953,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "充满热情的",
         "meaningKo": "열정적인",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "ardent",
+          "zealous",
+          "avid"
+        ],
+        "antonyms": [
+          "unenthusiastic"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -28269,7 +31975,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "善于表达",
         "meaningKo": "표현력이 풍부한",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "revelatory",
+          "communicative",
+          "communicatory"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
@@ -28285,8 +31995,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "友好的",
         "meaningKo": "친절한",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "affable",
+          "amiable",
+          "cordial"
+        ],
+        "antonyms": [
+          "hostile",
+          "unfriendly"
+        ],
         "partOfSpeech": "adverb",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -28301,7 +32018,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "俭朴的",
         "meaningKo": "검소한",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "economical",
+          "thrifty",
+          "sparing"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
@@ -28333,7 +32054,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "精神饱满的",
         "meaningKo": "에너지가 넘치는",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "substantial",
+          "cordial",
+          "warm"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -28349,8 +32074,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "诚实的",
         "meaningKo": "정직한",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "veracious",
+          "guileless",
+          "open"
+        ],
+        "antonyms": [
+          "dishonorable",
+          "dishonest"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -28365,8 +32097,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "殷勤的",
         "meaningKo": "세심한",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "kind",
+          "receptive",
+          "welcoming"
+        ],
+        "antonyms": [
+          "inhospitable"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -28381,8 +32119,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "恭顺的",
         "meaningKo": "공손한",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "base",
+          "chagrin",
+          "modest"
+        ],
+        "antonyms": [
+          "proud"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -28397,7 +32141,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "首创精神",
         "meaningKo": "개척 정신",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "maiden",
+          "opening",
+          "inaugural"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
@@ -28445,7 +32193,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "有发明才能的，",
         "meaningKo": "창의적인 재능을 지닌 사람,",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "ingenious",
+          "creative",
+          "imaginative"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
@@ -28461,8 +32213,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "正直的",
         "meaningKo": "똑바로",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "virtuous",
+          "good",
+          "fair"
+        ],
+        "antonyms": [
+          "inequitable",
+          "unjust",
+          "unfair"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -28493,8 +32253,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "有见识的",
         "meaningKo": "지식이 풍부한",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "intimate",
+          "informed",
+          "aware"
+        ],
+        "antonyms": [
+          "ignorant",
+          "unversed"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -28509,8 +32276,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "心胸宽大的",
         "meaningKo": "마음이 넓은",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "free",
+          "broad",
+          "big"
+        ],
+        "antonyms": [
+          "conservativist",
+          "conservative"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -28525,8 +32299,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "忠心耿耿的",
         "meaningKo": "충성스러운",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "true",
+          "firm",
+          "constant"
+        ],
+        "antonyms": [
+          "disloyal",
+          "unpatriotic"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -28541,7 +32322,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "虚心的",
         "meaningKo": "겸손하게",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "broad-minded"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -28557,8 +32340,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "守纪律的",
         "meaningKo": "훈련된",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "regular",
+          "peaceful",
+          "coherent"
+        ],
+        "antonyms": [
+          "disorderly"
+        ],
         "partOfSpeech": "adverb",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -28573,8 +32362,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "有独创性的",
         "meaningKo": "원본",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "free",
+          "novel",
+          "archetype"
+        ],
+        "antonyms": [
+          "unoriginal"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -28589,7 +32384,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "辛勤的，苦干的，刻苦",
         "meaningKo": "열심히 일하고, 열심히 일하고, 열심히 일하고",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "conscientious",
+          "scrupulous",
+          "careful"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -28605,8 +32404,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "实际的",
         "meaningKo": "실제",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "pragmatic",
+          "useful",
+          "functional"
+        ],
+        "antonyms": [
+          "impractical"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -28621,7 +32426,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "不屈不挠的",
         "meaningKo": "굴하지 않는",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "diligent",
+          "patient"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -28637,8 +32445,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "意志坚强的",
         "meaningKo": "강한 의지",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "earnest",
+          "meaningful",
+          "leading"
+        ],
+        "antonyms": [
+          "purposeless"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -28653,8 +32467,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "合格的",
         "meaningKo": "자격을 갖춘",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "competent",
+          "dependent",
+          "tempered"
+        ],
+        "antonyms": [
+          "unqualified"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -28669,8 +32489,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "有理性的",
         "meaningKo": "합리적",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "intelligent",
+          "mental",
+          "reasonable"
+        ],
+        "antonyms": [
+          "irrational"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -28685,8 +32511,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "讲道理的",
         "meaningKo": "합리적인",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "sensible",
+          "rational",
+          "intelligent"
+        ],
+        "antonyms": [
+          "unreasonable"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -28701,8 +32533,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "可信赖的",
         "meaningKo": "신뢰할 수 있는",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "true",
+          "authentic",
+          "sure"
+        ],
+        "antonyms": [
+          "unreliable",
+          "undependable"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -28717,7 +32556,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "自觉的",
         "meaningKo": "의식적으로",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "conscious",
+          "uncomfortable"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
@@ -28733,8 +32575,12 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "无私的",
         "meaningKo": "이타적인",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "altruistic"
+        ],
+        "antonyms": [
+          "egoistic"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -28749,8 +32595,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "真诚的",
         "meaningKo": "진심으로",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "solemn",
+          "fervent",
+          "earnest"
+        ],
+        "antonyms": [
+          "insincere",
+          "angelfish"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -28765,8 +32618,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "精明的",
         "meaningKo": "영리한",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "shrewd",
+          "impudent",
+          "sharp"
+        ],
+        "antonyms": [
+          "stupid"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -28781,8 +32640,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "生气勃勃的",
         "meaningKo": "활기찬",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "boisterous",
+          "vivacious",
+          "exuberant"
+        ],
+        "antonyms": [
+          "spiritless"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -28797,7 +32662,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "老实的",
         "meaningKo": "정직한",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "unequivocal",
+          "direct",
+          "square"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -28813,7 +32682,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "意志坚强的",
         "meaningKo": "강한 의지",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "stubborn",
+          "strong-minded"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -28941,7 +32813,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "获得的更有挑战性的工",
         "meaningKo": "더 도전적인 직업을 얻으세요",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chance"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -28989,7 +32863,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "陪伴，同伴",
         "meaningKo": "동행, 동반자",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "fellowship",
+          "companion",
+          "society"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -29005,7 +32883,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "想要，打算",
         "meaningKo": "원하다, 계획하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "mean",
+          "think",
+          "designate"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -29021,8 +32903,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "种，类",
         "meaningKo": "종, 종류",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "benevolent",
+          "genial",
+          "gracious"
+        ],
+        "antonyms": [
+          "unkind"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -29037,7 +32925,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "浴室",
         "meaningKo": "화장실",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "bathe",
+          "bathroom",
+          "tub"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -29053,7 +32945,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "淋浴",
         "meaningKo": "샤워",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "lavish",
+          "exhibitor",
+          "rain shower"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -29069,7 +32965,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "豪华的",
         "meaningKo": "고급스러운",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "gilded",
+          "opulent",
+          "elegant"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -29086,7 +32986,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningKo": "대통령, 대통령 집무실",
         "example": "",
         "synonyms": [],
-        "antonyms": [],
+        "antonyms": [
+          "unpresidential"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -29101,8 +33003,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "完全地，彻底地",
         "meaningKo": "완전히, 철저하게",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "full",
+          "amply",
+          "in full"
+        ],
+        "antonyms": [
+          "slenderly",
+          "meagerly",
+          "sparingly"
+        ],
         "partOfSpeech": "adverb",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -29149,7 +33059,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "保证，担保，包，管",
         "meaningKo": "보증, 보증, 보증, 보증",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "assure",
+          "secure",
+          "ensure"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -29165,7 +33079,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "占有，占用",
         "meaningKo": "소유하다, 점유하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "occupation",
+          "tenancy",
+          "taking possession"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -29181,8 +33099,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "最高的，高峰的",
         "meaningKo": "가장 높은, 최고봉",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "flush",
+          "crest",
+          "point"
+        ],
+        "antonyms": [
+          "off-peak"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -29197,7 +33121,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "到来，到达",
         "meaningKo": "도착하다, 도착하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "comer",
+          "reaching",
+          "arriver"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
@@ -29213,7 +33141,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "启程，离开，出发",
         "meaningKo": "출발하다, 떠나다, 출발하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "divergence",
+          "release",
+          "deviation"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -29229,7 +33161,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "预定，定",
         "meaningKo": "예약, 세트",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "hold",
+          "leger",
+          "script"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -29245,7 +33181,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "提出，提供",
         "meaningKo": "제안하다, 제공하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "tender",
+          "crack",
+          "pass"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -29261,7 +33201,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "折扣",
         "meaningKo": "할인",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "disregard",
+          "dismiss",
+          "ignore"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -29277,8 +33221,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "全部地",
         "meaningKo": "완전히",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "substantial",
+          "good",
+          "opaque"
+        ],
+        "antonyms": [
+          "hollow",
+          "liquid",
+          "gaseous"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -29309,8 +33261,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "包括，包含",
         "meaningKo": "포함하다, 포함하다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "admit",
+          "let in"
+        ],
+        "antonyms": [
+          "omit",
+          "exclude",
+          "shut"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -29325,8 +33284,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "国际的，世界的",
         "meaningKo": "국제, 세계",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "foreign",
+          "outside",
+          "external"
+        ],
+        "antonyms": [
+          "national"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -29373,7 +33338,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "种类，类别",
         "meaningKo": "종류, 카테고리",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "kind",
+          "form",
+          "variety"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -29389,7 +33358,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "价格，价钱",
         "meaningKo": "가격, 가격",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "damage",
+          "terms",
+          "cost"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -29405,8 +33378,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "服务，服侍",
         "meaningKo": "봉사하다, 봉사하다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "avail",
+          "serve",
+          "overhaul"
+        ],
+        "antonyms": [
+          "disservice",
+          "ill turn",
+          "ill service"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -29437,7 +33418,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "价格，费用",
         "meaningKo": "가격, 비용",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "order",
+          "merit",
+          "range"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -29485,8 +33470,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "接待，接见，欢迎",
         "meaningKo": "받다, 받다, 환영하다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "experience",
+          "obtain",
+          "encounter"
+        ],
+        "antonyms": [
+          "say farewell"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -29501,7 +33492,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "旅客，宿客",
         "meaningKo": "여행자, 손님",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "client",
+          "invitee",
+          "visiting"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -29533,7 +33528,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "行李员，旅客服务员",
         "meaningKo": "벨보이, 승객 승무원",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "bellhop",
+          "bellman"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -29549,7 +33547,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "夫人，女士，太太",
         "meaningKo": "부인, 부인, 부인",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "dame",
+          "lady",
+          "gentlewoman"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -29565,7 +33567,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "旅行，旅程",
         "meaningKo": "여행, 여행",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "slip",
+          "jaunt",
+          "stumble"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -29597,7 +33603,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "行李，",
         "meaningKo": "수하물,",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "luggage"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -29613,7 +33621,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "运送，手提",
         "meaningKo": "운반하다, 운반하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "convey",
+          "conduct",
+          "hold"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -29629,7 +33641,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "手提箱，衣箱",
         "meaningKo": "여행가방, 여행가방",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "grip",
+          "bag",
+          "traveling bag"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -29645,8 +33661,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "带领，指引，给看",
         "meaningKo": "리드하다, 안내하다, 보여주다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "exhibit",
+          "display",
+          "present"
+        ],
+        "antonyms": [
+          "conceal",
+          "hide",
+          "confute"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -29661,8 +33685,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "带领，引领，领路",
         "meaningKo": "인도하다, 인도하다, 길을 인도하다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "conduct",
+          "direct",
+          "head"
+        ],
+        "antonyms": [
+          "follow"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -29693,8 +33723,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "允许，准许",
         "meaningKo": "허용하다, 허용하다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "countenance",
+          "appropriate",
+          "admit"
+        ],
+        "antonyms": [
+          "refuse",
+          "keep",
+          "prevent"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -29709,8 +33747,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "愿，希望",
         "meaningKo": "소원, 희망",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "regard",
+          "want",
+          "like"
+        ],
+        "antonyms": [
+          "resent",
+          "begrudge"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -29725,8 +33770,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "令人愉快的，舒适的",
         "meaningKo": "쾌적하다, 편안하다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "dulcet",
+          "beautiful",
+          "gratifying"
+        ],
+        "antonyms": [
+          "unpleasant"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -29741,8 +33792,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "享受",
         "meaningKo": "즐기다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "relish",
+          "delight",
+          "savor"
+        ],
+        "antonyms": [
+          "endure",
+          "suffer"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -29773,8 +33831,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "快乐，愉快，高兴",
         "meaningKo": "행복하다, 행복하다, 행복하다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "delight",
+          "joy",
+          "pleasance"
+        ],
+        "antonyms": [
+          "painfulness",
+          "pain"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -29805,7 +33870,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "提及，提到",
         "meaningKo": "언급하다, 언급하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "observe",
+          "remark",
+          "acknowledge"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -29821,7 +33890,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "登记，注册",
         "meaningKo": "등록하다, 등록하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "adjustment",
+          "enrollment",
+          "enrolment"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -29853,7 +33926,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "在后面，在...背后",
         "meaningKo": "뒤에, 뒤에",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "stern",
+          "butt",
+          "ass"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -29869,8 +33946,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "记住，记得",
         "meaningKo": "기억하다, 기억하다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "commend",
+          "recall",
+          "think"
+        ],
+        "antonyms": [
+          "block",
+          "bury",
+          "blank out"
+        ],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -29885,7 +33970,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "送还，还归",
         "meaningKo": "돌아오다, 돌아오다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "yield",
+          "render",
+          "issue"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -29901,7 +33990,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "稳固地",
         "meaningKo": "단단히",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "hard",
+          "firm",
+          "steadfastly"
+        ],
         "antonyms": [],
         "partOfSpeech": "adverb",
         "category": "ielts-cat-11",
@@ -29933,8 +34026,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "检查，核对",
         "meaningKo": "확인하다, 확인하다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "ascertain",
+          "rebuke",
+          "control"
+        ],
+        "antonyms": [
+          "disaccord",
+          "disagree",
+          "discord"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -29949,7 +34050,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "名单，一览表",
         "meaningKo": "목록, 목록",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "inclination",
+          "lean",
+          "tilt"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -29981,8 +34086,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "表格",
         "meaningKo": "테이블",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "constitute",
+          "strain",
+          "cast"
+        ],
+        "antonyms": [
+          "deform"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -30013,7 +34124,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "护照",
         "meaningKo": "여권",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "pass"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -30029,8 +34142,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "介意，反对",
         "meaningKo": "마음, 대상",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "idea",
+          "head",
+          "nous"
+        ],
+        "antonyms": [
+          "forget"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -30061,7 +34180,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "准备，预备",
         "meaningKo": "준비하다, 준비하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "set",
+          "develop",
+          "devise"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -30093,7 +34216,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "座位",
         "meaningKo": "좌석",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "stern",
+          "butt",
+          "ass"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -30109,7 +34236,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "档案",
         "meaningKo": "아카이브",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "charge",
+          "register",
+          "file away"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -30125,7 +34256,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "身分的证明",
         "meaningKo": "신원 증명",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "recognition",
+          "designation",
+          "feeling of identity"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -30141,8 +34276,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "马上，立刻",
         "meaningKo": "즉시, 즉시",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "conventional",
+          "direct",
+          "guileless"
+        ],
+        "antonyms": [
+          "crooked",
+          "corrupt",
+          "coiled"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -30157,7 +34300,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "单独地",
         "meaningKo": "개별적으로",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "severally",
+          "singly",
+          "individually"
+        ],
         "antonyms": [],
         "partOfSpeech": "adverb",
         "category": "ielts-cat-11",
@@ -30173,8 +34320,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "在...的对面",
         "meaningKo": "반대편",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "contrary",
+          "inverse",
+          "opposition"
+        ],
+        "antonyms": [
+          "alternate"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -30189,7 +34342,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "礼品，礼物",
         "meaningKo": "선물, 현재",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "present",
+          "give",
+          "endow"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -30205,8 +34362,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "直接地",
         "meaningKo": "직접",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "direct",
+          "forthwith",
+          "flat"
+        ],
+        "antonyms": [
+          "indirectly"
+        ],
         "partOfSpeech": "adverb",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -30221,7 +34384,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "交通",
         "meaningKo": "교통",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "dealings"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
@@ -30237,7 +34402,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "直接地",
         "meaningKo": "직접",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "space",
+          "aloofness",
+          "outstrip"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -30253,7 +34422,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "交叉点，十字路口",
         "meaningKo": "교차로, 교차로",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "convergence",
+          "product",
+          "overlap"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -30269,8 +34442,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "建议，提出（意见，计划）",
         "meaningKo": "제안하다, 제안하다 (의견, 계획)",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "intimate",
+          "evoke",
+          "indicate"
+        ],
+        "antonyms": [
+          "contraindicate"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -30285,8 +34464,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "受欢迎的，大众（或某种人）",
         "meaningKo": "인기 있는, 인기 있는 (또는 누군가)",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "common",
+          "plain",
+          "hot"
+        ],
+        "antonyms": [
+          "unpopular"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -30301,7 +34486,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "旅行者，游览者，观光者",
         "meaningKo": "여행자, 관광객, 관광객",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "holidaymaker"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -30317,7 +34504,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "著名的，出名的",
         "meaningKo": "유명한, 유명한",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "illustrious",
+          "notable",
+          "renowned"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
@@ -30349,7 +34540,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "方向，方位",
         "meaningKo": "방향, 방향",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "charge",
+          "counsel",
+          "guidance"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -30365,7 +34560,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "出名的，众所周知的",
         "meaningKo": "유명한, 잘 알려진",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "well known",
+          "long-familiar"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -30381,7 +34579,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "景色，景象",
         "meaningKo": "풍경, 풍경",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "aspect",
+          "prospect",
+          "fit"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -30397,8 +34599,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "有吸引人的，引起兴趣的",
         "meaningKo": "매력적이다, 관심을 불러일으킨다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "cunning",
+          "piquant",
+          "captivating"
+        ],
+        "antonyms": [
+          "unattractive"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -30413,8 +34621,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "兴趣",
         "meaningKo": "이자",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "concern",
+          "worry",
+          "occupy"
+        ],
+        "antonyms": [
+          "bore",
+          "tire",
+          "uninterestingness"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -30429,8 +34645,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "古典的",
         "meaningKo": "클래식",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "standard",
+          "definitive",
+          "classic"
+        ],
+        "antonyms": [
+          "nonclassical"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -30445,7 +34667,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "建筑风格",
         "meaningKo": "건축 양식",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "structure"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -30461,7 +34685,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "精致的，精巧的",
         "meaningKo": "절묘한, 섬세한",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "delicate",
+          "keen",
+          "intense"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -30493,7 +34721,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "机会",
         "meaningKo": "기회",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "casual",
+          "encounter",
+          "hit"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -30525,8 +34757,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "典型的，代表性的",
         "meaningKo": "전형적인, 대표적인",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "distinctive",
+          "emblematic",
+          "characteristic"
+        ],
+        "antonyms": [
+          "atypical",
+          "untypical"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -30541,7 +34780,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "珍珠",
         "meaningKo": "진주",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "drop",
+          "bone",
+          "bead"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -30589,7 +34832,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "建造，构造，结构",
         "meaningKo": "짓다, 구조, 구조",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "expression",
+          "twist",
+          "structure"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -30605,7 +34852,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "壮丽的，宏伟的",
         "meaningKo": "웅장하다, 웅장하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "glorious",
+          "impressive",
+          "brilliant"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
@@ -30621,7 +34872,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "邮票",
         "meaningKo": "스탬프",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "cast",
+          "mold",
+          "impression"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -30637,7 +34892,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "信封，封套",
         "meaningKo": "봉투, 봉투",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "gasbag"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -30653,7 +34910,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "背后有粘胶的标签",
         "meaningKo": "뒷면에 접착 라벨",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "label",
+          "gummed label"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -30669,7 +34929,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "票",
         "meaningKo": "티켓",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "fine"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -30685,7 +34947,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "航空公司",
         "meaningKo": "항공사",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "airway",
+          "airline business"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -30701,7 +34966,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "想知道",
         "meaningKo": "알고 싶다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "inquire",
+          "marvel",
+          "curiosity"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -30717,7 +34986,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "考虑，细想",
         "meaningKo": "고려하다, 신중히 생각하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "regard",
+          "deliberate",
+          "moot"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -30749,7 +35022,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "经济",
         "meaningKo": "경제",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "saving",
+          "thriftiness",
+          "economic system"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -30781,7 +35058,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "班机",
         "meaningKo": "비행",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "escape",
+          "trajectory",
+          "fledge"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -30797,7 +35078,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "机场",
         "meaningKo": "공항",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "aerodrome",
+          "airdrome"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -30877,7 +35161,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "取消",
         "meaningKo": "취소",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "offset",
+          "natural",
+          "set off"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -30893,7 +35181,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "演出",
         "meaningKo": "성능",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "execution",
+          "operation",
+          "functioning"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -30909,7 +35201,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "杂技的",
         "meaningKo": "곡예 같은",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "active",
+          "gymnastic",
+          "athletic"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
@@ -30925,7 +35221,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "更喜欢",
         "meaningKo": "선호하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "choose",
+          "favour",
+          "opt for"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -30941,7 +35241,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "货币",
         "meaningKo": "통화",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "vogue",
+          "currentness",
+          "up-to-dateness"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -30973,8 +35277,15 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "相等的，相当的",
         "meaningKo": "동등하다, 상당히",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "like",
+          "same",
+          "equal"
+        ],
+        "antonyms": [
+          "unequal",
+          "unlike"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -30989,8 +35300,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "纸币",
         "meaningKo": "지폐",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "observe",
+          "mark",
+          "line"
+        ],
+        "antonyms": [
+          "ignore"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -31005,7 +35322,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "签名，署名",
         "meaningKo": "서명, 서명",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "mark",
+          "contract",
+          "augury"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -31037,7 +35358,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "柜台",
         "meaningKo": "카운터",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "forestall",
+          "anticipate",
+          "antagonistic"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -31053,8 +35378,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "禁止，阻止",
         "meaningKo": "금지하다, 막다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "forbid",
+          "proscribe",
+          "veto"
+        ],
+        "antonyms": [
+          "countenance",
+          "allow",
+          "permit"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -31069,7 +35402,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "政府",
         "meaningKo": "정부",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "governance",
+          "regime",
+          "politics"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -31085,7 +35422,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "信息",
         "meaningKo": "정보",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "entropy",
+          "info",
+          "selective information"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -31117,7 +35458,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "在（支票等）背面签名，背",
         "meaningKo": "수표 뒷면에 서명하세요.",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "support",
+          "back",
+          "certify"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -31133,7 +35478,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "签名，署名",
         "meaningKo": "서명, 서명",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "touch",
+          "key signature",
+          "theme song"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -31165,7 +35514,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "收据，收条",
         "meaningKo": "영수증, 영수증",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "acknowledge",
+          "reception",
+          "receiving"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -31181,7 +35534,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "数额",
         "meaningKo": "금액",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "measure",
+          "come",
+          "total"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -31197,7 +35554,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "单据",
         "meaningKo": "문서",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "security",
+          "credentials",
+          "certification"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -31213,8 +35574,13 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "买，购买，购置，所购物",
         "meaningKo": "사다, 사다, 사다, 사다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "leverage",
+          "buy"
+        ],
+        "antonyms": [
+          "sell"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -31229,7 +35595,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "副署，连署",
         "meaningKo": "반대 서명, 반대 서명",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "word",
+          "parole",
+          "password"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -31245,7 +35615,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "懂，理解",
         "meaningKo": "이해하다, 이해하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "infer",
+          "see",
+          "interpret"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -31261,7 +35635,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "非常，很",
         "meaningKo": "아주, 아주",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "awful",
+          "atrociously",
+          "terribly"
+        ],
         "antonyms": [],
         "partOfSpeech": "adverb",
         "category": "ielts-cat-11",
@@ -31277,7 +35655,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "描绘，叙述，形容",
         "meaningKo": "묘사하다, 묘사하다, 묘사하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "delineate",
+          "depict",
+          "trace"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -31293,7 +35675,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "道歉",
         "meaningKo": "사과하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "excuse",
+          "justify",
+          "rationalize"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -31309,7 +35695,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "麻烦，烦恼",
         "meaningKo": "문제, 문제",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "distress",
+          "disquiet",
+          "ail"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -31325,7 +35715,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "解决",
         "meaningKo": "해결하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "resolve",
+          "work",
+          "lick"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -31341,8 +35735,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "粗心，疏忽，粗枝大叶",
         "meaningKo": "부주의, 방치, 부주의",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "neglect",
+          "negligence",
+          "nonperformance"
+        ],
+        "antonyms": [
+          "carefulness"
+        ],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -31373,8 +35773,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "不方便",
         "meaningKo": "불편한",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "trouble",
+          "incommode",
+          "put out"
+        ],
+        "antonyms": [
+          "convenience"
+        ],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -31389,7 +35795,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "洗室",
         "meaningKo": "화장실",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "privy",
+          "facility",
+          "potty"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -31405,8 +35815,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "真诚地，诚恳地，真挚地",
         "meaningKo": "진심으로, 진심으로, 진심으로",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "truly",
+          "unfeignedly",
+          "sincerely yours"
+        ],
+        "antonyms": [
+          "insincerely"
+        ],
         "partOfSpeech": "adverb",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -31421,7 +35837,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "先的，前的",
         "meaningKo": "먼저, 이전",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "old",
+          "former",
+          "late"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
@@ -31437,7 +35857,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "占有人，占用者，居住者",
         "meaningKo": "점유자, 점유자, 점유자",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "resident",
+          "occupier"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
@@ -31453,7 +35876,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "进入",
         "meaningKo": "들어가다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "approach",
+          "entree",
+          "admittance"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -31501,8 +35928,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "安排",
         "meaningKo": "배열하다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "order",
+          "set",
+          "stage"
+        ],
+        "antonyms": [
+          "disarrange"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -31565,8 +35998,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "可能的",
         "meaningKo": "가능",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "contingent",
+          "feasible",
+          "latent"
+        ],
+        "antonyms": [
+          "impossible",
+          "existent",
+          "actual"
+        ],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -31581,7 +36022,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "规则，规章，法规",
         "meaningKo": "규칙, 규정, 규정",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "standard",
+          "ordinance",
+          "rule"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -31597,7 +36042,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "噪音，嘈杂声",
         "meaningKo": "소음, 소음",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "dissonance",
+          "resound",
+          "racket"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -31613,7 +36062,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "几个，数个",
         "meaningKo": "여러개, 여러개",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "various",
+          "respective"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
@@ -31629,7 +36081,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "误会，误解",
         "meaningKo": "오해, 오해",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "misconstrue",
+          "misinterpret",
+          "misconceive"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -31645,8 +36101,13 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "解释，说明",
         "meaningKo": "설명하다, 설명하다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "explicate",
+          "excuse"
+        ],
+        "antonyms": [
+          "retail"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -31661,8 +36122,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "放松",
         "meaningKo": "긴장을 풀다",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "loose",
+          "unwind",
+          "decompress"
+        ],
+        "antonyms": [
+          "strain",
+          "tense",
+          "tense up"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -31677,8 +36146,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "使平静，使镇定",
         "meaningKo": "진정해, 진정해",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "tranquil",
+          "lull",
+          "sedate"
+        ],
+        "antonyms": [
+          "charge",
+          "stimulate",
+          "rouse"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -31709,7 +36186,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "客房服务员",
         "meaningKo": "객실 승무원",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "amah",
+          "maid",
+          "maidservant"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -31725,8 +36206,16 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "再出租",
         "meaningKo": "다시 임대",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "free",
+          "relinquish",
+          "issue"
+        ],
+        "antonyms": [
+          "hold",
+          "block",
+          "freeze"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -31741,7 +36230,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "措施，方法",
         "meaningKo": "조치, 방법",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "standard",
+          "assess",
+          "appraise"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -31757,7 +36250,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "人员太少的，人员不足",
         "meaningKo": "직원이 너무 적다, 직원이 부족하다",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "inadequate",
+          "short-handed",
+          "undermanned"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -31789,7 +36286,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "出纳",
         "meaningKo": "계산원",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "teller",
+          "bank clerk"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -32317,7 +36817,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "蜂蜜",
         "meaningKo": "여보",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chromatic",
+          "love",
+          "beloved"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -32461,7 +36965,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "可可",
         "meaningKo": "코코아",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chocolate",
+          "hot chocolate"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -32493,7 +37000,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "咖啡",
         "meaningKo": "커피",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "umber",
+          "java",
+          "burnt umber"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -32621,7 +37132,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "圣代; 新地",
         "meaningKo": "순대; 새로운 땅",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "ice-cream sundae"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -32717,8 +37230,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "吸管",
         "meaningKo": "밀짚",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "chromatic",
+          "stalk",
+          "husk"
+        ],
+        "antonyms": [
+          "providently"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -32733,7 +37252,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "西瓜",
         "meaningKo": "수박",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "citrullus vulgaris",
+          "watermelon vine"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -32749,7 +37271,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "木瓜",
         "meaningKo": "파파야",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "carica papaya",
+          "melon tree",
+          "papaia"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -32797,7 +37323,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "橘子",
         "meaningKo": "오렌지",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chromatic",
+          "colored",
+          "tangerine tree"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -32845,7 +37375,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "香瓜",
         "meaningKo": "멜론",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "cucumis melo",
+          "sweet melon",
+          "sweet melon vine"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -32861,7 +37395,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "文旦",
         "meaningKo": "웬단",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "pomelo",
+          "pummelo",
+          "citrus maxima"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -32893,7 +37431,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "杨桃",
         "meaningKo": "카람볼라",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "star fruit",
+          "averrhoa carambola",
+          "carambola tree"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -32909,7 +37451,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "柿子",
         "meaningKo": "감",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "persimmon tree"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -32925,7 +37469,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "苹果",
         "meaningKo": "사과",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "malus pumila",
+          "orchard apple tree"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -32957,7 +37504,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "杏仁",
         "meaningKo": "아몬드",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "amygdalus communis",
+          "sweet almond",
+          "prunus amygdalus"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -32973,7 +37524,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "李子",
         "meaningKo": "자두",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "clean",
+          "plumb",
+          "plum tree"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -33005,7 +37560,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "枇杷",
         "meaningKo": "비파",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "eriobotrya japonica",
+          "loquat tree",
+          "japanese medlar"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -33021,7 +37580,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "红毛丹",
         "meaningKo": "람부탄",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "nephelium lappaceum",
+          "rambotan",
+          "rambutan tree"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -33037,7 +37600,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "榴梿",
         "meaningKo": "두리안",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "durion",
+          "durio zibethinus",
+          "durian tree"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -33053,7 +37620,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "葡萄柚",
         "meaningKo": "자몽",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "citrus paradisi"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -33069,7 +37638,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "荔枝",
         "meaningKo": "리치",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "lychee",
+          "leechee",
+          "litchi"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -33085,7 +37658,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "龙眼",
         "meaningKo": "용안",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "longanberry",
+          "lungen",
+          "nephelium longana"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -33117,7 +37694,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "番石榴",
         "meaningKo": "구아바",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "strawberry guava",
+          "psidium guajava",
+          "guava bush"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -33213,7 +37794,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "花椰菜",
         "meaningKo": "콜리플라워",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "brassica oleracea italica"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -33277,7 +37860,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "甜菜",
         "meaningKo": "사탕무",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "beetroot",
+          "beta vulgaris",
+          "common beet"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -33293,7 +37880,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "香菜",
         "meaningKo": "고수풀",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "carum carvi"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -33389,7 +37978,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "韭黄",
         "meaningKo": "향신료",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chive",
+          "cive",
+          "allium schoenoprasum"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -33469,7 +38062,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "丝瓜",
         "meaningKo": "수세미",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "luffa",
+          "loofa",
+          "vegetable sponge"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -33517,7 +38114,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "山芋",
         "meaningKo": "감자",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "yam plant"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -33597,7 +38196,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "蘑菇",
         "meaningKo": "버섯",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "genus agaricus"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -33629,7 +38230,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "马铃薯",
         "meaningKo": "감자",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "shoot",
+          "germinate",
+          "pullulate"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -33645,7 +38250,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "木耳",
         "meaningKo": "곰팡이",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "fomes igniarius"
+        ],
         "antonyms": [],
         "partOfSpeech": "adjective",
         "category": "ielts-cat-11",
@@ -33741,7 +38348,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "调味品",
         "meaningKo": "조미료",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "seasoner",
+          "flavoring",
+          "flavouring"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -33757,7 +38368,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "鱼子酱",
         "meaningKo": "캐비어",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "caviare"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -33805,8 +38418,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "盐",
         "meaningKo": "소금",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "sharp",
+          "tasteful",
+          "brackish"
+        ],
+        "antonyms": [
+          "fresh"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -33821,7 +38440,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "糖",
         "meaningKo": "설탕",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "saccharide",
+          "carbohydrate",
+          "refined sugar"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -33837,7 +38460,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "味精",
         "meaningKo": "MSG",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "pulverize",
+          "gunpowder",
+          "powderize"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -33885,7 +38512,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "红椒",
         "meaningKo": "고추",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "pimiento",
+          "pimento",
+          "bell pepper"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -33917,7 +38548,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "肉挂",
         "meaningKo": "고기 걸기",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "cinnamon bark",
+          "ceylon cinnamon",
+          "cinnamomum zeylanicum"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -33933,7 +38568,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "咖喱",
         "meaningKo": "카레",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "dress",
+          "groom"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -33949,7 +38587,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "麦芽糖",
         "meaningKo": "맥아당",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "malt sugar"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -34013,7 +38653,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "餐巾",
         "meaningKo": "냅킨",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "nappy",
+          "diaper",
+          "serviette"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -34045,7 +38689,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "茶壶",
         "meaningKo": "찻주전자",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "slew",
+          "spate",
+          "mass"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -34093,7 +38741,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "茶罐",
         "meaningKo": "차 캔",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "caddie",
+          "tea caddy"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -34109,7 +38760,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "碟",
         "meaningKo": "디스크",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "peach",
+          "sweetheart",
+          "serve"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -34125,7 +38780,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "盘",
         "meaningKo": "접시",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "shell",
+          "home",
+          "scale"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -34141,7 +38800,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "小碟子",
         "meaningKo": "작은 접시",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "dish",
+          "disc",
+          "disk"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -34173,7 +38836,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "筷子",
         "meaningKo": "젓가락",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "chopstick"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -34205,7 +38870,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "餐刀",
         "meaningKo": "테이블 나이프",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "tongue",
+          "stab"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -34221,7 +38889,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "杯子",
         "meaningKo": "컵",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "transfuse",
+          "cupful",
+          "loving cup"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -34237,7 +38909,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "玻璃杯",
         "meaningKo": "유리컵",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "glaze",
+          "spyglass",
+          "glaze over"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -34253,7 +38929,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "马克杯",
         "meaningKo": "머그잔",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "countenance",
+          "visage",
+          "mark"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -34525,7 +39205,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "香肠",
         "meaningKo": "소시지",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "blimp",
+          "sausage balloon"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -34957,7 +39640,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "菜单",
         "meaningKo": "메뉴",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "fare",
+          "card",
+          "bill of fare"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -35021,7 +39708,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "自助餐",
         "meaningKo": "뷔페",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "buff",
+          "batter",
+          "knock about"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -35053,8 +39744,14 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "招牌菜",
         "meaningKo": "시그니처 요리",
         "example": "",
-        "synonyms": [],
-        "antonyms": [],
+        "synonyms": [
+          "strength",
+          "peculiarity",
+          "metier"
+        ],
+        "antonyms": [
+          "weak point"
+        ],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
         "categoryZh": "雅思分类词汇：奥运词汇",
@@ -35165,7 +39862,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "简蛋卷",
         "meaningKo": "간단한 계란말이",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "omelet"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -35181,7 +39880,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "布丁",
         "meaningKo": "푸딩",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "pud"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -35309,7 +40010,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "熏肉",
         "meaningKo": "베이컨",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "baron verulam",
+          "francis bacon"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -35357,7 +40061,11 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "煎两面荷包蛋",
         "meaningKo": "팬에 튀긴 수란",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "complete",
+          "concluded",
+          "immoderate"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
@@ -35485,7 +40193,10 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "日本米酒",
         "meaningKo": "일본 막걸리",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "interest",
+          "saki"
+        ],
         "antonyms": [],
         "partOfSpeech": "word",
         "category": "ielts-cat-11",
@@ -35613,7 +40324,9 @@ window.LINGUABRIDGE_IELTS_CATEGORY_DECKS = [
         "meaningEn": "来说把。把它分解",
         "meaningKo": "그것에 대해 이야기합시다. 그것을 무너뜨려라",
         "example": "",
-        "synonyms": [],
+        "synonyms": [
+          "freeing"
+        ],
         "antonyms": [],
         "partOfSpeech": "noun",
         "category": "ielts-cat-11",
