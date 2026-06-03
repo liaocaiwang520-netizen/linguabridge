@@ -918,11 +918,11 @@ async function cacheOfflineStudy() {
       "/",
       "/index.html",
       "/styles.css",
-      "/vocabulary-data.js?v=learning-flow-v13",
-      "/vocabulary-topik-i.js?v=learning-flow-v13",
-      "/vocabulary-topik-ii.js?v=learning-flow-v13",
-      "/vocabulary-ielts-categories.js?v=learning-flow-v13",
-      "/app.js?v=learning-flow-v13",
+      "/vocabulary-data.js?v=learning-flow-v14",
+      "/vocabulary-topik-i.js?v=learning-flow-v14",
+      "/vocabulary-topik-ii.js?v=learning-flow-v14",
+      "/vocabulary-ielts-categories.js?v=learning-flow-v14",
+      "/app.js?v=learning-flow-v14",
       "/manifest.webmanifest",
       "/vocabulary-template.csv",
       "/assets/lionlingo-hero-scene.png",
@@ -990,7 +990,7 @@ function isMastered(word) {
 
 function meaningFor(word) {
   const info = termInfo[word.term] || {};
-  if (word.language === "en" && !learningDirection.startsWith("zh")) return word.meaningKo || info.ko || word.meaning || word.meaningEn || word.term;
+  if (word.language === "en") return word.meaningKo || info.ko || word.meaning || word.meaningEn || word.term;
   if (learningDirection.startsWith("zh")) return word.meaning || info.zh || word.meaningEn || info.en || word.meaningKo || info.ko || word.term;
   if (getTargetLanguage() === "ko") return word.meaningEn || info.en || word.meaning || word.term;
   if (getUiLang() === "ko") return word.meaningKo || info.ko || word.meaning || word.meaningEn || word.term;
@@ -999,7 +999,7 @@ function meaningFor(word) {
 
 function quizMeaningFor(word) {
   if (word.language === "ko") return word.meaningEn || word.meaning || termInfo[word.term]?.en || "";
-  if (word.language === "en" && !learningDirection.startsWith("zh")) return word.meaningKo || termInfo[word.term]?.ko || word.meaning || word.meaningEn || "";
+  if (word.language === "en") return word.meaningKo || termInfo[word.term]?.ko || word.meaning || word.meaningEn || "";
   if (getUiLang() === "ko") return word.meaningKo || termInfo[word.term]?.ko || word.meaning || word.meaningEn || "";
   if (getUiLang() === "zh") return word.meaning || word.meaningZh || word.meaningEn || termInfo[word.term]?.zh || "";
   return word.meaningEn || word.meaning || termInfo[word.term]?.en || "";
@@ -1751,30 +1751,96 @@ function examplesFor(word) {
       advanced: pickRotating(advancedTemplates, index + 2, 2)
     };
   }
+  const category = String(word.categoryZh || "").toLowerCase();
+  const englishCategory = categoryForWord(getActiveDeck(), word)?.en?.toLowerCase() || "";
+  const topic = `${category} ${englishCategory}`;
+  const colorTemplates = [
+    `The artist used "${word.term}" for the background and kept the rest of the poster simple.`,
+    `A scarf in "${word.term}" would stand out nicely against a white coat.`,
+    `The room felt cooler after the wall was painted in a soft "${word.term}" tone.`
+  ];
+  const colorAdvanced = [
+    `Because "${word.term}" is quite distinctive, designers usually pair it with neutral colors rather than adding more bright shades.`,
+    `In a visual description, "${word.term}" helps the reader imagine the exact mood of the scene instead of just hearing "blue" or "green."`,
+    `The brand chose "${word.term}" for its packaging because the color looked fresh without feeling too childish.`
+  ];
+  const foodTemplates = [
+    `I ordered "${word.term}" because the waiter said it was one of the restaurant's most popular dishes.`,
+    `My friend tried "${word.term}" for the first time and asked how it was usually cooked.`,
+    `The menu listed "${word.term}" next to several other seafood dishes.`
+  ];
+  const foodAdvanced = [
+    `Although "${word.term}" can be expensive in some restaurants, many people order it for special meals or family gatherings.`,
+    `When describing local food, mentioning "${word.term}" makes the answer more specific than simply saying "seafood" or "Chinese food."`,
+    `The chef served "${word.term}" with a light sauce so that the natural flavor would not be covered.`
+  ];
+  const jobTemplates = [
+    `The company hired a "${word.term}" to handle the project more professionally.`,
+    `My cousin works as a "${word.term}" and often travels for meetings.`,
+    `A good "${word.term}" needs both technical skills and clear communication.`
+  ];
+  const jobAdvanced = [
+    `As a "${word.term}", she has to explain complicated information in a way that clients can understand.`,
+    `The interview focused less on grades and more on whether he had the practical skills required of a "${word.term}."`,
+    `In many industries, a "${word.term}" must keep learning because tools and expectations change quickly.`
+  ];
+  const hotelTemplates = [
+    `The guest asked about "${word.term}" before confirming the hotel booking.`,
+    `At the front desk, I heard another traveler mention "${word.term}" several times.`,
+    `The hotel staff explained how "${word.term}" worked during check-in.`
+  ];
+  const hotelAdvanced = [
+    `For travelers, understanding "${word.term}" can prevent small problems from becoming expensive mistakes at the hotel.`,
+    `The receptionist explained "${word.term}" clearly, which made the guest feel more comfortable about the booking.`,
+    `In a hotel review, details about "${word.term}" are often more useful than general comments like "good service."`
+  ];
+  const environmentTemplates = [
+    `The report mentioned "${word.term}" as one reason the local environment had changed.`,
+    `Many residents complained about "${word.term}" after the new factory opened.`,
+    `The class discussed "${word.term}" while studying environmental problems.`
+  ];
+  const environmentAdvanced = [
+    `If a city wants to deal with "${word.term}", it needs clear rules as well as support from local residents.`,
+    `The article connects "${word.term}" with public health, showing that environmental problems are also social problems.`,
+    `Instead of treating "${word.term}" as a distant issue, the speaker gave examples from everyday life.`
+  ];
   const nounTemplates = [
-    `The discussion became clearer once everyone understood what "${word.term}" referred to.`,
-    `She wrote "${word.term}" in the margin because it captured the main idea of the paragraph.`,
-    `In the lecture, "${word.term}" was introduced before the speaker moved on to examples.`
+    `I saw "${word.term}" in the reading passage and checked how it was used in context.`,
+    `The speaker used "${word.term}" while describing a real situation, so the meaning was easier to remember.`,
+    `She added "${word.term}" to her vocabulary notebook with one short example sentence.`
   ];
   const verbTemplates = [
-    `The team tried to "${word.term}" the problem before making a final decision.`,
-    `Students often need to "${word.term}" information from several sources, not just memorize it.`,
-    `He paused to "${word.term}" the chart so his answer would sound more precise.`
+    `The team needed to "${word.term}" before making a final decision.`,
+    `Students often have to "${word.term}" information from more than one source.`,
+    `He tried to "${word.term}" the problem instead of guessing the answer.`
   ];
   const modifierTemplates = [
-    `Her explanation sounded more natural when she used "${word.term}" in the right context.`,
-    `A "${word.term}" example can make an abstract point much easier to follow.`,
-    `The essay felt stronger because the writer chose "${word.term}" language instead of vague wording.`
+    `The phrase sounded more natural when she used "${word.term}" in the right place.`,
+    `A "${word.term}" detail can make a description feel more precise.`,
+    `The answer became stronger because the speaker chose a "${word.term}" expression.`
   ];
-  const simplePool = pos.includes("verb") ? verbTemplates : pos.includes("adjective") || pos.includes("adverb") ? modifierTemplates : nounTemplates;
-  const advancedPool = [
-    `Although "${word.term}" usually means "${meaning}", its exact force depends on the sentence around it.`,
-    `When giving an academic answer, using "${word.term}" helps connect a specific observation with a broader argument.`,
-    `Rather than repeating simple words, the speaker used "${word.term}" to make the explanation sound more fluent and mature.`,
-    `If "${word.term}" appears in a reading passage, checking the surrounding verbs and connectors can reveal the writer's attitude.`,
-    `The phrase with "${word.term}" worked well because it added detail without making the sentence unnecessarily long.`,
-    `By comparing "${word.term}" with a near synonym, the learner noticed a subtle but useful difference in tone.`
+  let simplePool = pos.includes("verb") ? verbTemplates : pos.includes("adjective") || pos.includes("adverb") ? modifierTemplates : nounTemplates;
+  let advancedPool = [
+    `When using "${word.term}", it is important to check the surrounding sentence so the word does not sound forced.`,
+    `In an IELTS answer, "${word.term}" works best when it supports a clear example rather than appearing as a memorized word.`,
+    `The learner remembered "${word.term}" more easily after connecting it with a situation from daily life.`
   ];
+  if (topic.includes("color")) {
+    simplePool = colorTemplates;
+    advancedPool = colorAdvanced;
+  } else if (topic.includes("menu") || topic.includes("cuisine") || topic.includes("restaurant") || topic.includes("taste")) {
+    simplePool = foodTemplates;
+    advancedPool = foodAdvanced;
+  } else if (topic.includes("job")) {
+    simplePool = jobTemplates;
+    advancedPool = jobAdvanced;
+  } else if (topic.includes("hotel")) {
+    simplePool = hotelTemplates;
+    advancedPool = hotelAdvanced;
+  } else if (topic.includes("environment")) {
+    simplePool = environmentTemplates;
+    advancedPool = environmentAdvanced;
+  }
   return {
     simple: pickRotating(simplePool, index, 2),
     advanced: pickRotating(advancedPool, index + 1, 2)
