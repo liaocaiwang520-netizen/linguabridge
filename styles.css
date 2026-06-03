@@ -1081,6 +1081,35 @@ h2 {
   font-size: 13px;
 }
 
+.deck-progress {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 8px;
+  color: var(--teal-dark);
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.deck-progress-track,
+.active-progress-track {
+  display: block;
+  width: 100%;
+  height: 7px;
+  margin-top: 8px;
+  overflow: hidden;
+  background: rgba(100, 181, 246, 0.18);
+  border-radius: 999px;
+}
+
+.deck-progress-track span,
+.active-progress-track span {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, var(--teal), var(--sky));
+  border-radius: inherit;
+}
+
 .search-row {
   display: grid;
   grid-template-columns: 1fr 140px auto;
@@ -1116,6 +1145,16 @@ select {
   margin-bottom: 16px;
   background: #eef6f4;
   border-radius: 8px;
+}
+
+.active-deck p {
+  display: grid;
+  gap: 6px;
+}
+
+.active-progress-text {
+  color: var(--teal-dark);
+  font-weight: 900;
 }
 
 .word-grid {

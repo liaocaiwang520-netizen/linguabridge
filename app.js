@@ -950,14 +950,14 @@ async function cacheOfflineStudy() {
     const registration = await navigator.serviceWorker.register("/sw.js");
     await navigator.serviceWorker.ready;
     if (registration.waiting) registration.waiting.postMessage({ type: "SKIP_WAITING" });
-    const cache = await caches.open("lionlingo-offline-v24");
+    const cache = await caches.open("lionlingo-offline-v25");
     await cache.addAll([
       "/",
       "/index.html",
       "/styles.css",
-      "/vocabulary-data.js?v=learning-flow-v8",
-      "/vocabulary-topik-i.js?v=learning-flow-v8",
-      "/app.js?v=learning-flow-v8",
+      "/vocabulary-data.js?v=learning-flow-v9",
+      "/vocabulary-topik-i.js?v=learning-flow-v9",
+      "/app.js?v=learning-flow-v9",
       "/manifest.webmanifest",
       "/vocabulary-template.csv",
       "/assets/lionlingo-hero-scene.png",
@@ -1192,6 +1192,35 @@ function uniqueList(items) {
   return [...new Set(items.map((item) => String(item || "").trim()).filter(Boolean))];
 }
 
+function deckWordForProgress(word, deck) {
+  return { ...word, deckTitle: deck.title, deckType: deck.type, language: deck.language };
+}
+
+function progressForWord(word) {
+  return wordProgress[wordKey(word)] || null;
+}
+
+function isStudiedWord(word) {
+  const progress = progressForWord(word);
+  return Boolean(progress && (progress.rememberHits !== undefined || progress.sessionHits !== undefined || progress.nextDue));
+}
+
+function deckProgress(deck) {
+  const words = deck.words.map((word) => deckWordForProgress(word, deck));
+  const total = words.length;
+  const studied = words.filter(isStudiedWord).length;
+  const mastered = words.filter(isMastered).length;
+  const remaining = Math.max(total - studied, 0);
+  const percent = total ? Math.round((studied / total) * 100) : 0;
+  return { total, studied, mastered, remaining, percent };
+}
+
+function progressText(progress) {
+  return getUiLang() === "zh"
+    ? `已学 ${progress.studied}/${progress.total} · 剩余 ${progress.remaining}`
+    : `${progress.studied}/${progress.total} studied · ${progress.remaining} left`;
+}
+
 function synonymsFor(word) {
   return uniqueList([...normalizeList(word.synonyms), ...(topikRelations[word.term]?.synonyms || []), ...generatedSynonymsFor(word)]);
 }
@@ -1219,10 +1248,16 @@ function renderDecks() {
     .map((deck) => {
       const languageLabel = deck.language === "ko" ? "Korean" : "English";
       const deckText = localizeDeck(deck);
+      const progress = deckProgress(deck);
       return `
         <button class="deck-card ${deck.id === activeDeckId ? "active" : ""}" type="button" data-deck="${deck.id}">
           <span class="deck-title">${deckText.title}<span class="tag">${languageLabel}</span></span>
           <span class="deck-meta">${deckText.type} · ${deck.words.length}</span>
+          <span class="deck-progress">
+            <span>${progressText(progress)}</span>
+            <span>${getUiLang() === "zh" ? `掌握 ${progress.mastered}` : `${progress.mastered} mastered`}</span>
+          </span>
+          <span class="deck-progress-track" aria-hidden="true"><span style="width:${progress.percent}%"></span></span>
         </button>
       `;
     })
@@ -1232,10 +1267,15 @@ function renderDecks() {
 function renderWords() {
   const deck = getActiveDeck();
   const deckText = localizeDeck(deck);
+  const progress = deckProgress(deck);
   const keyword = wordSearch.value.trim().toLowerCase();
   activeDeckType.textContent = deckText.type;
   activeDeckTitle.textContent = deckText.title;
-  activeDeckDescription.textContent = deckText.description;
+  activeDeckDescription.innerHTML = `
+    <span>${deckText.description}</span>
+    <span class="active-progress-text">${progressText(progress)} · ${getUiLang() === "zh" ? `掌握 ${progress.mastered}` : `${progress.mastered} mastered`}</span>
+    <span class="active-progress-track" aria-hidden="true"><span style="width:${progress.percent}%"></span></span>
+  `;
 
   const words = deck.words.filter((word) => {
     const haystack = `${word.term} ${word.pronunciation} ${meaningFor(word)} ${word.example} ${synonymsFor(word).join(" ")} ${antonymsFor(word).join(" ")}`.toLowerCase();
@@ -1793,6 +1833,8 @@ function removeCurrentAndAdvance() {
   source.splice(studyIndex, 1);
   if (studyIndex >= source.length) studyIndex = 0;
   updateCounts();
+  renderDecks();
+  renderWords();
   renderStudyCard();
   newQuizPrompt();
   scrollStudyCardIntoView();
@@ -1804,6 +1846,8 @@ function moveCurrentToBack() {
   if (word) source.push(word);
   if (studyIndex >= source.length) studyIndex = 0;
   updateCounts();
+  renderDecks();
+  renderWords();
   renderStudyCard();
   newQuizPrompt();
   scrollStudyCardIntoView();
