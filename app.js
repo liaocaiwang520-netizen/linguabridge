@@ -182,9 +182,11 @@ let decks = [
 
 const extraDecks = Array.isArray(window.LINGUABRIDGE_EXTRA_DECKS) ? window.LINGUABRIDGE_EXTRA_DECKS : [];
 const topikIDecks = Array.isArray(window.LINGUABRIDGE_TOPIK_I_DECKS) ? window.LINGUABRIDGE_TOPIK_I_DECKS : [];
+const topikIIDecks = Array.isArray(window.LINGUABRIDGE_TOPIK_II_DECKS) ? window.LINGUABRIDGE_TOPIK_II_DECKS : [];
 const englishDecks = decks.filter((deck) => deck.language !== "ko");
-const externalDecks = [...topikIDecks, ...extraDecks.filter((deck) => deck.language !== "ko")];
-decks = [...topikIDecks, ...englishDecks, ...externalDecks.filter((deck) => !topikIDecks.some((existing) => existing.id === deck.id) && !englishDecks.some((existing) => existing.id === deck.id))];
+const topikDecks = [...topikIDecks, ...topikIIDecks];
+const externalDecks = [...topikDecks, ...extraDecks.filter((deck) => deck.language !== "ko")];
+decks = [...topikDecks, ...englishDecks, ...externalDecks.filter((deck) => !topikDecks.some((existing) => existing.id === deck.id) && !englishDecks.some((existing) => existing.id === deck.id))];
 
 const topikMeaningFixes = {
   "감사합니다": ["thank you", "谢谢"],
@@ -950,14 +952,15 @@ async function cacheOfflineStudy() {
     const registration = await navigator.serviceWorker.register("/sw.js");
     await navigator.serviceWorker.ready;
     if (registration.waiting) registration.waiting.postMessage({ type: "SKIP_WAITING" });
-    const cache = await caches.open("lionlingo-offline-v25");
+    const cache = await caches.open("lionlingo-offline-v26");
     await cache.addAll([
       "/",
       "/index.html",
       "/styles.css",
-      "/vocabulary-data.js?v=learning-flow-v9",
-      "/vocabulary-topik-i.js?v=learning-flow-v9",
-      "/app.js?v=learning-flow-v9",
+      "/vocabulary-data.js?v=learning-flow-v10",
+      "/vocabulary-topik-i.js?v=learning-flow-v10",
+      "/vocabulary-topik-ii.js?v=learning-flow-v10",
+      "/app.js?v=learning-flow-v10",
       "/manifest.webmanifest",
       "/vocabulary-template.csv",
       "/assets/lionlingo-hero-scene.png",
