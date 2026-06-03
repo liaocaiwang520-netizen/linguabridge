@@ -188,6 +188,7 @@ decks = [...topikIDecks, ...englishDecks, ...externalDecks.filter((deck) => !top
 
 const topikMeaningFixes = {
   "감사합니다": ["thank you", "谢谢"],
+  "감사드립니다": ["thank you", "谢谢"],
   "감자탕": ["pork backbone stew", "脊骨土豆汤"],
   "강좌": ["course, lecture", "课程"],
   "개": ["dog; counter for things", "狗；个、只、件的量词"],
@@ -195,6 +196,9 @@ const topikMeaningFixes = {
   "개인": ["individual, personal", "个人"],
   "건배": ["cheers, toast", "干杯"],
   "겨울방학": ["winter vacation", "寒假"],
+  "거울": ["mirror", "镜子"],
+  "고맙습니다": ["thank you", "谢谢"],
+  "급하다": ["urgent, in a hurry", "急、紧急"],
   "두부찌개": ["tofu stew", "豆腐汤"],
   "드시다": ["to eat, to drink (honorific)", "吃、喝的敬语"],
   "듣기": ["listening", "听力"],
@@ -222,6 +226,8 @@ const topikMeaningFixes = {
   "발전": ["development, progress", "发展"],
   "발표": ["presentation, announcement", "发表、公布"],
   "배구": ["volleyball", "排球"],
+  "부부": ["married couple", "夫妻"],
+  "불다": ["to blow", "吹"],
   "수도": ["capital city, water supply", "首都、自来水"],
   "수돗물": ["tap water", "自来水"],
   "수술하다": ["to have surgery", "做手术"],
@@ -241,16 +247,21 @@ const topikMeaningFixes = {
   "아침밥": ["breakfast", "早饭"],
   "아침식사": ["breakfast", "早餐"],
   "아프리카": ["Africa", "非洲"],
+  "아주머니": ["middle-aged woman, madam", "阿姨、中年女性"],
   "어리다": ["to be young", "年幼"],
+  "어렵다": ["difficult", "难"],
+  "어른": ["adult, elder", "成年人、长辈"],
   "어머": ["oh my", "哎呀"],
   "어저께": ["yesterday", "昨天"],
   "없이": ["without", "没有"],
   "엔": ["in, at; won", "在、韩元"],
   "여러가지": ["various kinds", "各种各样"],
+  "여러분": ["everyone, you all", "各位、大家"],
   "역": ["station, role", "车站、角色"],
   "오랜만에": ["after a long time", "久违地"],
   "오리": ["duck", "鸭子"],
   "오징어": ["squid", "鱿鱼"],
+  "열다": ["to open", "打开"],
   "올려놓다": ["to put up, to place on", "放上去"],
   "옮기다": ["to move, to transfer", "移动、转移"],
   "옷가게": ["clothing store", "服装店"],
@@ -259,12 +270,14 @@ const topikMeaningFixes = {
   "외출하다": ["to go out", "外出"],
   "외할머니": ["maternal grandmother", "外婆"],
   "외할아버지": ["maternal grandfather", "外公"],
+  "외국어": ["foreign language", "外语"],
   "요르단": ["Jordan", "约旦"],
   "우리": ["we, our", "我们、我们的"],
   "이상하다": ["to be strange", "奇怪"],
   "이해": ["understanding", "理解"],
   "정리하다": ["to organize, to arrange", "整理"],
   "정말": ["really, truly", "真的"],
+  "정거장": ["station, bus stop", "车站"],
   "정보": ["information", "信息"],
   "제가": ["I, me (polite subject)", "我"],
   "조사하다": ["to investigate, to survey", "调查"],
@@ -296,10 +309,10 @@ function applyTopikMeaningFixes() {
           meaningEn: meaningEn,
           meaningZh: word.meaningZh || meaningZh
         };
-        if (word.term === "개") {
+        if (["개", "급하다", "어렵다", "열다", "불다"].includes(word.term)) {
           fixedWord.meaning = meaningEn;
           fixedWord.meaningZh = meaningZh;
-          fixedWord.partOfSpeech = "noun";
+          fixedWord.partOfSpeech = word.term === "개" ? "noun" : word.term === "급하다" || word.term === "어렵다" ? "adjective" : "verb";
         }
         return fixedWord;
       })
@@ -854,14 +867,14 @@ async function cacheOfflineStudy() {
     const registration = await navigator.serviceWorker.register("/sw.js");
     await navigator.serviceWorker.ready;
     if (registration.waiting) registration.waiting.postMessage({ type: "SKIP_WAITING" });
-    const cache = await caches.open("lionlingo-offline-v21");
+    const cache = await caches.open("lionlingo-offline-v22");
     await cache.addAll([
       "/",
       "/index.html",
       "/styles.css",
-      "/vocabulary-data.js?v=learning-flow-v5",
-      "/vocabulary-topik-i.js?v=learning-flow-v5",
-      "/app.js?v=learning-flow-v5",
+      "/vocabulary-data.js?v=learning-flow-v6",
+      "/vocabulary-topik-i.js?v=learning-flow-v6",
+      "/app.js?v=learning-flow-v6",
       "/manifest.webmanifest",
       "/vocabulary-template.csv",
       "/assets/lionlingo-hero-scene.png",
@@ -939,13 +952,29 @@ function quizMeaningFor(word) {
   return word.meaning || word.meaningEn || termInfo[word.term]?.en || "";
 }
 
+function cleanQuizMeaning(meaning) {
+  return String(meaning || "").replace(/\s+/g, " ").trim();
+}
+
+function isUsableQuizMeaning(meaning, term = "") {
+  const value = cleanQuizMeaning(meaning);
+  return Boolean(
+    value &&
+      value !== term &&
+      !/^n\/?a$/i.test(value) &&
+      value !== "?" &&
+      !/[가-힣]/.test(value) &&
+      !value.startsWith("Korean hint:") &&
+      !value.startsWith("POS:")
+  );
+}
+
 function isPublicTopikWord(word) {
   return word.deckTitle === "TOPIK I Public Vocabulary A Level" || word.deckType === "TOPIK I public list";
 }
 
 function hasReliableMeaning(word) {
-  const meaning = quizMeaningFor(word);
-  return Boolean(meaning && meaning !== word.term && !/^n\/?a$/i.test(String(meaning)) && !String(meaning).startsWith("Korean hint:") && !String(meaning).startsWith("POS:"));
+  return isUsableQuizMeaning(quizMeaningFor(word), word.term);
 }
 
 function displayMeaningFor(word) {
@@ -1233,6 +1262,7 @@ function renderStudyCard() {
   const synonyms = synonymList.join(", ") || "작성 예정";
   const antonyms = antonymList.join(", ") || "작성 예정";
   const options = makeMeaningOptions(word, queue);
+  const correctMeaning = cleanQuizMeaning(quizMeaningFor(word));
   const canQuizMeaning = hasReliableMeaning(word);
   const sessionTotal = studyMode === "review" ? reviewSessionTotal || queue.length : todaySessionTotal || dailyGoal;
   const sessionDone = studyMode === "review" ? reviewSessionDone : todaySessionDone;
@@ -1261,7 +1291,7 @@ function renderStudyCard() {
         ${
           canQuizMeaning
             ? `<p class="quiz-instruction">${t("chooseMeaning")}</p>
-              <div class="choice-grid" data-correct="${escapeHtml(quizMeaningFor(word))}">
+              <div class="choice-grid" data-correct="${escapeHtml(correctMeaning)}">
                 ${options
                   .map(
                     (option) => `
@@ -1305,12 +1335,12 @@ function renderStudyCard() {
 
 function makeMeaningOptions(word, queue) {
   if (!hasReliableMeaning(word)) return [];
-  const correct = quizMeaningFor(word);
+  const correct = cleanQuizMeaning(quizMeaningFor(word));
   const meanings = getAllWords()
     .concat(queue)
     .filter((item) => item.language === getTargetLanguage())
-    .map((item) => quizMeaningFor(item))
-    .filter((meaning) => meaning && meaning !== correct && !/^n\/?a$/i.test(String(meaning)) && !/[가-힣]/.test(String(meaning)) && !String(meaning).startsWith("Korean hint:") && !String(meaning).startsWith("POS:"));
+    .map((item) => cleanQuizMeaning(quizMeaningFor(item)))
+    .filter((meaning) => meaning !== correct && isUsableQuizMeaning(meaning));
   const uniqueMeanings = [...new Set(meanings)];
   const distractors = shuffle(uniqueMeanings).slice(0, 3);
   const fallbackDistractors = ["person", "place", "time", "thing", "action", "feeling", "food", "school", "family", "work"];
@@ -1523,7 +1553,7 @@ function revealCurrentAnswer(message = "") {
   const word = queue[studyIndex % queue.length];
   if (!word) return;
   document.querySelector("#wordDefinition")?.classList.add("visible");
-  const correct = quizMeaningFor(word) || displayMeaningFor(word);
+  const correct = cleanQuizMeaning(quizMeaningFor(word)) || displayMeaningFor(word);
   document.querySelectorAll(".choice-button").forEach((button) => {
     button.disabled = true;
     if (button.dataset.choice === correct) button.classList.add("correct");

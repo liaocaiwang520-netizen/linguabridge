@@ -1334,6 +1334,9 @@ body.learning .main-nav {
   min-height: 56px;
   padding: 12px 16px;
   text-align: left;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+  white-space: normal;
   color: #102022;
   background: #fffdf7;
   border: 2px solid #ead79d;
@@ -2019,14 +2022,14 @@ body.dark .word-input-area textarea {
 /* Desktop study table: keep word, quiz, and notes visible side by side. */
 @media (min-width: 881px) {
   body.learning .focus-card {
-    width: min(1320px, calc(100vw - 96px));
+    width: min(1120px, calc(100vw - 96px));
     max-width: none;
     min-height: auto;
     overflow: hidden;
   }
 
   body.learning .focus-layout {
-    grid-template-columns: minmax(260px, 320px) minmax(0, 1fr) !important;
+    grid-template-columns: minmax(240px, 300px) minmax(0, 1fr) !important;
     gap: 16px;
     align-items: stretch;
     min-width: 0;
@@ -2041,7 +2044,7 @@ body.dark .word-input-area textarea {
   body.learning .study-reveal {
     min-height: 420px;
     display: grid;
-    grid-template-columns: minmax(280px, 0.9fr) minmax(360px, 1.1fr);
+    grid-template-columns: minmax(240px, 0.9fr) minmax(280px, 1.1fr);
     grid-template-rows: auto auto auto 1fr auto;
     gap: 12px 16px;
     align-content: stretch;
@@ -2263,6 +2266,9 @@ body.learning .main-nav {
 .choice-button {
   min-height: 58px;
   text-align: center;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+  white-space: normal;
   background: #fff;
   border-color: #ead79d;
   border-radius: 18px;
