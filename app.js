@@ -52,9 +52,10 @@ function renderStreak() {
   const count = document.querySelector("#streakCount");
   if (streak.count > 0) {
     badge.style.display = "inline-flex";
-    count.textContent = streak.count;
+    count.textContent = `${streak.count} day streak`;
   } else {
-    badge.style.display = "none";
+    badge.style.display = "inline-flex";
+    count.textContent = "0 day streak";
   }
 }
 
@@ -850,6 +851,7 @@ const deckList = document.querySelector("#deckList");
 const categoryPanel = document.querySelector("#categoryPanel");
 const wordGrid = document.querySelector("#wordGrid");
 const wordSearch = document.querySelector("#wordSearch");
+const topWordSearch = document.querySelector("#topWordSearch");
 const activeDeckType = document.querySelector("#activeDeckType");
 const activeDeckTitle = document.querySelector("#activeDeckTitle");
 const activeDeckDescription = document.querySelector("#activeDeckDescription");
@@ -913,16 +915,16 @@ async function cacheOfflineStudy() {
     const registration = await navigator.serviceWorker.register("/sw.js");
     await navigator.serviceWorker.ready;
     if (registration.waiting) registration.waiting.postMessage({ type: "SKIP_WAITING" });
-    const cache = await caches.open("lionlingo-offline-v26");
+    const cache = await caches.open("lionlingo-offline-v38");
     await cache.addAll([
       "/",
       "/index.html",
       "/styles.css",
-      "/vocabulary-data.js?v=learning-flow-v20",
-      "/vocabulary-topik-i.js?v=learning-flow-v20",
-      "/vocabulary-topik-ii.js?v=learning-flow-v20",
-      "/vocabulary-ielts-categories.js?v=learning-flow-v20",
-      "/app.js?v=learning-flow-v20",
+      "/vocabulary-data.js?v=learning-flow-v22",
+      "/vocabulary-topik-i.js?v=learning-flow-v22",
+      "/vocabulary-topik-ii.js?v=learning-flow-v22",
+      "/vocabulary-ielts-categories.js?v=learning-flow-v22",
+      "/app.js?v=learning-flow-v22",
       "/manifest.webmanifest",
       "/vocabulary-template.csv",
       "/assets/lionlingo-hero-scene.png",
@@ -1351,6 +1353,8 @@ function renderWords() {
     <span class="active-progress-text">${progressText(progress)} · ${getUiLang() === "zh" ? `掌握 ${progress.mastered}` : `${progress.mastered} mastered`}</span>
     <span class="active-progress-track" aria-hidden="true"><span style="width:${progress.percent}%"></span></span>
   `;
+  renderDashboardStats();
+  renderDashboardPreview();
 
   renderCategoryPanel(deck, keyword);
 
@@ -1435,6 +1439,7 @@ function updateCounts() {
   if (reviewCount) reviewCount.textContent = reviewWords.length;
   document.querySelector("#studySummary").textContent = `${todaySessionDone}/${todaySessionTotal || dailyGoal} learned today · ${Math.max((todaySessionTotal || dailyGoal) - todaySessionDone, 0)} left`;
   updateProgressBar();
+  renderDashboardStats();
 }
 
 function updateProgressBar() {
@@ -1448,6 +1453,41 @@ function updateProgressBar() {
   if (fill) fill.style.width = pct + "%";
   if (label) label.textContent = `${done}/${total}`;
   if (left) left.textContent = `${Math.max(total - done, 0)} left`;
+}
+
+function renderDashboardStats() {
+  const deck = getActiveDeck();
+  const progress = deck ? deckProgress(deck) : { studied: 0, mastered: 0, remaining: 0 };
+  const total = todaySessionTotal || dailyGoal;
+  const done = Math.min(todaySessionDone || 0, total);
+  const percent = total > 0 ? Math.round((done / total) * 100) : 0;
+  document.querySelector("#dashboardNewCount") && (document.querySelector("#dashboardNewCount").textContent = Math.max(total - done, 0));
+  document.querySelector("#dashboardGoalCount") && (document.querySelector("#dashboardGoalCount").textContent = total);
+  document.querySelector("#queueReviewCount") && (document.querySelector("#queueReviewCount").textContent = reviewWords.length);
+  document.querySelector("#queueNewCount") && (document.querySelector("#queueNewCount").textContent = Math.max(total - done, 0));
+  document.querySelector("#queueLearningCount") && (document.querySelector("#queueLearningCount").textContent = progress.studied);
+  document.querySelector("#queueMasteredCount") && (document.querySelector("#queueMasteredCount").textContent = progress.mastered);
+  const ring = document.querySelector(".progress-ring");
+  if (ring) ring.style.setProperty("--progress", `${percent * 3.6}deg`);
+}
+
+function renderDashboardPreview() {
+  const preview = document.querySelector("#dashboardWordPreview");
+  if (!preview) return;
+  const queueWord = getStudyQueue()[studyIndex % Math.max(getStudyQueue().length, 1)];
+  const deck = getActiveDeck();
+  const fallback = deck?.words?.find((word) => !isMastered(enrichWord(word, deck))) || deck?.words?.[0];
+  const word = queueWord || (fallback ? enrichWord(fallback, deck) : null);
+  if (!word) return;
+  preview.innerHTML = `
+    <span class="tag">${word.language === "ko" ? "Korean" : "English"}</span>
+    <h3>${word.term}</h3>
+    <p>${displayMeaningFor(word)}</p>
+    <div class="preview-actions">
+      <a class="primary-button compact" href="#learn" id="dashboardStartBtn">${t("startLearning")}</a>
+      <a class="secondary-button compact" href="#article">${t("generateStory")}</a>
+    </div>
+  `;
 }
 
 function addTodayWord(term) {
@@ -2567,6 +2607,7 @@ function applyUiText() {
     if (ui[getUiLang()][key]) node.textContent = t(key);
   });
   wordSearch.placeholder = getUiLang() === "ko" ? "단어, 뜻, 예문 검색" : "Search words, meaning, or examples";
+  if (topWordSearch) topWordSearch.placeholder = wordSearch.placeholder;
   quizAnswer.placeholder = getUiLang() === "ko" ? "답 입력" : "Type your answer";
   document.documentElement.lang = getUiLang() === "ko" ? "ko" : "en";
 }
@@ -2883,6 +2924,13 @@ document.querySelector("#paperList").addEventListener("click", (event) => {
 });
 
 wordSearch.addEventListener("input", renderWords);
+topWordSearch?.addEventListener("input", () => {
+  wordSearch.value = topWordSearch.value;
+  renderWords();
+});
+wordSearch.addEventListener("input", () => {
+  if (topWordSearch && topWordSearch.value !== wordSearch.value) topWordSearch.value = wordSearch.value;
+});
 dailyGoalSelect.addEventListener("change", () => {
   dailyGoal = Number(dailyGoalSelect.value);
   todayWords = makeDailyWords();

@@ -8,28 +8,48 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="app-header">
-      <a class="brand" href="#top" aria-label="LionLingo home">
-        <span class="brand-mark" aria-hidden="true">🦁</span>
-        <span>LionLingo</span>
-      </a>
-      <nav class="main-nav" aria-label="Primary navigation">
-        <a href="#dictionary" data-i18n="navDictionary">Dictionary</a>
-        <a href="#learn" data-i18n="navStudy">Study</a>
-        <a href="#article" data-i18n="navArticle">AI Story</a>
-        <a href="#listening" data-i18n="navListening">Listening</a>
-        <a href="#papers" data-i18n="navPapers">Papers</a>
-        <a href="#podcast">Podcast</a>
-        <a href="#stats" data-i18n="navStats">Stats</a>
-        <a href="#mywords" data-i18n="navMyWords">My Words</a>
-      </nav>
-      <div class="header-tools">
-        <span class="streak-badge" id="streakBadge" title="Consecutive study days" style="display:none">⭐ <strong id="streakCount">0</strong></span>
-        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
-      </div>
-    </header>
+    <div class="app-shell">
+      <header class="app-header">
+        <a class="brand" href="#top" aria-label="LionLingo home">
+          <img src="assets/lionlingo-mascot-hero.png" alt="" />
+          <span>
+            <strong>Lion<span>Lingo</span></strong>
+            <small>Your little language club</small>
+          </span>
+        </a>
+        <nav class="main-nav" aria-label="Primary navigation">
+          <a href="#dictionary" data-i18n="navDictionary">Dictionary</a>
+          <a href="#learn" data-i18n="navStudy">Study</a>
+          <a href="#article" data-i18n="navArticle">AI Story</a>
+          <a href="#listening" data-i18n="navListening">Listening</a>
+          <a href="#papers" data-i18n="navPapers">Papers</a>
+          <a href="#podcast">Podcast</a>
+          <a href="#stats" data-i18n="navStats">Stats</a>
+          <a href="#mywords" data-i18n="navMyWords">My Words</a>
+        </nav>
+        <div class="premium-card">
+          <strong>Go Premium</strong>
+          <p>Unlock more stories, imports, and offline practice.</p>
+          <button class="primary-button compact" type="button">Upgrade Now</button>
+        </div>
+      </header>
 
-    <main id="top">
+      <main id="top">
+        <div class="dashboard-topbar">
+          <label class="global-search" for="wordSearch">
+            <span>Search</span>
+            <input id="topWordSearch" type="search" placeholder="Search words, meanings, examples..." autocomplete="off" />
+          </label>
+          <div class="topbar-stats">
+            <span class="streak-badge" id="streakBadge" title="Consecutive study days" style="display:none"><strong id="streakCount">0 day streak</strong></span>
+            <span class="star-badge">2,450</span>
+            <button class="profile-button" type="button">
+              <img src="assets/lionlingo-mascot-hero.png" alt="" />
+              <span>Liona</span>
+            </button>
+            <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">Theme</button>
+          </div>
+        </div>
       <section class="hero home-section">
         <div class="hero-copy">
           <p class="eyebrow" data-i18n="heroEyebrow">Cute lion language club</p>
@@ -103,6 +123,39 @@
               <h2 id="activeDeckTitle">TOPIK Basic Core</h2>
             </div>
             <p id="activeDeckDescription">Core nouns, verbs, and expressions for early TOPIK study.</p>
+          </div>
+
+          <div class="dashboard-grid">
+            <aside class="progress-card">
+              <h3>Today's Progress</h3>
+              <div class="progress-ring">
+                <strong id="todayCount">0/0</strong>
+                <span>today</span>
+              </div>
+              <dl>
+                <div><dt>Review due</dt><dd id="reviewCount">0</dd></div>
+                <div><dt>New words</dt><dd id="dashboardNewCount">0</dd></div>
+                <div><dt>Daily goal</dt><dd id="dashboardGoalCount">20</dd></div>
+              </dl>
+            </aside>
+            <article class="dashboard-word-preview" id="dashboardWordPreview">
+              <span class="tag">Active word</span>
+              <h3>시작하다</h3>
+              <p>to start, to begin</p>
+              <div class="preview-actions">
+                <a class="primary-button compact" href="#learn" id="dashboardStartBtn">Start quest</a>
+                <a class="secondary-button compact" href="#article">Make story</a>
+              </div>
+            </article>
+            <aside class="queue-card">
+              <h3>Study Queue</h3>
+              <ul>
+                <li><span>Due for review</span><strong id="queueReviewCount">0</strong></li>
+                <li><span>New today</span><strong id="queueNewCount">0</strong></li>
+                <li><span>Learning</span><strong id="queueLearningCount">0</strong></li>
+                <li><span>Mastered</span><strong id="queueMasteredCount">0</strong></li>
+              </ul>
+            </aside>
           </div>
 
           <div class="category-panel" id="categoryPanel" aria-live="polite"></div>
@@ -273,12 +326,13 @@
         </div>
         <div id="detailContent"></div>
       </section>
-    </main>
+      </main>
+    </div>
 
-    <script src="vocabulary-data.js?v=learning-flow-v20"></script>
-    <script src="vocabulary-topik-i.js?v=learning-flow-v20"></script>
-    <script src="vocabulary-topik-ii.js?v=learning-flow-v20"></script>
-    <script src="vocabulary-ielts-categories.js?v=learning-flow-v20"></script>
-    <script src="app.js?v=learning-flow-v20"></script>
+    <script src="vocabulary-data.js?v=learning-flow-v22"></script>
+    <script src="vocabulary-topik-i.js?v=learning-flow-v22"></script>
+    <script src="vocabulary-topik-ii.js?v=learning-flow-v22"></script>
+    <script src="vocabulary-ielts-categories.js?v=learning-flow-v22"></script>
+    <script src="app.js?v=learning-flow-v22"></script>
   </body>
 </html>
