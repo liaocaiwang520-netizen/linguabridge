@@ -598,20 +598,6 @@ const termInfo = {
 };
 
 const reviewIntervals = [3, 7, 14, 30];
-const dailyChestWordTarget = 20;
-const lionStages = [
-  { level: 1, title: "幼狮", xp: 0 },
-  { level: 2, title: "学习小狮", xp: 50 },
-  { level: 3, title: "勇敢小狮", xp: 130 },
-  { level: 4, title: "金冠小狮", xp: 260 }
-];
-const lionItems = [
-  { id: "snack", name: "能量饼干", unlockXp: 25 },
-  { id: "book", name: "蓝色书本", unlockXp: 70 },
-  { id: "scarf", name: "暖黄色围巾", unlockXp: 130 },
-  { id: "backpack", name: "冒险背包", unlockXp: 210 },
-  { id: "crown", name: "小王冠", unlockXp: 320 }
-];
 
 let activeLanguage = "all";
 let activeDeckId = decks[0].id;
@@ -627,7 +613,6 @@ let todaySessionTotal = 0;
 let todaySessionDone = 0;
 let reviewSessionTotal = 0;
 let reviewSessionDone = 0;
-let lionRewards = null;
 
 const topikRelations = {
   "가게": { synonyms: ["상점", "매장"], antonyms: [] },
@@ -859,7 +844,6 @@ todaySessionTotal = state.todaySessionTotal || todayWords.length || dailyGoal;
 todaySessionDone = Math.min(state.todaySessionDone || 0, todaySessionTotal);
 reviewSessionTotal = state.reviewSessionTotal || reviewWords.length;
 reviewSessionDone = Math.min(state.reviewSessionDone || 0, reviewSessionTotal);
-lionRewards = makeLionRewards(state.lionRewards || {});
 let activeCategoryId = "all";
 
 const deckList = document.querySelector("#deckList");
@@ -886,7 +870,7 @@ dailyGoalSelect.value = String(dailyGoal);
 learningDirectionSelect.value = learningDirection;
 
 function loadState() {
-  const fallback = { dailyGoal: 20, importedDecks: [], todayWords: [], reviewWords: [], lastCompletedDate: "", learningDirection: "ko", wordProgress: {}, lionRewards: null, todaySessionTotal: 0, todaySessionDone: 0, reviewSessionTotal: 0, reviewSessionDone: 0 };
+  const fallback = { dailyGoal: 20, importedDecks: [], todayWords: [], reviewWords: [], lastCompletedDate: "", learningDirection: "ko", wordProgress: {}, todaySessionTotal: 0, todaySessionDone: 0, reviewSessionTotal: 0, reviewSessionDone: 0 };
   try {
     return { ...fallback, ...JSON.parse(localStorage.getItem(storageKey) || "{}") };
   } catch {
@@ -905,7 +889,6 @@ function saveState() {
       importedDecks,
       todayWords,
       reviewWords,
-      lionRewards,
       todaySessionTotal,
       todaySessionDone,
       reviewSessionTotal,
@@ -913,27 +896,6 @@ function saveState() {
       lastCompletedDate: state.lastCompletedDate
     })
   );
-}
-
-function makeLionRewards(saved = {}) {
-  const today = todayDate();
-  const daily = saved.daily?.date === today
-    ? saved.daily
-    : { date: today, wordsDone: 0, storyDone: false, listeningDone: false, chestOpened: false };
-  return {
-    stars: Number(saved.stars || 0),
-    xp: Number(saved.xp || 0),
-    openedChests: Array.isArray(saved.openedChests) ? saved.openedChests : [],
-    badges: Array.isArray(saved.badges) ? saved.badges : [],
-    equipped: Array.isArray(saved.equipped) ? saved.equipped : [],
-    daily: {
-      date: today,
-      wordsDone: Math.max(Number(daily.wordsDone || 0), Math.min(todaySessionDone || 0, dailyChestWordTarget)),
-      storyDone: Boolean(daily.storyDone),
-      listeningDone: Boolean(daily.listeningDone),
-      chestOpened: Boolean(daily.chestOpened)
-    }
-  };
 }
 
 function updateOfflineStatus() {
@@ -956,11 +918,11 @@ async function cacheOfflineStudy() {
       "/",
       "/index.html",
       "/styles.css",
-      "/vocabulary-data.js?v=learning-flow-v21",
-      "/vocabulary-topik-i.js?v=learning-flow-v21",
-      "/vocabulary-topik-ii.js?v=learning-flow-v21",
-      "/vocabulary-ielts-categories.js?v=learning-flow-v21",
-      "/app.js?v=learning-flow-v21",
+      "/vocabulary-data.js?v=learning-flow-v20",
+      "/vocabulary-topik-i.js?v=learning-flow-v20",
+      "/vocabulary-topik-ii.js?v=learning-flow-v20",
+      "/vocabulary-ielts-categories.js?v=learning-flow-v20",
+      "/app.js?v=learning-flow-v20",
       "/manifest.webmanifest",
       "/vocabulary-template.csv",
       "/assets/lionlingo-hero-scene.png",
@@ -1469,12 +1431,10 @@ function renderResources() {
 }
 
 function updateCounts() {
-  syncDailyWordReward();
   if (todayCount) todayCount.textContent = `${todaySessionDone}/${todaySessionTotal || dailyGoal}`;
   if (reviewCount) reviewCount.textContent = reviewWords.length;
   document.querySelector("#studySummary").textContent = `${todaySessionDone}/${todaySessionTotal || dailyGoal} learned today · ${Math.max((todaySessionTotal || dailyGoal) - todaySessionDone, 0)} left`;
   updateProgressBar();
-  renderRewardPanel();
 }
 
 function updateProgressBar() {
@@ -1488,208 +1448,6 @@ function updateProgressBar() {
   if (fill) fill.style.width = pct + "%";
   if (label) label.textContent = `${done}/${total}`;
   if (left) left.textContent = `${Math.max(total - done, 0)} left`;
-}
-
-function syncDailyWordReward() {
-  if (!lionRewards) return;
-  lionRewards = makeLionRewards(lionRewards);
-  lionRewards.daily.wordsDone = Math.max(lionRewards.daily.wordsDone || 0, Math.min(todaySessionDone || 0, dailyChestWordTarget));
-}
-
-function markRewardTask(task) {
-  if (!lionRewards) return;
-  lionRewards = makeLionRewards(lionRewards);
-  if (task === "story") lionRewards.daily.storyDone = true;
-  if (task === "listening") lionRewards.daily.listeningDone = true;
-  syncDailyWordReward();
-  saveState();
-  renderRewardPanel();
-}
-
-function chestReady() {
-  if (!lionRewards) return false;
-  lionRewards = makeLionRewards(lionRewards);
-  return lionRewards.daily.wordsDone >= dailyChestWordTarget && lionRewards.daily.storyDone && lionRewards.daily.listeningDone && !lionRewards.daily.chestOpened;
-}
-
-function currentLionStage() {
-  return [...lionStages].reverse().find((stage) => lionRewards.xp >= stage.xp) || lionStages[0];
-}
-
-function nextLionStage() {
-  const current = currentLionStage();
-  return lionStages.find((stage) => stage.level > current.level) || current;
-}
-
-function unlockedLionItems() {
-  return lionItems.filter((item) => lionRewards.xp >= item.unlockXp);
-}
-
-function rewardText() {
-  const lang = getUiLang();
-  if (lang === "ko") {
-    return {
-      dailyChest: "매일 보물상자",
-      chestOpened: "오늘 보물상자는 열었어요. 내일 또 만나요.",
-      chestReady: "완료했어요. 보물상자를 열 수 있어요.",
-      chestWaiting: "세 가지 작은 미션을 끝내면 열 수 있어요.",
-      words: "단어 20개",
-      story: "짧은 글 1편",
-      listening: "듣고 읽기 1회",
-      done: "완료",
-      undone: "아직",
-      open: "상자 열기",
-      opened: "열림",
-      locked: "미완료",
-      growth: "사자 성장",
-      stars: "별",
-      xp: "성장값",
-      outfit: "장착",
-      inUse: "사용 중",
-      usable: "사용 가능",
-      need: "성장값",
-      waitToast: "단어 20개, 짧은 글 1편, 듣고 읽기 1회를 먼저 완료해요.",
-      unlockedToast: "보물상자 열림: 별 +20, 새 아이템 ",
-      rewardToast: "보물상자 열림: 별 +20, 사자가 자랐어요!"
-    };
-  }
-  if (lang === "en") {
-    return {
-      dailyChest: "Daily chest",
-      chestOpened: "Today's chest is open. Come back tomorrow.",
-      chestReady: "All set. Open your chest.",
-      chestWaiting: "Finish the three mini tasks to unlock it.",
-      words: "20 words",
-      story: "1 story",
-      listening: "1 read-aloud",
-      done: "Done",
-      undone: "Open",
-      open: "Open chest",
-      opened: "Opened",
-      locked: "Not ready",
-      growth: "Lion growth",
-      stars: "stars",
-      xp: "growth",
-      outfit: "outfit",
-      inUse: "Equipped",
-      usable: "Use",
-      need: "growth",
-      waitToast: "Finish 20 words, 1 story, and 1 read-aloud first.",
-      unlockedToast: "Chest opened: +20 stars, unlocked ",
-      rewardToast: "Chest opened: +20 stars, your lion grew!"
-    };
-  }
-  return {
-    dailyChest: "每日宝箱",
-    chestOpened: "今天的宝箱已经打开，明天继续收集。",
-    chestReady: "任务完成，可以开宝箱了。",
-    chestWaiting: "完成三个小任务后开启宝箱。",
-    words: "20 个词",
-    story: "1 篇短文",
-    listening: "1 次听读",
-    done: "完成",
-    undone: "未完成",
-    open: "打开宝箱",
-    opened: "已开启",
-    locked: "未达成",
-    growth: "小狮子成长",
-    stars: "星星",
-    xp: "成长值",
-    outfit: "装扮",
-    inUse: "使用中",
-    usable: "可使用",
-    need: "成长值",
-    waitToast: "先完成 20 个词、1 篇短文、1 次听读。",
-    unlockedToast: "宝箱开启：+20 星星，解锁 ",
-    rewardToast: "宝箱开启：+20 星星，小狮子成长了！"
-  };
-}
-
-function openDailyChest() {
-  lionRewards = makeLionRewards(lionRewards);
-  if (!chestReady()) {
-    showToast(rewardText().waitToast);
-    renderRewardPanel();
-    return;
-  }
-  const beforeItems = new Set(unlockedLionItems().map((item) => item.id));
-  lionRewards.daily.chestOpened = true;
-  lionRewards.stars += 20;
-  lionRewards.xp += 35;
-  lionRewards.openedChests = [...new Set([...lionRewards.openedChests, todayDate()])];
-  if (!lionRewards.badges.includes("每日宝箱")) lionRewards.badges.push("每日宝箱");
-  if (lionRewards.openedChests.length >= 7 && !lionRewards.badges.includes("七天同行")) lionRewards.badges.push("七天同行");
-  const newlyUnlocked = unlockedLionItems().find((item) => !beforeItems.has(item.id));
-  if (newlyUnlocked && !lionRewards.equipped.includes(newlyUnlocked.id)) {
-    lionRewards.equipped = [...lionRewards.equipped, newlyUnlocked.id].slice(-3);
-  }
-  saveState();
-  renderRewardPanel();
-  const labels = rewardText();
-  showToast(newlyUnlocked ? `${labels.unlockedToast}${newlyUnlocked.name}` : labels.rewardToast);
-}
-
-function toggleLionItem(itemId) {
-  lionRewards = makeLionRewards(lionRewards);
-  if (!unlockedLionItems().some((item) => item.id === itemId)) return;
-  lionRewards.equipped = lionRewards.equipped.includes(itemId)
-    ? lionRewards.equipped.filter((id) => id !== itemId)
-    : [...lionRewards.equipped, itemId].slice(-3);
-  saveState();
-  renderRewardPanel();
-}
-
-function renderRewardPanel() {
-  const panel = document.querySelector("#rewardPanel");
-  if (!panel || !lionRewards) return;
-  lionRewards = makeLionRewards(lionRewards);
-  const stage = currentLionStage();
-  const next = nextLionStage();
-  const labels = rewardText();
-  const xpRange = Math.max(next.xp - stage.xp, 1);
-  const xpPct = next.level === stage.level ? 100 : Math.min(100, Math.round(((lionRewards.xp - stage.xp) / xpRange) * 100));
-  const tasks = [
-    { label: labels.words, done: lionRewards.daily.wordsDone >= dailyChestWordTarget, value: `${Math.min(lionRewards.daily.wordsDone, dailyChestWordTarget)}/20` },
-    { label: labels.story, done: lionRewards.daily.storyDone, value: lionRewards.daily.storyDone ? labels.done : labels.undone },
-    { label: labels.listening, done: lionRewards.daily.listeningDone, value: lionRewards.daily.listeningDone ? labels.done : labels.undone }
-  ];
-  const equippedNames = lionRewards.equipped
-    .map((id) => lionItems.find((item) => item.id === id)?.name)
-    .filter(Boolean)
-    .join(" · ");
-  panel.innerHTML = `
-    <div class="treasure-card">
-      <div>
-        <p class="eyebrow">Daily Chest</p>
-        <h3>${labels.dailyChest}</h3>
-        <p class="reward-copy">${lionRewards.daily.chestOpened ? labels.chestOpened : chestReady() ? labels.chestReady : labels.chestWaiting}</p>
-      </div>
-      <div class="reward-steps">
-        ${tasks.map((task) => `<span class="reward-step ${task.done ? "done" : ""}"><strong>${task.value}</strong>${task.label}</span>`).join("")}
-      </div>
-      <button class="chest-button" type="button" data-open-chest ${chestReady() ? "" : "disabled"}>
-        ${lionRewards.daily.chestOpened ? labels.opened : chestReady() ? labels.open : labels.locked}
-      </button>
-    </div>
-    <div class="lion-growth-card">
-      <div class="lion-avatar">
-        <img src="assets/lionlingo-mascot-hero.png" alt="LionLingo lion mascot" />
-      </div>
-      <div class="lion-growth-main">
-        <p class="eyebrow">Lion Growth</p>
-        <h3>${stage.title} · Lv.${stage.level}</h3>
-        <p class="reward-copy">${lionRewards.stars} ${labels.stars} · ${lionRewards.xp} ${labels.xp}${equippedNames ? ` · ${labels.outfit}: ${equippedNames}` : ""}</p>
-        <div class="mini-progress"><span style="width: ${xpPct}%"></span></div>
-        <div class="lion-items">
-          ${lionItems.map((item) => {
-            const unlocked = lionRewards.xp >= item.unlockXp;
-            const equipped = lionRewards.equipped.includes(item.id);
-            return `<button class="lion-item ${unlocked ? "unlocked" : ""} ${equipped ? "equipped" : ""}" type="button" data-equip-lion="${item.id}" ${unlocked ? "" : "disabled"}>${item.name}<small>${unlocked ? (equipped ? labels.inUse : labels.usable) : `${item.unlockXp} ${labels.need}`}</small></button>`;
-          }).join("")}
-        </div>
-      </div>
-    </div>
-  `;
 }
 
 function addTodayWord(term) {
@@ -2306,13 +2064,11 @@ function speakCurrent() {
 
 function speakWord(word) {
   if (!word || !("speechSynthesis" in window)) return;
-  markRewardTask("listening");
   speakText(word.term, word.language === "ko" ? "ko-KR" : "en-US", word.language === "ko" ? 0.82 : 0.86);
 }
 
 function speakExampleText(text, lang) {
   if (!text || !("speechSynthesis" in window)) return;
-  markRewardTask("listening");
   speakText(text, lang, lang === "ko-KR" ? 0.8 : 0.84);
 }
 
@@ -2403,7 +2159,7 @@ function completeToday() {
   renderStreak();
 }
 
-function generateArticle(options = {}) {
+function generateArticle() {
   const language = document.querySelector("#articleLanguage").value;
   const scenario = document.querySelector("#articleScenario").value;
   const customInput = document.querySelector("#customStoryWords").value.trim();
@@ -2536,7 +2292,6 @@ By the end of the day, new friendships have formed across language barriers. <st
     <div class="story-content">${renderStorySentences(story)}</div>
   `;
   resetArticleReading();
-  if (options.userInitiated) markRewardTask("story");
 }
 
 function renderStorySentences(story) {
@@ -2596,7 +2351,6 @@ By the end of the practice session, the learner has written a short paragraph us
 function speakArticle() {
   const sentences = getArticleSentences();
   if (!sentences.length || !("speechSynthesis" in window)) return;
-  markRewardTask("listening");
   articleReadingMode = "all";
   articleParagraphIndex = 0;
   articleContinueAfter = true;
@@ -2614,7 +2368,6 @@ function speakArticleSentence(index, continueAfter = false) {
   const sentences = getArticleSentences();
   const item = sentences[index];
   if (!item || !("speechSynthesis" in window)) return;
-  markRewardTask("listening");
   articleReadToken += 1;
   const readToken = articleReadToken;
   articleParagraphIndex = index;
@@ -3165,7 +2918,7 @@ document.querySelector("#completeStudyBtn").addEventListener("click", completeTo
 document.querySelector("#newPromptBtn").addEventListener("click", newQuizPrompt);
 document.querySelector("#checkAnswerBtn").addEventListener("click", checkAnswer);
 document.querySelector("#speakPromptBtn").addEventListener("click", speakCurrent);
-document.querySelector("#generateArticleBtn").addEventListener("click", () => generateArticle({ userInitiated: true }));
+document.querySelector("#generateArticleBtn").addEventListener("click", generateArticle);
 document.querySelector("#speakArticleBtn").addEventListener("click", speakArticle);
 document.querySelector("#pauseArticleBtn").addEventListener("click", toggleArticlePause);
 document.querySelector("#articleLanguage").addEventListener("change", () => {
@@ -3176,12 +2929,6 @@ generatedArticle.addEventListener("click", (event) => {
   if (!sentence) return;
   articleReadingMode = "sentence";
   speakArticleSentence(Number(sentence.dataset.storySentence), false);
-});
-document.querySelector("#rewardPanel")?.addEventListener("click", (event) => {
-  const chestButton = event.target.closest("[data-open-chest]");
-  if (chestButton) openDailyChest();
-  const itemButton = event.target.closest("[data-equip-lion]");
-  if (itemButton) toggleLionItem(itemButton.dataset.equipLion);
 });
 document.querySelector("#customStoryWords").addEventListener("input", generateArticle);
 document.querySelector("#downloadTemplateBtn").addEventListener("click", downloadTemplate);
