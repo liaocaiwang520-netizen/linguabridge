@@ -918,11 +918,11 @@ async function cacheOfflineStudy() {
       "/",
       "/index.html",
       "/styles.css",
-      "/vocabulary-data.js?v=learning-flow-v19",
-      "/vocabulary-topik-i.js?v=learning-flow-v19",
-      "/vocabulary-topik-ii.js?v=learning-flow-v19",
-      "/vocabulary-ielts-categories.js?v=learning-flow-v19",
-      "/app.js?v=learning-flow-v19",
+      "/vocabulary-data.js?v=learning-flow-v20",
+      "/vocabulary-topik-i.js?v=learning-flow-v20",
+      "/vocabulary-topik-ii.js?v=learning-flow-v20",
+      "/vocabulary-ielts-categories.js?v=learning-flow-v20",
+      "/app.js?v=learning-flow-v20",
       "/manifest.webmanifest",
       "/vocabulary-template.csv",
       "/assets/lionlingo-hero-scene.png",
@@ -2894,14 +2894,9 @@ dailyGoalSelect.addEventListener("change", () => {
   saveState();
 });
 document.querySelector("#studyTodayBtn").addEventListener("click", generateTodayWords);
-document.querySelector("#heroStartBtn").addEventListener("click", () => {
-  if (!todayWords.length) {
-    todayWords = makeDailyWords();
-    todaySessionTotal = todayWords.length || dailyGoal;
-    todaySessionDone = 0;
-  }
-  location.hash = "learn";
-  enterLearning();
+document.querySelector("#heroStartBtn").addEventListener("click", (event) => {
+  event.preventDefault();
+  generateTodayWords();
 });
 document.querySelector("#startStudyBtn").addEventListener("click", () => {
   studyMode = "today";
