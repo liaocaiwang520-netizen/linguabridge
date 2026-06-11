@@ -918,11 +918,11 @@ async function cacheOfflineStudy() {
       "/",
       "/index.html",
       "/styles.css",
-      "/vocabulary-data.js?v=learning-flow-v17",
-      "/vocabulary-topik-i.js?v=learning-flow-v17",
-      "/vocabulary-topik-ii.js?v=learning-flow-v17",
-      "/vocabulary-ielts-categories.js?v=learning-flow-v17",
-      "/app.js?v=learning-flow-v17",
+      "/vocabulary-data.js?v=learning-flow-v18",
+      "/vocabulary-topik-i.js?v=learning-flow-v18",
+      "/vocabulary-topik-ii.js?v=learning-flow-v18",
+      "/vocabulary-ielts-categories.js?v=learning-flow-v18",
+      "/app.js?v=learning-flow-v18",
       "/manifest.webmanifest",
       "/vocabulary-template.csv",
       "/assets/lionlingo-hero-scene.png",
@@ -990,7 +990,7 @@ function isMastered(word) {
 
 function meaningFor(word) {
   const info = termInfo[word.term] || {};
-  if (word.language === "en") return word.meaningKo || info.ko || word.meaning || word.meaningEn || word.term;
+  if (word.language === "en") return word.meaningZh || word.meaning || info.zh || word.meaningKo || info.ko || word.term;
   if (learningDirection.startsWith("zh")) return word.meaning || info.zh || word.meaningEn || info.en || word.meaningKo || info.ko || word.term;
   if (getTargetLanguage() === "ko") return word.meaningEn || info.en || word.meaning || word.term;
   if (getUiLang() === "ko") return word.meaningKo || info.ko || word.meaning || word.meaningEn || word.term;
@@ -999,7 +999,7 @@ function meaningFor(word) {
 
 function quizMeaningFor(word) {
   if (word.language === "ko") return word.meaningEn || word.meaning || termInfo[word.term]?.en || "";
-  if (word.language === "en") return word.meaningKo || termInfo[word.term]?.ko || word.meaning || word.meaningEn || "";
+  if (word.language === "en") return word.meaningZh || word.meaning || termInfo[word.term]?.zh || word.meaningKo || "";
   if (getUiLang() === "ko") return word.meaningKo || termInfo[word.term]?.ko || word.meaning || word.meaningEn || "";
   if (getUiLang() === "zh") return word.meaning || word.meaningZh || word.meaningEn || termInfo[word.term]?.zh || "";
   return word.meaningEn || word.meaning || termInfo[word.term]?.en || "";
